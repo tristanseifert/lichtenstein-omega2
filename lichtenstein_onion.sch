@@ -20342,7 +20342,7 @@ Source: www.kingbright.com</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="MAGJACK" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20351,7 +20351,7 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF"/>
 </part>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20371,7 +20371,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20411,7 +20411,7 @@ Source: www.kingbright.com</description>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20420,7 +20420,7 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20492,9 +20492,6 @@ Source: www.kingbright.com</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
-<part name="S3" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="219-04*" device="" package3d_urn="urn:adsk.eagle:package:27279/1">
-<attribute name="MOUSER" value="774-219-4LPS"/>
-</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
 <attribute name="MOUSER" value="604-APTR3216SRCPRV"/>
@@ -20507,24 +20504,6 @@ Source: www.kingbright.com</description>
 </part>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
 <attribute name="MOUSER" value="604-APTR3216SGC"/>
-</part>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
-</part>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
 <spice>
@@ -20544,8 +20523,26 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
 </part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MOUSER" value="652-CR0805-FX6800GLF"/>
+</part>
 <part name="IC2" library="lichtenstein_onion" deviceset="MCP23017" device="SSOP28"/>
-<part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V310" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
@@ -20557,7 +20554,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V310" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V311" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20568,7 +20565,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-2" device="" package3d_urn="urn:adsk.eagle:package:8331/1">
 <attribute name="MOUSER" value="517-30320-6002"/>
 </part>
@@ -20582,7 +20579,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -20595,7 +20592,7 @@ Source: www.kingbright.com</description>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7">
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20604,7 +20601,7 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF"/>
 </part>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7">
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -20613,9 +20610,12 @@ Source: www.kingbright.com</description>
 </spice>
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF"/>
 </part>
-<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-2" device="" package3d_urn="urn:adsk.eagle:package:8329/1">
 <attribute name="MOUSER" value="517-30310-6002"/>
+</part>
+<part name="S4" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="219-04*" device="" package3d_urn="urn:adsk.eagle:package:27279/1">
+<attribute name="MOUSER" value="774-219-4LPS"/>
 </part>
 </parts>
 <sheets>
@@ -20651,12 +20651,12 @@ Connector</text>
 <attribute name="VALUE" x="38.1" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J1" gate="G$1" x="185.42" y="162.56"/>
-<instance part="R3" gate="G$1" x="139.7" y="154.94" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="139.7" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.6614" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="143.002" y="151.13" size="1.778" layer="96" rot="R90"/>
 <attribute name="MOUSER" x="139.7" y="154.94" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="149.86" y="154.94" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="149.86" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.5214" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="148.082" y="151.13" size="1.778" layer="96" rot="R90"/>
 <attribute name="MOUSER" x="149.86" y="154.94" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
@@ -20668,7 +20668,7 @@ Connector</text>
 </instance>
 <instance part="GND15" gate="1" x="144.78" y="139.7"/>
 <instance part="GND17" gate="1" x="167.64" y="147.32"/>
-<instance part="R2" gate="G$1" x="129.54" y="154.94" smashed="yes" rot="R90">
+<instance part="R4" gate="G$1" x="129.54" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.6614" y="158.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.762" y="151.13" size="1.778" layer="96" rot="R90"/>
 <attribute name="MOUSER" x="129.54" y="154.94" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
@@ -20692,10 +20692,10 @@ Connector</text>
 <instance part="GND18" gate="1" x="182.88" y="134.62" rot="R90"/>
 <instance part="GND22" gate="1" x="205.74" y="149.86" rot="R90"/>
 <instance part="GND21" gate="1" x="205.74" y="165.1" rot="R90"/>
-<instance part="R9" gate="G$1" x="208.28" y="172.72">
+<instance part="R11" gate="G$1" x="208.28" y="172.72">
 <attribute name="MOUSER" x="208.28" y="172.72" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="208.28" y="157.48">
+<instance part="R12" gate="G$1" x="208.28" y="157.48">
 <attribute name="MOUSER" x="208.28" y="157.48" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="55.88" y="58.42"/>
@@ -20739,9 +20739,6 @@ Connector</text>
 <instance part="P+2" gate="1" x="213.36" y="114.3" rot="R90"/>
 <instance part="S1" gate="G$1" x="63.5" y="104.14"/>
 <instance part="S2" gate="G$1" x="63.5" y="96.52"/>
-<instance part="S3" gate="G$1" x="63.5" y="76.2" rot="R90">
-<attribute name="MOUSER" x="63.5" y="76.2" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
-</instance>
 <instance part="GND7" gate="1" x="53.34" y="73.66" rot="R270"/>
 <instance part="LED1" gate="G$1" x="149.86" y="111.76" rot="R90">
 <attribute name="MOUSER" x="149.86" y="111.76" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
@@ -20755,20 +20752,20 @@ Connector</text>
 <instance part="LED4" gate="G$1" x="149.86" y="88.9" rot="R90">
 <attribute name="MOUSER" x="149.86" y="88.9" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="142.24" y="111.76">
+<instance part="R6" gate="G$1" x="142.24" y="111.76">
 <attribute name="MOUSER" x="142.24" y="111.76" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="142.24" y="104.14">
+<instance part="R7" gate="G$1" x="142.24" y="104.14">
 <attribute name="MOUSER" x="142.24" y="104.14" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="142.24" y="96.52">
+<instance part="R8" gate="G$1" x="142.24" y="96.52">
 <attribute name="MOUSER" x="142.24" y="96.52" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="142.24" y="88.9">
+<instance part="R9" gate="G$1" x="142.24" y="88.9">
 <attribute name="MOUSER" x="142.24" y="88.9" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="IC2" gate="G$1" x="190.5" y="96.52"/>
-<instance part="+3V39" gate="G$1" x="182.88" y="58.42" smashed="yes" rot="R90">
+<instance part="+3V310" gate="G$1" x="182.88" y="58.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="180.34" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND19" gate="1" x="182.88" y="55.88" rot="R270"/>
@@ -20778,14 +20775,14 @@ Connector</text>
 <instance part="GND20" gate="1" x="198.12" y="38.1" smashed="yes">
 <attribute name="VALUE" x="193.04" y="38.1" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V310" gate="G$1" x="195.58" y="48.26" smashed="yes" rot="R90">
+<instance part="+3V311" gate="G$1" x="195.58" y="48.26" smashed="yes" rot="R90">
 <attribute name="VALUE" x="193.04" y="48.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C13" gate="G$1" x="208.28" y="45.72">
 <attribute name="MOUSER" x="208.28" y="45.72" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="215.9" y="53.34"/>
-<instance part="+3V38" gate="G$1" x="182.88" y="63.5" smashed="yes" rot="R90">
+<instance part="+3V39" gate="G$1" x="182.88" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="180.34" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SV2" gate="G$1" x="124.46" y="20.32">
@@ -20795,7 +20792,7 @@ Connector</text>
 <attribute name="MOUSER" x="139.7" y="53.34" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="139.7" y="45.72"/>
-<instance part="+3V37" gate="G$1" x="137.16" y="55.88" smashed="yes" rot="R90">
+<instance part="+3V38" gate="G$1" x="137.16" y="55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="134.62" y="55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C10" gate="G$1" x="149.86" y="53.34">
@@ -20808,17 +20805,20 @@ Connector</text>
 <instance part="GND16" gate="1" x="157.48" y="111.76" smashed="yes" rot="R90">
 <attribute name="VALUE" x="160.02" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="121.92" y="78.74">
+<instance part="R2" gate="G$1" x="121.92" y="78.74">
 <attribute name="MOUSER" x="121.92" y="78.74" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R12" gate="G$1" x="121.92" y="71.12">
+<instance part="R3" gate="G$1" x="121.92" y="71.12">
 <attribute name="MOUSER" x="121.92" y="71.12" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="129.54" y="71.12" smashed="yes" rot="R270">
+<instance part="+3V37" gate="G$1" x="129.54" y="71.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="132.08" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="SV3" gate="G$1" x="223.52" y="119.38">
 <attribute name="MOUSER" x="223.52" y="119.38" size="1.27" layer="96" align="top-center" display="off"/>
+</instance>
+<instance part="S4" gate="G$1" x="63.5" y="78.74" rot="R270">
+<attribute name="MOUSER" x="63.5" y="78.74" size="1.27" layer="96" rot="R270" align="top-center" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -20866,26 +20866,26 @@ Connector</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
-<pinref part="+3V39" gate="G$1" pin="+3V3"/>
+<pinref part="+3V310" gate="G$1" pin="+3V3"/>
 <junction x="185.42" y="58.42"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="+3V310" gate="G$1" pin="+3V3"/>
+<pinref part="+3V311" gate="G$1" pin="+3V3"/>
 <junction x="198.12" y="48.26"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <junction x="208.28" y="48.26"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="!RESET"/>
-<pinref part="+3V38" gate="G$1" pin="+3V3"/>
+<pinref part="+3V39" gate="G$1" pin="+3V3"/>
 <junction x="185.42" y="63.5"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="+3V37" gate="G$1" pin="+3V3"/>
+<pinref part="+3V38" gate="G$1" pin="+3V3"/>
 <junction x="139.7" y="55.88"/>
 <pinref part="C10" gate="G$1" pin="+"/>
 <junction x="149.86" y="55.88"/>
@@ -20899,10 +20899,10 @@ Connector</text>
 <junction x="116.84" y="12.7"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="127" y1="71.12" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="+3V37" gate="G$1" pin="+3V3"/>
 <junction x="127" y="71.12"/>
 <junction x="127" y="78.74"/>
 </segment>
@@ -21004,10 +21004,16 @@ Connector</text>
 <pinref part="SV3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="5"/>
-<pinref part="S3" gate="G$1" pin="8"/>
-<wire x1="55.88" y1="81.28" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="81.28" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="S4" gate="G$1" pin="1"/>
+<pinref part="S4" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="78.74" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
+<junction x="55.88" y="78.74"/>
+<pinref part="S4" gate="G$1" pin="3"/>
+<wire x1="55.88" y1="76.2" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="55.88" y="76.2"/>
+<pinref part="S4" gate="G$1" pin="4"/>
 <junction x="55.88" y="73.66"/>
 </segment>
 <segment>
@@ -21129,7 +21135,7 @@ Connector</text>
 <wire x1="167.64" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="167.64" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 <label x="132.08" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="149.86" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 <junction x="132.08" y="149.86"/>
@@ -21169,7 +21175,7 @@ Connector</text>
 <pinref part="J1" gate="G$1" pin="RD-"/>
 <wire x1="167.64" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="157.48" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <junction x="149.86" y="149.86"/>
 <junction x="167.64" y="157.48"/>
@@ -21189,7 +21195,7 @@ Connector</text>
 <pinref part="J1" gate="G$1" pin="RD+"/>
 <wire x1="167.64" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="162.56" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
 <junction x="139.7" y="149.86"/>
 <junction x="167.64" y="162.56"/>
@@ -21217,7 +21223,7 @@ Connector</text>
 <junction x="116.84" y="33.02"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <label x="111.76" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="116.84" y="71.12"/>
@@ -21243,7 +21249,7 @@ Connector</text>
 <junction x="116.84" y="30.48"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 <label x="111.76" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="116.84" y="78.74"/>
@@ -21307,12 +21313,12 @@ Connector</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="160.02" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <junction x="139.7" y="160.02"/>
 <junction x="144.78" y="149.86"/>
 <junction x="149.86" y="160.02"/>
@@ -21321,7 +21327,7 @@ Connector</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
@@ -21355,43 +21361,43 @@ Connector</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="YLED+"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <junction x="203.2" y="172.72"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GLED+"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <junction x="203.2" y="157.48"/>
 </segment>
 </net>
 <net name="ETH_LED_ACT" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
 <label x="218.44" y="172.72" size="1.27" layer="95" xref="yes"/>
 <junction x="213.36" y="172.72"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="PWM/G18"/>
-<wire x1="73.66" y1="142.24" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
-<label x="78.74" y="142.24" size="1.27" layer="95" xref="yes"/>
-<junction x="73.66" y="142.24"/>
-</segment>
-</net>
-<net name="ETH_LED_LINK" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
-<label x="218.44" y="157.48" size="1.27" layer="95" xref="yes"/>
-<junction x="213.36" y="157.48"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM/G19"/>
 <wire x1="73.66" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 <label x="78.74" y="139.7" size="1.27" layer="95" xref="yes"/>
 <junction x="73.66" y="139.7"/>
+</segment>
+</net>
+<net name="ETH_LED_LINK" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
+<label x="218.44" y="157.48" size="1.27" layer="95" xref="yes"/>
+<junction x="213.36" y="157.48"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PWM/G18"/>
+<wire x1="73.66" y1="142.24" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
+<label x="78.74" y="142.24" size="1.27" layer="95" xref="yes"/>
+<junction x="73.66" y="142.24"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -21568,9 +21574,9 @@ Connector</text>
 </net>
 <net name="TEST3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="4"/>
 <wire x1="71.12" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="76.2" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA3"/>
@@ -21581,9 +21587,9 @@ Connector</text>
 </net>
 <net name="TEST2" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="3"/>
 <wire x1="71.12" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="76.2" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA2"/>
@@ -21594,9 +21600,9 @@ Connector</text>
 </net>
 <net name="TEST1" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <label x="76.2" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA1"/>
@@ -21607,9 +21613,9 @@ Connector</text>
 </net>
 <net name="TEST0" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="76.2" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA0"/>
@@ -21621,34 +21627,34 @@ Connector</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <junction x="147.32" y="111.76"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <junction x="147.32" y="104.14"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <junction x="147.32" y="96.52"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <junction x="147.32" y="88.9"/>
 </segment>
 </net>
 <net name="STATUS0" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="132.08" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="137.16" y="111.76"/>
@@ -21662,7 +21668,7 @@ Connector</text>
 </net>
 <net name="STATUS1" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 <label x="132.08" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="137.16" y="104.14"/>
@@ -21676,7 +21682,7 @@ Connector</text>
 </net>
 <net name="STATUS2" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 <label x="132.08" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="137.16" y="96.52"/>
@@ -21690,7 +21696,7 @@ Connector</text>
 </net>
 <net name="STATUS3" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
 <label x="132.08" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="137.16" y="88.9"/>
