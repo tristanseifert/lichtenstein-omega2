@@ -1099,7 +1099,7 @@ package type SS</description>
 </devices>
 </deviceset>
 <deviceset name="TPS706" prefix="IC" uservalue="yes">
-<description>&lt;h1&gt;150-mA, 6.5-V, 1-μA IQ Voltage Regulators with Enable&lt;/h1&gt;
+<description>&lt;h1&gt;1.8V Out, 150-mA, 1-μA IQ Voltage Regulators with Enable&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href="http://www.ti.com/product/tps706"&gt;Information&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
@@ -1114,7 +1114,9 @@ package type SS</description>
 <connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="595-TPS70618DBVT" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1139,7 +1141,9 @@ package type SS</description>
 <connect gate="G$1" pin="SW" pad="8 9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="926-LM2852YMXA33NOPB" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1158,7 +1162,9 @@ package type SS</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="652-SRR1050A-180Y" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1251,7 +1257,9 @@ Source: 5M160ZE64.bsd</description>
 <connect gate="G$1" pin="VCCIO2" pad="39 57"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="989-5M160ZE64C5N" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1289,7 +1297,9 @@ Source: 5M160ZE64.bsd</description>
 <connect gate="G$1" pin="VCCB" pad="19"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="595-TXB0108PWR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1329,7 +1339,9 @@ Source: 5M160ZE64.bsd</description>
 <connect gate="G$1" pin="VCC" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="579-MCP23017T-E/SS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1348,7 +1360,9 @@ Source: 5M160ZE64.bsd</description>
 <connect gate="G$1" pin="WP" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="556-AT24C01D-STUM-T" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
