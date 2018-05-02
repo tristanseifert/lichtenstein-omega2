@@ -1036,6 +1036,19 @@ package type SS</description>
 <pin name="VCC" x="-5.08" y="-38.1" length="middle" direction="pwr"/>
 <pin name="GND" x="-5.08" y="-40.64" length="middle" direction="pwr"/>
 </symbol>
+<symbol name="AT24C02D">
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="VCC" x="20.32" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL" x="-5.08" y="-2.54" length="middle"/>
+<pin name="SDA" x="-5.08" y="-5.08" length="middle"/>
+<pin name="WP" x="-5.08" y="-10.16" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ONION-OMEGA2" prefix="U">
@@ -1314,6 +1327,25 @@ Source: 5M160ZE64.bsd</description>
 <connect gate="G$1" pin="SCL" pad="12"/>
 <connect gate="G$1" pin="SDA" pad="13"/>
 <connect gate="G$1" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AT24C02D" prefix="IC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AT24C02D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="WP" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
