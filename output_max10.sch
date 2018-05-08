@@ -17445,6 +17445,13 @@ Source: Cypress CYP05780611.pdf</description>
 <rectangle x1="-8.509" y1="5.1" x2="-8.001" y2="5.988" layer="51" rot="R180"/>
 <rectangle x1="-9.779" y1="5.1" x2="-9.271" y2="5.988" layer="51" rot="R180"/>
 </package>
+<package name="VLGA-4">
+<smd name="4" x="0" y="0" dx="0.7" dy="0.8" layer="1"/>
+<smd name="3" x="1.65" y="0" dx="0.7" dy="0.8" layer="1"/>
+<smd name="2" x="1.65" y="-1.25" dx="0.7" dy="0.8" layer="1"/>
+<smd name="1" x="0" y="-1.25" dx="0.7" dy="0.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IS61WV1288EEBLL">
@@ -17682,6 +17689,18 @@ Source: Cypress CYP05780611.pdf</description>
 <pin name="SCL" x="-5.08" y="-2.54" length="middle"/>
 <pin name="SDA" x="-5.08" y="-5.08" length="middle"/>
 <pin name="WP" x="-5.08" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="DSC61XX">
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VCC" x="-5.08" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="pwr"/>
+<pin name="CLKOUT" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="EN" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17960,6 +17979,27 @@ Source: 10M04SCE144.bsd</description>
 <technology name="">
 <attribute name="MOUSER" value="556-AT24C01D-STUM-T" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DSC61XX" prefix="Q" uservalue="yes">
+<description>&lt;h1&gt;Ultra-Small, Ultra-Low Power MEMS Oscillator&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="https://www.mouser.com/datasheet/2/268/20005624B-1149202.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DSC61XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLGA-4">
+<connects>
+<connect gate="G$1" pin="CLKOUT" pad="3"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -20409,6 +20449,15 @@ Source: www.kingbright.com</description>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
+<part name="Q1" library="lichtenstein_onion" deviceset="DSC61XX" device=""/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
+<attribute name="MOUSER" value="710-885012207072"/>
+</part>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21676,6 +21725,21 @@ Connector</text>
 <instance part="C29" gate="G$1" x="231.14" y="129.54">
 <attribute name="MOUSER" x="231.14" y="129.54" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
+<instance part="Q1" gate="G$1" x="93.98" y="86.36"/>
+<instance part="+3V3" gate="G$1" x="86.36" y="83.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="83.82" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND21" gate="1" x="86.36" y="81.28" rot="R270"/>
+<instance part="C30" gate="G$1" x="104.14" y="73.66" rot="R270">
+<attribute name="MOUSER" x="104.14" y="73.66" size="1.27" layer="96" rot="R270" align="top-center" display="off"/>
+</instance>
+<instance part="GND22" gate="1" x="96.52" y="73.66" rot="R270"/>
+<instance part="+3V4" gate="G$1" x="109.22" y="73.66" smashed="yes" rot="R270">
+<attribute name="VALUE" x="111.76" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="119.38" y="81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="121.92" y="81.28" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="SRAM_D[0..7],SRAM_A[0..16]">
@@ -21813,6 +21877,21 @@ Connector</text>
 <junction x="35.56" y="55.88"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="VCC"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<junction x="88.9" y="83.82"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<junction x="106.68" y="73.66"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="EN"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<junction x="116.84" y="81.28"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -21894,6 +21973,16 @@ Connector</text>
 <wire x1="200.66" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <junction x="210.82" y="86.36"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="GND"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<junction x="88.9" y="81.28"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<junction x="99.06" y="73.66"/>
 </segment>
 </net>
 <net name="JTAG_TMS" class="0">
@@ -22000,14 +22089,6 @@ Connector</text>
 <wire x1="17.78" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
 <label x="12.7" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="17.78" y="170.18"/>
-</segment>
-</net>
-<net name="CLKIN_24" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="IO27"/>
-<wire x1="17.78" y1="127" x2="12.7" y2="127" width="0.1524" layer="91"/>
-<label x="12.7" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="17.78" y="127"/>
 </segment>
 </net>
 <net name="BUFFER0_OE" class="0">
@@ -22207,6 +22288,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO38"/>
 <wire x1="58.42" y1="180.34" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="180.34" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
+<junction x="58.42" y="180.34"/>
 </segment>
 </net>
 <net name="SRAM_A6" class="0">
@@ -22214,6 +22296,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO39"/>
 <wire x1="58.42" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="177.8" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
+<junction x="58.42" y="177.8"/>
 </segment>
 </net>
 <net name="SRAM_A5" class="0">
@@ -22221,6 +22304,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO41"/>
 <wire x1="58.42" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="175.26" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
+<junction x="58.42" y="175.26"/>
 </segment>
 </net>
 <net name="SRAM_A4" class="0">
@@ -22228,6 +22312,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO43"/>
 <wire x1="58.42" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="172.72" x2="50.8" y2="170.18" width="0.1524" layer="91"/>
+<junction x="58.42" y="172.72"/>
 </segment>
 </net>
 <net name="!SRAM_WE" class="0">
@@ -22235,6 +22320,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO44"/>
 <wire x1="58.42" y1="170.18" x2="53.34" y2="170.18" width="0.1524" layer="91"/>
 <label x="53.34" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="58.42" y="170.18"/>
 </segment>
 </net>
 <net name="SRAM_D3" class="0">
@@ -22242,6 +22328,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO45"/>
 <wire x1="58.42" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="167.64" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<junction x="58.42" y="167.64"/>
 </segment>
 </net>
 <net name="SRAM_D2" class="0">
@@ -22249,6 +22336,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO46"/>
 <wire x1="58.42" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="165.1" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<junction x="58.42" y="165.1"/>
 </segment>
 </net>
 <net name="SRAM_D1" class="0">
@@ -22256,6 +22344,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO47"/>
 <wire x1="58.42" y1="162.56" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<junction x="58.42" y="162.56"/>
 </segment>
 </net>
 <net name="!SRAM_CE" class="0">
@@ -22263,6 +22352,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO50"/>
 <wire x1="58.42" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 <label x="53.34" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="58.42" y="160.02"/>
 </segment>
 </net>
 <net name="SRAM_A3" class="0">
@@ -22270,6 +22360,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO52"/>
 <wire x1="58.42" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="154.94" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<junction x="58.42" y="154.94"/>
 </segment>
 </net>
 <net name="SRAM_A2" class="0">
@@ -22277,6 +22368,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO54"/>
 <wire x1="58.42" y1="152.4" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="152.4" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<junction x="58.42" y="152.4"/>
 </segment>
 </net>
 <net name="SRAM_A1" class="0">
@@ -22284,6 +22376,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO55"/>
 <wire x1="58.42" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="149.86" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<junction x="58.42" y="149.86"/>
 </segment>
 </net>
 <net name="SRAM_A0" class="0">
@@ -22291,6 +22384,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO56"/>
 <wire x1="58.42" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="147.32" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
+<junction x="58.42" y="147.32"/>
 </segment>
 </net>
 <net name="SRAM_A8" class="0">
@@ -22298,6 +22392,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO57"/>
 <wire x1="58.42" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="144.78" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+<junction x="58.42" y="144.78"/>
 </segment>
 </net>
 <net name="SRAM_A9" class="0">
@@ -22305,6 +22400,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO58"/>
 <wire x1="58.42" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="142.24" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
+<junction x="58.42" y="142.24"/>
 </segment>
 </net>
 <net name="SRAM_A10" class="0">
@@ -22312,6 +22408,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO59"/>
 <wire x1="58.42" y1="139.7" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="139.7" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
+<junction x="58.42" y="139.7"/>
 </segment>
 </net>
 <net name="SRAM_A11" class="0">
@@ -22319,6 +22416,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO60"/>
 <wire x1="58.42" y1="137.16" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="137.16" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
+<junction x="58.42" y="137.16"/>
 </segment>
 </net>
 <net name="SRAM_A12" class="0">
@@ -22326,6 +22424,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO61"/>
 <wire x1="58.42" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="132.08" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
+<junction x="58.42" y="132.08"/>
 </segment>
 </net>
 <net name="SRAM_D4" class="0">
@@ -22333,6 +22432,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO62"/>
 <wire x1="58.42" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="129.54" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<junction x="58.42" y="129.54"/>
 </segment>
 </net>
 <net name="SRAM_D5" class="0">
@@ -22340,6 +22440,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO64"/>
 <wire x1="58.42" y1="127" x2="53.34" y2="127" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="127" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<junction x="58.42" y="127"/>
 </segment>
 </net>
 <net name="SRAM_D6" class="0">
@@ -22347,6 +22448,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO65"/>
 <wire x1="58.42" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="124.46" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
+<junction x="58.42" y="124.46"/>
 </segment>
 </net>
 <net name="SRAM_D7" class="0">
@@ -22354,6 +22456,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO66"/>
 <wire x1="58.42" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="121.92" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<junction x="58.42" y="121.92"/>
 </segment>
 </net>
 <net name="!SRAM_OE" class="0">
@@ -22361,6 +22464,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO69"/>
 <wire x1="58.42" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 <label x="53.34" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="58.42" y="119.38"/>
 </segment>
 </net>
 <net name="SRAM_A13" class="0">
@@ -22368,6 +22472,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO70"/>
 <wire x1="58.42" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="116.84" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<junction x="58.42" y="116.84"/>
 </segment>
 </net>
 <net name="SRAM_A15" class="0">
@@ -22375,6 +22480,7 @@ Connector</text>
 <pinref part="IC5" gate="G$3" pin="IO75"/>
 <wire x1="99.06" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="180.34" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
+<junction x="99.06" y="180.34"/>
 </segment>
 </net>
 <net name="SRAM_A16" class="0">
@@ -22382,6 +22488,7 @@ Connector</text>
 <pinref part="IC5" gate="G$3" pin="IO74"/>
 <wire x1="99.06" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="177.8" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
+<junction x="99.06" y="177.8"/>
 </segment>
 </net>
 <net name="SRAM_A17" class="0">
@@ -22389,6 +22496,7 @@ Connector</text>
 <pinref part="IC5" gate="G$3" pin="IO77"/>
 <wire x1="99.06" y1="175.26" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="175.26" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
+<junction x="99.06" y="175.26"/>
 </segment>
 </net>
 <net name="SRAM_D0" class="0">
@@ -22396,6 +22504,7 @@ Connector</text>
 <pinref part="IC5" gate="G$2" pin="IO48"/>
 <wire x1="58.42" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="157.48" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<junction x="58.42" y="157.48"/>
 </segment>
 </net>
 <net name="SRAM_A14" class="0">
@@ -22403,6 +22512,21 @@ Connector</text>
 <pinref part="IC5" gate="G$3" pin="IO76"/>
 <wire x1="99.06" y1="172.72" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="172.72" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
+<junction x="99.06" y="172.72"/>
+</segment>
+</net>
+<net name="CLKIN_24" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="IO29"/>
+<wire x1="17.78" y1="121.92" x2="12.7" y2="121.92" width="0.1524" layer="91"/>
+<label x="12.7" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="17.78" y="121.92"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="CLKOUT"/>
+<wire x1="116.84" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="121.92" y="83.82" size="1.27" layer="95" xref="yes"/>
+<junction x="116.84" y="83.82"/>
 </segment>
 </net>
 </nets>

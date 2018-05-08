@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1340,6 +1340,13 @@ thin small outline package</description>
 <rectangle x1="-3.4" y1="5.7259" x2="-3.1001" y2="6.5761" layer="51"/>
 <rectangle x1="-3.8999" y1="5.7259" x2="-3.5999" y2="6.5761" layer="51"/>
 </package>
+<package name="VLGA-4">
+<smd name="4" x="0" y="0" dx="0.7" dy="0.8" layer="1"/>
+<smd name="3" x="1.65" y="0" dx="0.7" dy="0.8" layer="1"/>
+<smd name="2" x="1.65" y="-1.25" dx="0.7" dy="0.8" layer="1"/>
+<smd name="1" x="0" y="-1.25" dx="0.7" dy="0.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ONION-OMEGA2">
@@ -1757,6 +1764,18 @@ thin small outline package</description>
 <pin name="VCC_ONE" x="-5.08" y="-27.94" length="middle" direction="pwr"/>
 <pin name="GND" x="-5.08" y="-38.1" length="middle" direction="pwr"/>
 <pin name="VCCA" x="-5.08" y="-33.02" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="DSC61XX">
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VCC" x="-5.08" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="pwr"/>
+<pin name="CLKOUT" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="EN" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2287,6 +2306,27 @@ Source: 10M04SCE144.bsd</description>
 <connect gate="G$5" pin="VCCIO7" pad="117"/>
 <connect gate="G$5" pin="VCCIO8" pad="128 139"/>
 <connect gate="G$5" pin="VCC_ONE" pad="1 36 37 51 72 73 108 109 115 144"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DSC61XX" prefix="Q" uservalue="yes">
+<description>&lt;h1&gt;Ultra-Small, Ultra-Low Power MEMS Oscillator&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="https://www.mouser.com/datasheet/2/268/20005624B-1149202.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DSC61XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLGA-4">
+<connects>
+<connect gate="G$1" pin="CLKOUT" pad="3"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
