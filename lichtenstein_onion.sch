@@ -20651,7 +20651,9 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="U1" library="lichtenstein_onion" deviceset="ONION-OMEGA2" device=""/>
+<part name="U1" library="lichtenstein_onion" deviceset="ONION-OMEGA2" device="">
+<attribute name="MOUSER" value="353-OM-O2P"/>
+</part>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20815,8 +20817,12 @@ Source: www.kingbright.com</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
-<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
+<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="">
+<attribute name="MOUSER" value="612-TL1105B"/>
+</part>
+<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="">
+<attribute name="MOUSER" value="612-TL1105B"/>
+</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
 <attribute name="MOUSER" value="604-APTR3216SRCPRV"/>
@@ -20966,7 +20972,9 @@ Connector</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U1" gate="G$1" x="58.42" y="157.48"/>
+<instance part="U1" gate="G$1" x="58.42" y="157.48">
+<attribute name="MOUSER" x="58.42" y="157.48" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="+3V33" gate="G$1" x="76.2" y="170.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="78.74" y="170.18" size="1.778" layer="96"/>
 </instance>
@@ -21070,8 +21078,12 @@ Connector</text>
 <instance part="GND8" gate="1" x="55.88" y="104.14" rot="R270"/>
 <instance part="GND24" gate="1" x="233.68" y="114.3" rot="R90"/>
 <instance part="P+2" gate="1" x="213.36" y="114.3" rot="R90"/>
-<instance part="S1" gate="G$1" x="63.5" y="104.14"/>
-<instance part="S2" gate="G$1" x="63.5" y="96.52"/>
+<instance part="S1" gate="G$1" x="63.5" y="104.14">
+<attribute name="MOUSER" x="63.5" y="104.14" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S2" gate="G$1" x="63.5" y="96.52">
+<attribute name="MOUSER" x="63.5" y="96.52" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="53.34" y="73.66" rot="R270"/>
 <instance part="LED1" gate="G$1" x="149.86" y="111.76" rot="R90">
 <attribute name="MOUSER" x="149.86" y="111.76" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
@@ -21331,6 +21343,7 @@ Connector</text>
 <wire x1="43.18" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <junction x="33.02" y="48.26"/>
+<junction x="43.18" y="48.26"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
@@ -21362,6 +21375,7 @@ Connector</text>
 <junction x="55.88" y="76.2"/>
 <pinref part="S4" gate="G$1" pin="4"/>
 <junction x="55.88" y="73.66"/>
+<junction x="55.88" y="81.28"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -21934,6 +21948,7 @@ Connector</text>
 <wire x1="71.12" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="76.2" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="8"/>
+<junction x="71.12" y="81.28"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA7"/>
@@ -21947,6 +21962,7 @@ Connector</text>
 <wire x1="71.12" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="76.2" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="7"/>
+<junction x="71.12" y="78.74"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA6"/>
@@ -21960,6 +21976,7 @@ Connector</text>
 <wire x1="71.12" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <label x="76.2" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="6"/>
+<junction x="71.12" y="76.2"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA5"/>
@@ -21973,6 +21990,7 @@ Connector</text>
 <wire x1="71.12" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <label x="76.2" y="73.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="5"/>
+<junction x="71.12" y="73.66"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA4"/>

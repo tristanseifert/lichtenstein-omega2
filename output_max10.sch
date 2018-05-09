@@ -20268,7 +20268,9 @@ Source: www.kingbright.com</description>
 </part>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC4" library="lichtenstein_onion" deviceset="IS61WV1288EEBLL" device="TSOP32-I" value="IS61WV1288EEBLL-10HLI"/>
+<part name="IC4" library="lichtenstein_onion" deviceset="IS61WV1288EEBLL" device="TSOP32-I" value="IS61WV1288EEBLL-10HLI">
+<attribute name="MOUSER" value="870-61WV1288ELL10HLI"/>
+</part>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
@@ -20449,7 +20451,9 @@ Source: www.kingbright.com</description>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="Q1" library="lichtenstein_onion" deviceset="DSC61XX" device=""/>
+<part name="Q1" library="lichtenstein_onion" deviceset="DSC61XX" device="">
+<attribute name="MOUSER" value="579-6101JI2A0240000T"/>
+</part>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -20490,7 +20494,9 @@ Connector</text>
 <attribute name="VALUE" x="15.24" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="38.1" y="154.94" rot="R90"/>
-<instance part="IC4" gate="G$1" x="190.5" y="99.06"/>
+<instance part="IC4" gate="G$1" x="190.5" y="99.06">
+<attribute name="MOUSER" x="190.5" y="99.06" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="C10" gate="G$1" x="203.2" y="111.76">
 <attribute name="MOUSER" x="203.2" y="111.76" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
@@ -21725,7 +21731,9 @@ Connector</text>
 <instance part="C29" gate="G$1" x="231.14" y="129.54">
 <attribute name="MOUSER" x="231.14" y="129.54" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="Q1" gate="G$1" x="93.98" y="86.36"/>
+<instance part="Q1" gate="G$1" x="93.98" y="86.36">
+<attribute name="MOUSER" x="93.98" y="86.36" size="1.27" layer="96" display="off"/>
+</instance>
 <instance part="+3V3" gate="G$1" x="86.36" y="83.82" smashed="yes" rot="R90">
 <attribute name="VALUE" x="83.82" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
