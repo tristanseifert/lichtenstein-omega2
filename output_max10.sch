@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -20263,7 +20263,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="100µF">
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -20276,7 +20276,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="100µF">
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -20368,7 +20368,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="100µF">
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -20388,7 +20388,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V313" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="100µF">
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -20436,7 +20436,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT6032" package3d_urn="urn:adsk.eagle:package:23305/2" value="47µF">
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:23434/1" value="100µF">
 <attribute name="MOUSER" value="581-NOSD107M006"/>
 </part>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -20451,7 +20451,7 @@ Source: www.kingbright.com</description>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="Q1" library="lichtenstein_onion" deviceset="DSC61XX" device="">
+<part name="Q1" library="lichtenstein_onion" deviceset="DSC61XX" device="" value="25MHz">
 <attribute name="MOUSER" value="579-6101JI2A0240000T"/>
 </part>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -20462,6 +20462,11 @@ Source: www.kingbright.com</description>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
+<attribute name="MOUSER" value="710-885012207072"/>
+</part>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21748,6 +21753,13 @@ Connector</text>
 <instance part="+3V5" gate="G$1" x="119.38" y="81.28" smashed="yes" rot="R270">
 <attribute name="VALUE" x="121.92" y="81.28" size="1.778" layer="96"/>
 </instance>
+<instance part="C31" gate="G$1" x="30.48" y="91.44" rot="R90">
+<attribute name="MOUSER" x="30.48" y="91.44" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+</instance>
+<instance part="GND23" gate="1" x="25.4" y="91.44" rot="R270"/>
+<instance part="+3V6" gate="G$1" x="38.1" y="91.44" smashed="yes" rot="R270">
+<attribute name="VALUE" x="40.64" y="91.44" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="SRAM_D[0..7],SRAM_A[0..16]">
@@ -21900,6 +21912,11 @@ Connector</text>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <junction x="116.84" y="81.28"/>
 </segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<junction x="35.56" y="91.44"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -21991,6 +22008,11 @@ Connector</text>
 <pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <junction x="99.06" y="73.66"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<junction x="27.94" y="91.44"/>
 </segment>
 </net>
 <net name="JTAG_TMS" class="0">

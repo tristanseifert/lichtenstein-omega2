@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2822,10 +2822,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R9" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="R15" pad="2"/>
-<wire x1="63.5" y1="23.434" x2="62.484" y2="23.18" width="0.1524" layer="16"/>
-<wire x1="62.484" y1="23.18" x2="61.468" y2="23.434" width="0.1524" layer="16"/>
 <wire x1="62.23" y1="21.016" x2="62.484" y2="21.524" width="0.1524" layer="16"/>
-<wire x1="62.484" y1="21.524" x2="62.484" y2="23.18" width="0.1524" layer="16"/>
+<wire x1="61.468" y1="23.434" x2="62.484" y2="23.434" width="0.1524" layer="16"/>
+<wire x1="62.484" y1="23.434" x2="63.5" y2="23.434" width="0.1524" layer="16"/>
+<wire x1="62.23" y1="21.016" x2="62.484" y2="21.27" width="0.1524" layer="16"/>
+<wire x1="62.484" y1="21.27" x2="62.484" y2="23.434" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R5" pad="2"/>
@@ -2998,7 +2999,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="!OMEGA_RST">
 <contactref element="U1" pad="J2-16"/>
-<wire x1="25.338" y1="17.02" x2="23.8414" y2="18.5166" width="0.1524" layer="1"/>
 </signal>
 <signal name="TEST3">
 <contactref element="S1" pad="8"/>
