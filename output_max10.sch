@@ -20636,6 +20636,22 @@ Source: www.kingbright.com</description>
 <part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k/680R??">
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2">
+<attribute name="MOUSER" value="604-APTR3216SGC"/>
+</part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k">
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k">
+<attribute name="MOUSER" value="652-CR0805FX-1002ELF"/>
+</part>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20807,6 +20823,9 @@ Should be open by default</text>
 <instance part="GND25" gate="1" x="109.22" y="53.34"/>
 <instance part="+3V9" gate="G$1" x="109.22" y="66.04" smashed="yes">
 <attribute name="VALUE" x="109.22" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="LED6" gate="G$1" x="231.14" y="139.7" rot="R90">
+<attribute name="MOUSER" x="231.14" y="139.7" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -21054,6 +21073,9 @@ Should be open by default</text>
 <pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="236.22" y1="154.94" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
 <junction x="236.22" y="147.32"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="236.22" y1="139.7" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
+<junction x="236.22" y="139.7"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -21909,6 +21931,14 @@ Should be open by default</text>
 <junction x="33.02" y="20.32"/>
 </segment>
 </net>
+<net name="CONF_DONE" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="228.6" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
+<label x="213.36" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="228.6" y="139.7"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -21989,10 +22019,10 @@ Should be open by default</text>
 <instance part="R8" gate="G$1" x="30.48" y="48.26">
 <attribute name="MOUSER" x="30.48" y="48.26" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="30.48" y="38.1">
-<attribute name="MOUSER" x="30.48" y="38.1" size="1.27" layer="96" align="top-center" display="off"/>
+<instance part="R9" gate="G$1" x="30.48" y="35.56" rot="R180">
+<attribute name="MOUSER" x="30.48" y="35.56" size="1.27" layer="96" rot="R180" align="top-center" display="off"/>
 </instance>
-<instance part="GND19" gate="1" x="22.86" y="38.1" rot="R270"/>
+<instance part="GND19" gate="1" x="38.1" y="35.56" rot="R90"/>
 <instance part="+3V2" gate="G$1" x="38.1" y="48.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.64" y="48.26" size="1.778" layer="96"/>
 </instance>
@@ -22045,6 +22075,21 @@ Should be open by default</text>
 <instance part="C34" gate="G$1" x="233.68" y="48.26">
 <attribute name="MOUSER" x="233.68" y="48.26" size="1.27" layer="96" align="top-center" display="off"/>
 </instance>
+<instance part="R10" gate="G$1" x="208.28" y="127">
+<attribute name="MOUSER" x="208.28" y="127" size="1.27" layer="96" align="top-center" display="off"/>
+</instance>
+<instance part="+3V10" gate="G$1" x="200.66" y="127" smashed="yes" rot="R90">
+<attribute name="VALUE" x="198.12" y="127" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R11" gate="G$1" x="208.28" y="106.68">
+<attribute name="MOUSER" x="208.28" y="106.68" size="1.27" layer="96" align="top-center" display="off"/>
+</instance>
+<instance part="GND26" gate="1" x="200.66" y="106.68" rot="R270"/>
+<instance part="R12" gate="G$1" x="208.28" y="119.38">
+<attribute name="MOUSER" x="208.28" y="119.38" size="1.27" layer="96" align="top-center" display="off"/>
+</instance>
+<instance part="GND27" gate="1" x="22.86" y="129.54" rot="R270"/>
+<instance part="GND28" gate="1" x="22.86" y="114.3" rot="R270"/>
 </instances>
 <busses>
 <bus name="SRAM_D[0..7],SRAM_A[0..16]">
@@ -22208,6 +22253,14 @@ Should be open by default</text>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <junction x="35.56" y="91.44"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+<junction x="203.2" y="127"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="127" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<junction x="203.2" y="119.38"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -22271,7 +22324,7 @@ Should be open by default</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<junction x="25.4" y="38.1"/>
+<junction x="35.56" y="35.56"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -22311,6 +22364,30 @@ Should be open by default</text>
 <pinref part="GND23" gate="1" pin="GND"/>
 <junction x="27.94" y="91.44"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<junction x="203.2" y="106.68"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="IO26"/>
+<pinref part="IC5" gate="G$1" pin="IO28"/>
+<wire x1="25.4" y1="129.54" x2="25.4" y2="127" width="0.1524" layer="91"/>
+<junction x="25.4" y="129.54"/>
+<pinref part="IC5" gate="G$1" pin="IO27"/>
+<junction x="25.4" y="127"/>
+<wire x1="25.4" y1="127" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
+<junction x="25.4" y="124.46"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="IO32"/>
+<pinref part="IC5" gate="G$1" pin="IO33"/>
+<wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="25.4" y="116.84"/>
+<junction x="25.4" y="114.3"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="JTAG_TMS" class="0">
 <segment>
@@ -22347,9 +22424,9 @@ Should be open by default</text>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<label x="40.64" y="38.1" size="1.27" layer="95" xref="yes"/>
-<junction x="35.56" y="38.1"/>
+<wire x1="25.4" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="20.32" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="25.4" y="35.56"/>
 </segment>
 </net>
 <net name="JTAG_TDI" class="0">
@@ -22854,6 +22931,80 @@ Should be open by default</text>
 <wire x1="116.84" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="121.92" y="83.82" size="1.27" layer="95" xref="yes"/>
 <junction x="116.84" y="83.82"/>
+</segment>
+</net>
+<net name="CONF_DONE" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO138"/>
+<wire x1="147.32" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<label x="142.24" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="124.46"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
+<label x="218.44" y="127" size="1.27" layer="95" xref="yes"/>
+<junction x="213.36" y="127"/>
+</segment>
+</net>
+<net name="!STATUS" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO136"/>
+<wire x1="147.32" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<label x="142.24" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="127"/>
+</segment>
+</net>
+<net name="CONFIG_SEL" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO126"/>
+<wire x1="147.32" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<label x="142.24" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="149.86"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
+<label x="218.44" y="106.68" size="1.27" layer="95" xref="yes"/>
+<junction x="213.36" y="106.68"/>
+</segment>
+</net>
+<net name="CRC_ERROR" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO134"/>
+<wire x1="147.32" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<label x="142.24" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="132.08"/>
+</segment>
+</net>
+<net name="DEV_OE" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO122"/>
+<wire x1="147.32" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="142.24" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="154.94"/>
+</segment>
+</net>
+<net name="!DEV_CLR" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO121"/>
+<wire x1="147.32" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="157.48"/>
+</segment>
+</net>
+<net name="!CONFIG" class="0">
+<segment>
+<pinref part="IC5" gate="G$4" pin="IO129"/>
+<wire x1="147.32" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<label x="142.24" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="147.32" y="144.78"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<label x="218.44" y="119.38" size="1.27" layer="95" xref="yes"/>
+<junction x="213.36" y="119.38"/>
 </segment>
 </net>
 </nets>
