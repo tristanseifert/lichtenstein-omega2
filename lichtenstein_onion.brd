@@ -2614,13 +2614,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_FARNELL" value="unknown" x="39.116" y="2.286" size="0.8128" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="39.116" y="2.286" size="0.8128" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="58.166" y="2.286" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="58.166" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER" value="71-CRA04S0803103GRT7" x="58.166" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="58.166" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.69" y="3.302" size="0.8128" layer="25" rot="R270"/>
-<attribute name="OC_FARNELL" value="unknown" x="58.166" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="58.166" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
+<element name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="59.182" y="2.286" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="59.182" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="71-CRA04S0803103GRT7" x="59.182" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="59.182" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="60.706" y="3.302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="59.182" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="59.182" y="2.286" size="0.8128" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="7.874" y="17.526" rot="MR180">
 <attribute name="MF" value="" x="7.874" y="17.526" size="0.8128" layer="28" rot="MR180" display="off"/>
@@ -2718,12 +2718,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="RN3" pad="8"/>
 <contactref element="RN3" pad="7"/>
 <contactref element="RN3" pad="6"/>
-<wire x1="58.966" y1="1.086" x2="58.966" y2="1.886" width="0.1524" layer="1"/>
-<wire x1="58.966" y1="1.886" x2="58.966" y2="2.686" width="0.1524" layer="1"/>
-<wire x1="58.966" y1="2.686" x2="58.966" y2="3.486" width="0.1524" layer="1"/>
-<wire x1="55.118" y1="12.766" x2="55.118" y2="6.858" width="0.1524" layer="1"/>
-<wire x1="55.118" y1="6.858" x2="58.49" y2="3.486" width="0.1524" layer="1"/>
-<wire x1="58.49" y1="3.486" x2="58.966" y2="3.486" width="0.1524" layer="1"/>
+<wire x1="59.982" y1="1.086" x2="59.982" y2="1.886" width="0.1524" layer="1"/>
+<wire x1="59.982" y1="1.886" x2="59.982" y2="2.686" width="0.1524" layer="1"/>
+<wire x1="59.982" y1="2.686" x2="59.982" y2="3.486" width="0.1524" layer="1"/>
+<wire x1="55.118" y1="12.766" x2="55.118" y2="7.874" width="0.1524" layer="1"/>
+<wire x1="55.118" y1="7.874" x2="59.506" y2="3.486" width="0.1524" layer="1"/>
+<wire x1="59.506" y1="3.486" x2="59.982" y2="3.486" width="0.1524" layer="1"/>
 <wire x1="38.316" y1="1.086" x2="38.316" y2="1.886" width="0.1524" layer="16"/>
 <wire x1="38.316" y1="1.886" x2="38.316" y2="2.686" width="0.1524" layer="16"/>
 <wire x1="38.316" y1="2.686" x2="38.316" y2="3.486" width="0.1524" layer="16"/>
@@ -3188,7 +3188,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43.67194375" y1="14.063" x2="44.2214" y2="13.51354375" width="0.1524" layer="1"/>
 <wire x1="45.212" y1="3.048" x2="44.2214" y2="4.0386" width="0.1524" layer="1"/>
 <contactref element="RN3" pad="4"/>
-<wire x1="57.366" y1="1.086" x2="47.174" y2="1.086" width="0.1524" layer="1"/>
+<wire x1="58.382" y1="1.086" x2="47.174" y2="1.086" width="0.1524" layer="1"/>
 <wire x1="47.174" y1="1.086" x2="45.212" y2="3.048" width="0.1524" layer="1"/>
 </signal>
 <signal name="INPUT5">
@@ -3199,7 +3199,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.7614" y1="4.0386" x2="47.752" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="46.7614" y1="11.9126" x2="46.7614" y2="4.0386" width="0.1524" layer="1"/>
 <contactref element="RN3" pad="3"/>
-<wire x1="57.366" y1="1.886" x2="55.226" y2="1.886" width="0.1524" layer="1"/>
+<wire x1="58.382" y1="1.886" x2="55.226" y2="1.886" width="0.1524" layer="1"/>
 <wire x1="55.226" y1="1.886" x2="54.7308" y2="1.3908" width="0.1524" layer="1"/>
 <wire x1="49.4092" y1="1.3908" x2="47.752" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="54.7308" y1="1.3908" x2="49.4092" y2="1.3908" width="0.1524" layer="1"/>
@@ -3212,13 +3212,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.3014" y1="4.0386" x2="50.292" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="49.3014" y1="10.2884875" x2="49.3014" y2="4.0386" width="0.1524" layer="1"/>
 <contactref element="RN3" pad="2"/>
-<wire x1="57.366" y1="2.686" x2="57.0446" y2="2.3646" width="0.1524" layer="1"/>
-<wire x1="57.0446" y1="2.3646" x2="55.0433125" y2="2.3646" width="0.1524" layer="1"/>
-<wire x1="55.0433125" y1="2.3646" x2="54.9094" y2="2.2306875" width="0.1524" layer="1"/>
-<wire x1="54.9094" y1="2.2306875" x2="54.9094" y2="2.0074" width="0.1524" layer="1"/>
-<wire x1="54.9094" y1="2.0074" x2="54.68" y2="1.778" width="0.1524" layer="1"/>
+<wire x1="54.9094" y1="2.0074" x2="54.772" y2="1.87" width="0.1524" layer="1"/>
+<wire x1="54.772" y1="1.87" x2="54.68" y2="1.778" width="0.1524" layer="1"/>
 <wire x1="51.562" y1="1.778" x2="50.292" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="54.68" y1="1.778" x2="51.562" y2="1.778" width="0.1524" layer="1"/>
+<wire x1="58.382" y1="2.686" x2="55.588" y2="2.686" width="0.1524" layer="1"/>
+<wire x1="55.588" y1="2.686" x2="54.9094" y2="2.0074" width="0.1524" layer="1"/>
 </signal>
 <signal name="INPUT7">
 <contactref element="SV3" pad="9"/>
@@ -3228,10 +3227,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.8414" y1="4.0386" x2="52.832" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="51.8414" y1="8.6106" x2="51.8414" y2="4.0386" width="0.1524" layer="1"/>
 <contactref element="RN3" pad="1"/>
-<wire x1="52.832" y1="3.048" x2="54.9267125" y2="3.048" width="0.1524" layer="1"/>
-<wire x1="54.9267125" y1="3.048" x2="55.0433125" y2="3.1646" width="0.1524" layer="1"/>
-<wire x1="55.0433125" y1="3.1646" x2="57.0446" y2="3.1646" width="0.1524" layer="1"/>
-<wire x1="57.0446" y1="3.1646" x2="57.366" y2="3.486" width="0.1524" layer="1"/>
+<wire x1="52.832" y1="3.048" x2="55.4347125" y2="3.048" width="0.1524" layer="1"/>
+<wire x1="58.382" y1="3.486" x2="55.8727125" y2="3.486" width="0.1524" layer="1"/>
+<wire x1="55.8727125" y1="3.486" x2="55.4347125" y2="3.048" width="0.1524" layer="1"/>
 </signal>
 <signal name="!OMEGA_RST">
 <contactref element="U1" pad="J2-16"/>
