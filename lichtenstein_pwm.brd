@@ -3366,7 +3366,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER" value="651-1792889" x="70.358" y="33.782" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="65.358" y="23.162" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="WEED1" library="lichtenstein_onion" package="DOINK" value="WEED" x="42.164" y="29.464" rot="MR0"/>
+<element name="WEED1" library="lichtenstein_onion" package="DOINK" value="WEED" x="42.164" y="27.94" rot="MR0"/>
 <element name="IC5" library="lichtenstein_onion" package="SOIC8" value="LM75B" x="37.592" y="37.846" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="771-LM75BD118" x="37.592" y="37.846" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.687" y="40.513" size="0.8128" layer="25"/>
@@ -3598,7 +3598,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="3.81" y="45.212" extent="1-16" drill="0.35"/>
 <via x="3.81" y="42.164" extent="1-16" drill="0.35"/>
 <via x="42.164" y="44.958" extent="1-16" drill="0.35"/>
-<via x="37.846" y="29.21" extent="1-16" drill="0.35"/>
+<via x="39.37" y="26.924" extent="1-16" drill="0.35"/>
 <via x="37.592" y="22.86" extent="1-16" drill="0.35"/>
 <via x="35.56" y="22.86" extent="1-16" drill="0.35"/>
 <via x="39.624" y="22.86" extent="1-16" drill="0.35"/>
@@ -3636,8 +3636,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="42.672" y="33.782" extent="1-16" drill="0.35"/>
 <via x="47.752" y="30.988" extent="1-16" drill="0.35"/>
 <via x="46.736" y="33.274" extent="1-16" drill="0.35"/>
-<via x="32.766" y="28.956" extent="1-16" drill="0.35"/>
-<via x="32.766" y="30.226" extent="1-16" drill="0.35"/>
+<via x="32.766" y="28.448" extent="1-16" drill="0.35"/>
+<via x="32.766" y="29.718" extent="1-16" drill="0.35"/>
 <contactref element="C15" pad="1"/>
 <contactref element="IC5" pad="7"/>
 <contactref element="IC5" pad="5"/>
