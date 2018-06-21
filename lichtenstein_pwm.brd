@@ -3171,62 +3171,62 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="12.446" y="37.084" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="14.478" y="32.766" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="68.072" y="12.192" smashed="yes" rot="MR270">
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="68.072" y="12.192" smashed="yes" rot="MR270">
 <attribute name="MOUSER" value="652-CR0805FX-49R9ELF" x="68.072" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="71.374" y="13.716" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="68.072" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="54.864" y="18.034" smashed="yes" rot="MR0">
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="54.864" y="18.034" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="54.864" y="18.034" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="57.912" y="19.05" size="0.8128" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="SPICEPREFIX" value="R" x="54.864" y="18.034" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7" x="52.832" y="13.716" smashed="yes" rot="R270">
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7" x="52.832" y="13.716" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF" x="52.832" y="13.716" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.34" y="10.922" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="52.832" y="13.716" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7" x="55.118" y="13.716" smashed="yes" rot="R270">
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="4k7" x="55.118" y="13.716" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF" x="55.118" y="13.716" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="55.626" y="10.922" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="55.118" y="13.716" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="70.104" y="12.192" smashed="yes" rot="MR270">
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="70.104" y="12.192" smashed="yes" rot="MR270">
 <attribute name="MOUSER" value="652-CR0805-FX4701GLF" x="70.104" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="71.374" y="12.7" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="70.104" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="63.754" y="12.192" smashed="yes" rot="MR270">
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="63.754" y="12.192" smashed="yes" rot="MR270">
 <attribute name="MOUSER" value="652-CR0805FX-49R9ELF" x="63.754" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="61.468" y="13.716" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="63.754" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="4.318" y="28.448" smashed="yes" rot="R90">
+<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="4.318" y="28.448" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="4.318" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.27" y="29.21" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.334" y="26.416" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="4.318" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="6.858" y="28.448" smashed="yes" rot="R90">
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="6.858" y="28.448" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="6.858" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.27" y="27.432" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="7.874" y="26.416" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="6.858" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="9.398" y="28.448" smashed="yes" rot="R90">
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="9.398" y="28.448" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="9.398" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.794" y="29.21" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="10.414" y="26.416" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="9.398" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="11.938" y="28.448" smashed="yes" rot="R90">
+<element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="11.938" y="28.448" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="11.938" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.794" y="27.432" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="12.954" y="26.416" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="11.938" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="65.786" y="12.192" smashed="yes" rot="MR270">
+<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="49.9R" x="65.786" y="12.192" smashed="yes" rot="MR270">
 <attribute name="MOUSER" value="652-CR0805FX-49R9ELF" x="65.786" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="60.706" y="12.7" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="65.786" y="12.192" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="55.118" y="15.748" smashed="yes" rot="MR0">
+<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="55.118" y="15.748" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="55.118" y="15.748" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.166" y="16.764" size="0.8128" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="SPICEPREFIX" value="R" x="55.118" y="15.748" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3276,9 +3276,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_NEWARK" value="unknown" x="8.128" y="17.526" size="0.8128" layer="27" font="vector" ratio="10" display="off"/>
 </element>
 <element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="4.064" y="4.064" smashed="yes"/>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="4.064" y="50.292" smashed="yes"/>
-<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="72.136" y="50.292" smashed="yes"/>
-<element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="10.922" y="43.688" smashed="yes" rot="R180">
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="4.064" y="50.292" smashed="yes"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="72.136" y="50.292" smashed="yes"/>
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="10.922" y="43.688" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="10.922" y="43.688" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
 <attribute name="NAME" x="12.192" y="42.418" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="10.922" y="43.688" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" display="off"/>
@@ -3293,80 +3293,91 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="1.778" y="8.89" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="4.572" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="3.81" y="18.288" smashed="yes" rot="MR90">
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="3.81" y="18.288" smashed="yes" rot="MR90">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="3.81" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="2.794" y="16.256" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="3.81" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="6.096" y="18.288" smashed="yes" rot="MR90">
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="6.096" y="18.288" smashed="yes" rot="MR90">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="6.096" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="5.08" y="16.256" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="6.096" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="8.382" y="18.288" smashed="yes" rot="MR90">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="8.382" y="18.288" smashed="yes" rot="MR90">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="8.382" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="7.366" y="16.256" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="8.382" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="10.668" y="18.288" smashed="yes" rot="MR90">
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="10.668" y="18.288" smashed="yes" rot="MR90">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="10.668" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="9.652" y="16.256" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="10.668" y="18.288" size="0.8128" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="7.62" smashed="yes" rot="MR0">
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="7.62" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="38.608" y="7.62" size="0.8128" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.322" y="7.62" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="SPICEPREFIX" value="R" x="38.608" y="7.62" size="0.8128" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="5.588" smashed="yes" rot="MR0">
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="5.588" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="38.608" y="5.588" size="0.8128" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.322" y="5.588" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="SPICEPREFIX" value="R" x="38.608" y="5.588" size="0.8128" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="3.556" smashed="yes" rot="MR0">
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="3.556" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="38.608" y="3.556" size="0.8128" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.322" y="3.556" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="SPICEPREFIX" value="R" x="38.608" y="3.556" size="0.8128" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="1.524" smashed="yes" rot="MR0">
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="38.608" y="1.524" smashed="yes" rot="MR0">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="38.608" y="1.524" size="0.8128" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.322" y="1.524" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="SPICEPREFIX" value="R" x="38.608" y="1.524" size="0.8128" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="56.896" y="5.588" smashed="yes" rot="MR180">
+<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="56.896" y="5.588" smashed="yes" rot="MR180">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="56.896" y="5.588" size="0.8128" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="59.182" y="5.588" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="56.896" y="5.588" size="0.8128" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="56.896" y="7.62" smashed="yes" rot="MR180">
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="56.896" y="7.62" smashed="yes" rot="MR180">
 <attribute name="MOUSER" value="652-CR0805FX-1002ELF" x="56.896" y="7.62" size="0.8128" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="59.182" y="7.62" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="56.896" y="7.62" size="0.8128" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="44.704" y="32.131" smashed="yes" rot="R180">
+<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="44.704" y="32.131" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="710-885012207072" x="51.816" y="32.131" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.974" y="30.861" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="51.816" y="32.131" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC3" library="lichtenstein_onion" package="SOIC8" value="" x="37.592" y="30.226" smashed="yes" rot="R270">
+<element name="IC4" library="lichtenstein_onion" package="SOIC8" value="" x="37.592" y="30.226" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="556-AT24C02D-SSHM-T" x="42.926" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.687" y="32.893" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="35.687" y="26.289" size="1.27" layer="27"/>
 </element>
-<element name="IC4" library="lichtenstein_onion" package="SO14" value="74AHCT125SOIC14" x="58.674" y="32.766" smashed="yes" rot="R270">
+<element name="IC3" library="lichtenstein_onion" package="SO14" value="74AHCT125SOIC14" x="58.674" y="32.766" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="595-SN74AHCT125D" x="58.674" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.769" y="37.846" size="0.8128" layer="25"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="60.452" y="39.624" smashed="yes">
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="60.452" y="39.624" smashed="yes">
 <attribute name="MOUSER" value="710-885012207072" x="60.452" y="39.624" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="62.738" y="40.64" size="0.8128" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="C" x="60.452" y="39.624" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SV5" library="lichtenstein_onion" package="1792889" value="1792889" x="70.358" y="33.782" smashed="yes" rot="R90">
+<element name="SV4" library="lichtenstein_onion" package="1792889" value="1792889" x="70.358" y="33.782" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="651-1792889" x="70.358" y="33.782" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="65.358" y="23.162" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="WEED1" library="lichtenstein_onion" package="DOINK" value="WEED" x="42.164" y="29.464" rot="MR0"/>
+<element name="IC5" library="lichtenstein_onion" package="SOIC8" value="LM75B" x="37.592" y="37.846" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="771-LM75BD118" x="37.592" y="37.846" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="35.687" y="40.513" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="35.687" y="33.909" size="1.27" layer="27"/>
+</element>
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="44.45" y="39.751" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="710-885012207072" x="44.45" y="39.751" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="45.72" y="38.481" size="0.8128" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="C" x="44.45" y="39.751" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="45.72" y="42.291" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -3383,14 +3394,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C9" pad="+"/>
 <contactref element="SV2" pad="2"/>
 <contactref element="SV2" pad="4"/>
-<contactref element="R3" pad="2"/>
-<contactref element="R2" pad="2"/>
-<wire x1="45.364" y1="44.958" x2="45.466" y2="44.958" width="0.4064" layer="1"/>
-<wire x1="45.466" y1="44.958" x2="49.676" y2="44.958" width="0.4064" layer="1"/>
+<contactref element="R7" pad="2"/>
+<contactref element="R6" pad="2"/>
+<wire x1="45.364" y1="44.958" x2="49.676" y2="44.958" width="0.4064" layer="1"/>
 <wire x1="49.676" y1="44.958" x2="49.73" y2="45.012" width="0.1524" layer="1"/>
 <wire x1="49.73" y1="45.012" x2="49.738" y2="45.02" width="0.4064" layer="1"/>
 <wire x1="49.784" y1="44.958" x2="49.73" y2="45.012" width="0.1524" layer="1"/>
-<contactref element="R10" pad="1"/>
+<contactref element="R14" pad="1"/>
 <wire x1="14.368" y1="6.604" x2="18.542" y2="10.778" width="0.6096" layer="1"/>
 <wire x1="18.542" y1="10.778" x2="18.542" y2="10.922" width="0.254" layer="1"/>
 <via x="18.542" y="10.922" extent="1-16" drill="0.35"/>
@@ -3436,21 +3446,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.504" y1="16.726" x2="18.542" y2="16.764" width="0.1524" layer="16"/>
 <wire x1="12.742" y1="8.23" x2="10.21" y2="8.23" width="0.6096" layer="1"/>
 <wire x1="10.21" y1="8.23" x2="10.16" y2="8.28" width="0.1524" layer="1"/>
-<contactref element="R14" pad="1"/>
-<contactref element="R15" pad="1"/>
-<contactref element="R16" pad="1"/>
-<contactref element="R17" pad="1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R2" pad="1"/>
+<contactref element="R1" pad="1"/>
 <wire x1="3.81" y1="17.338" x2="6.096" y2="17.338" width="0.1524" layer="16"/>
 <wire x1="6.096" y1="17.338" x2="8.382" y2="17.338" width="0.1524" layer="16"/>
 <wire x1="8.382" y1="17.338" x2="10.668" y2="17.338" width="0.1524" layer="16"/>
 <wire x1="10.668" y1="17.338" x2="18.476" y2="17.338" width="0.1524" layer="16"/>
 <wire x1="18.476" y1="17.338" x2="18.542" y2="17.272" width="0.1524" layer="16"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R17" pad="2"/>
 <contactref element="R18" pad="2"/>
 <contactref element="R19" pad="2"/>
 <contactref element="R20" pad="2"/>
 <contactref element="R21" pad="2"/>
-<contactref element="R24" pad="2"/>
-<contactref element="R25" pad="2"/>
 <wire x1="57.846" y1="7.62" x2="57.846" y2="5.588" width="0.1524" layer="16"/>
 <wire x1="55.118" y1="12.766" x2="55.118" y2="9.144" width="0.1524" layer="1"/>
 <via x="55.118" y="9.144" extent="1-16" drill="0.35"/>
@@ -3464,25 +3474,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.364" y1="44.856" x2="45.364" y2="44.958" width="0.4064" layer="1"/>
 <wire x1="26.0382" y1="4.654" x2="16.318" y2="4.654" width="0.1524" layer="1"/>
 <wire x1="16.318" y1="4.654" x2="14.368" y2="6.604" width="0.1524" layer="1"/>
-<contactref element="C14" pad="2"/>
-<contactref element="IC3" pad="8"/>
-<contactref element="IC3" pad="1"/>
+<contactref element="C13" pad="2"/>
+<contactref element="IC4" pad="8"/>
+<contactref element="IC4" pad="1"/>
 <wire x1="49.738" y1="45.02" x2="52.578" y2="45.02" width="0.4064" layer="1"/>
 <wire x1="52.578" y1="45.02" x2="53.082" y2="45.02" width="0.4064" layer="1"/>
 <wire x1="53.082" y1="45.02" x2="52.832" y2="45.024" width="0.1524" layer="1"/>
 <wire x1="37.658" y1="7.62" x2="41.722" y2="11.684" width="0.1524" layer="16"/>
 <wire x1="52.578" y1="11.684" x2="55.118" y2="9.144" width="0.1524" layer="16"/>
 <wire x1="41.722" y1="11.684" x2="52.578" y2="11.684" width="0.1524" layer="16"/>
-<contactref element="IC4" pad="10"/>
-<contactref element="IC4" pad="13"/>
+<contactref element="IC3" pad="10"/>
+<contactref element="IC3" pad="13"/>
 <wire x1="36.388" y1="24.892" x2="36.388" y2="27.81410625" width="0.4064" layer="1"/>
 <wire x1="36.388" y1="27.81410625" x2="36.4476" y2="27.87370625" width="0.4064" layer="1"/>
 <wire x1="36.4476" y1="29.8436" x2="36.4476" y2="27.87370625" width="0.4064" layer="1"/>
 <wire x1="40.192" y1="32.131" x2="39.37" y2="32.131" width="0.4064" layer="1"/>
 <wire x1="39.37" y1="32.131" x2="38.735" y2="32.131" width="0.4064" layer="1"/>
 <wire x1="38.735" y1="32.131" x2="36.4476" y2="29.8436" width="0.4064" layer="1"/>
-<wire x1="40.192" y1="32.131" x2="40.192" y2="39.684" width="0.4064" layer="1"/>
-<wire x1="40.192" y1="39.684" x2="45.466" y2="44.958" width="0.4064" layer="1"/>
 <wire x1="40.192" y1="32.131" x2="43.434" y2="32.131" width="0.1524" layer="1"/>
 <wire x1="43.434" y1="32.131" x2="43.754" y2="32.131" width="0.1524" layer="1"/>
 <wire x1="34.992" y1="32.131" x2="39.37" y2="32.131" width="0.1524" layer="1"/>
@@ -3495,9 +3503,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="59.9454" y1="32.3713125" x2="59.9454" y2="34.4306875" width="0.1524" layer="1"/>
 <via x="58.166" y="31.496" extent="1-16" drill="0.35"/>
 <wire x1="58.166" y1="31.496" x2="52.07" y2="31.496" width="0.1524" layer="16"/>
-<wire x1="52.07" y1="31.496" x2="51.816" y2="31.75" width="0.1524" layer="16"/>
-<via x="51.816" y="31.75" extent="1-16" drill="0.35"/>
-<wire x1="51.816" y1="31.75" x2="51.054" y2="32.512" width="0.1524" layer="1"/>
+<wire x1="52.07" y1="31.496" x2="51.562" y2="32.004" width="0.1524" layer="16"/>
+<via x="51.562" y="32.004" extent="1-16" drill="0.35"/>
+<wire x1="51.562" y1="32.004" x2="51.054" y2="32.512" width="0.1524" layer="1"/>
 <wire x1="51.054" y1="32.512" x2="51.054" y2="33.782" width="0.1524" layer="1"/>
 <wire x1="51.054" y1="33.782" x2="50.8" y2="34.036" width="0.1524" layer="1"/>
 <wire x1="44.196" y1="34.036" x2="43.688" y2="33.528" width="0.1524" layer="1"/>
@@ -3511,6 +3519,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.848" y1="46.91305625" x2="53.848" y2="45.212" width="0.1524" layer="1"/>
 <wire x1="53.848" y1="45.212" x2="53.656" y2="45.02" width="0.1524" layer="1"/>
 <wire x1="53.656" y1="45.02" x2="52.578" y2="45.02" width="0.1524" layer="1"/>
+<contactref element="C15" pad="2"/>
+<contactref element="IC5" pad="8"/>
+<wire x1="40.192" y1="39.751" x2="43.434" y2="39.751" width="0.1524" layer="1"/>
+<wire x1="43.434" y1="39.751" x2="43.5" y2="39.751" width="0.1524" layer="1"/>
+<wire x1="45.364" y1="44.958" x2="43.434" y2="43.028" width="0.4064" layer="1"/>
+<wire x1="43.434" y1="43.028" x2="43.434" y2="39.751" width="0.4064" layer="1"/>
+<wire x1="43.5" y1="39.751" x2="43.5" y2="36.642" width="0.4064" layer="1"/>
+<wire x1="43.5" y1="36.642" x2="40.132" y2="33.274" width="0.4064" layer="1"/>
+<wire x1="40.132" y1="33.274" x2="40.132" y2="32.191" width="0.4064" layer="1"/>
+<wire x1="40.132" y1="32.191" x2="40.192" y2="32.131" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="J1-1"/>
@@ -3603,23 +3621,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C7" pad="2"/>
 <via x="50.8" y="12.446" extent="1-16" drill="0.35"/>
 <via x="38.608" y="9.652" extent="1-16" drill="0.35"/>
-<contactref element="IC3" pad="4"/>
+<contactref element="IC4" pad="4"/>
+<contactref element="C13" pad="1"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="IC3" pad="7"/>
 <contactref element="C14" pad="1"/>
-<contactref element="IC3" pad="2"/>
-<contactref element="IC3" pad="3"/>
-<contactref element="IC4" pad="7"/>
-<contactref element="C15" pad="1"/>
-<contactref element="IC4" pad="9"/>
-<contactref element="IC4" pad="12"/>
-<contactref element="SV5" pad="4"/>
-<contactref element="SV5" pad="2"/>
-<via x="45.212" y="37.846" extent="1-16" drill="0.35"/>
+<contactref element="IC3" pad="9"/>
+<contactref element="IC3" pad="12"/>
+<contactref element="SV4" pad="4"/>
+<contactref element="SV4" pad="2"/>
+<via x="45.72" y="36.576" extent="1-16" drill="0.35"/>
 <via x="47.752" y="43.434" extent="1-16" drill="0.35"/>
-<via x="41.402" y="33.274" extent="1-16" drill="0.35"/>
+<via x="42.672" y="33.782" extent="1-16" drill="0.35"/>
 <via x="47.752" y="30.988" extent="1-16" drill="0.35"/>
 <via x="46.736" y="33.274" extent="1-16" drill="0.35"/>
 <via x="32.766" y="28.956" extent="1-16" drill="0.35"/>
 <via x="32.766" y="30.226" extent="1-16" drill="0.35"/>
+<contactref element="C15" pad="1"/>
+<contactref element="IC5" pad="7"/>
+<contactref element="IC5" pad="5"/>
+<contactref element="IC5" pad="6"/>
+<via x="42.418" y="37.592" extent="1-16" drill="0.35"/>
+<via x="31.75" y="36.322" extent="1-16" drill="0.35"/>
+<contactref element="IC5" pad="4"/>
+<via x="53.594" y="34.036" extent="1-16" drill="0.35"/>
+<via x="47.752" y="22.86" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CONSOLE_RX">
 <contactref element="U1" pad="J1-5"/>
@@ -3651,7 +3678,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ETH_TX-">
 <contactref element="U1" pad="J1-9"/>
 <contactref element="J1" pad="8"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R8" pad="1"/>
 <wire x1="71.247" y1="17.953" x2="71.247" y2="14.285" width="0.1524" layer="16"/>
 <wire x1="71.247" y1="14.285" x2="70.104" y2="13.142" width="0.1524" layer="16"/>
 <wire x1="49.738" y1="31.02" x2="49.738" y2="30.78" width="0.1524" layer="16"/>
@@ -3664,7 +3691,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ETH_TX+">
 <contactref element="U1" pad="J1-10"/>
 <contactref element="J1" pad="7"/>
-<contactref element="R1" pad="1"/>
+<contactref element="R5" pad="1"/>
 <wire x1="68.072" y1="13.142" x2="69.977" y2="15.047" width="0.1524" layer="16"/>
 <wire x1="69.977" y1="15.047" x2="69.977" y2="15.413" width="0.1524" layer="16"/>
 <wire x1="49.738" y1="29.02" x2="51.4332" y2="27.3248" width="0.1524" layer="16"/>
@@ -3677,7 +3704,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ETH_RX-">
 <contactref element="U1" pad="J1-11"/>
 <contactref element="J1" pad="2"/>
-<contactref element="R11" pad="1"/>
+<contactref element="R15" pad="1"/>
 <wire x1="65.51563125" y1="13.142" x2="65.786" y2="13.142" width="0.1524" layer="16"/>
 <wire x1="64.63703125" y1="14.0206" x2="63.627" y2="15.03063125" width="0.1524" layer="16"/>
 <wire x1="64.63703125" y1="14.0206" x2="64.6486875" y2="14.0206" width="0.1524" layer="16"/>
@@ -3693,7 +3720,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ETH_RX+">
 <contactref element="U1" pad="J1-12"/>
 <contactref element="J1" pad="1"/>
-<contactref element="R5" pad="1"/>
+<contactref element="R9" pad="1"/>
 <wire x1="62.357" y1="15.413" x2="63.754" y2="14.016" width="0.1524" layer="16"/>
 <wire x1="63.754" y1="14.016" x2="63.754" y2="13.142" width="0.1524" layer="16"/>
 <wire x1="49.738" y1="25.02" x2="52.75" y2="25.02" width="0.1524" layer="16"/>
@@ -3703,7 +3730,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U1" pad="J1-15"/>
 <contactref element="IC2" pad="12"/>
 <contactref element="SV2" pad="20"/>
-<contactref element="R3" pad="1"/>
+<contactref element="R7" pad="1"/>
 <wire x1="55.118" y1="14.666" x2="50.764" y2="19.02" width="0.1524" layer="1"/>
 <wire x1="50.764" y1="19.02" x2="49.738" y2="19.02" width="0.1524" layer="1"/>
 <wire x1="40.3723125" y1="22.9416" x2="40.2384" y2="22.8076875" width="0.1524" layer="1"/>
@@ -3726,18 +3753,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="42.164" y="23.876" extent="1-16" drill="0.35"/>
 <wire x1="42.164" y1="23.876" x2="42.926" y2="23.114" width="0.1524" layer="1"/>
 <wire x1="42.926" y1="23.114" x2="42.926" y2="22.9416" width="0.1524" layer="1"/>
-<wire x1="26.67" y1="38.27705625" x2="41.07105625" y2="23.876" width="0.1524" layer="16"/>
-<contactref element="IC3" pad="6"/>
+<wire x1="26.67" y1="38.27705625" x2="29.298528125" y2="35.648528125" width="0.1524" layer="16"/>
+<contactref element="IC4" pad="6"/>
+<wire x1="29.298528125" y1="35.648528125" x2="41.07105625" y2="23.876" width="0.1524" layer="16"/>
 <wire x1="40.192" y1="29.591" x2="40.9334" y2="28.8496" width="0.1524" layer="1"/>
 <wire x1="40.9334" y1="28.8496" x2="41.3866875" y2="28.8496" width="0.1524" layer="1"/>
 <wire x1="41.3866875" y1="28.8496" x2="42.164" y2="28.0722875" width="0.1524" layer="1"/>
 <wire x1="42.164" y1="28.0722875" x2="42.164" y2="23.876" width="0.1524" layer="1"/>
+<contactref element="IC5" pad="2"/>
+<wire x1="34.992" y1="38.481" x2="32.131" y2="38.481" width="0.1524" layer="1"/>
+<wire x1="32.131" y1="38.481" x2="29.972" y2="36.322" width="0.1524" layer="1"/>
+<via x="29.972" y="36.322" extent="1-16" drill="0.35"/>
+<wire x1="29.972" y1="36.322" x2="29.298528125" y2="35.648528125" width="0.1524" layer="16"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="U1" pad="J1-16"/>
 <contactref element="IC2" pad="13"/>
 <contactref element="SV2" pad="18"/>
-<contactref element="R2" pad="1"/>
+<contactref element="R6" pad="1"/>
 <wire x1="52.832" y1="14.666" x2="50.478" y2="17.02" width="0.1524" layer="1"/>
 <wire x1="50.478" y1="17.02" x2="49.738" y2="17.02" width="0.1524" layer="1"/>
 <wire x1="49.738" y1="17.02" x2="45.676" y2="21.082" width="0.1524" layer="1"/>
@@ -3748,7 +3781,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.68121875" y1="39.8486" x2="26.1666" y2="39.36321875" width="0.1524" layer="16"/>
 <wire x1="17.018" y1="47.244" x2="18.3134" y2="45.9486" width="0.1524" layer="16"/>
 <wire x1="20.5486" y1="43.9674" x2="24.6674" y2="39.8486" width="0.1524" layer="16"/>
-<wire x1="26.1666" y1="38.3494" x2="40.132" y2="24.384" width="0.1524" layer="16"/>
+<wire x1="26.1666" y1="38.3494" x2="28.448" y2="36.068" width="0.1524" layer="16"/>
+<wire x1="28.448" y1="36.068" x2="40.132" y2="24.384" width="0.1524" layer="16"/>
 <wire x1="40.132" y1="24.384" x2="43.434" y2="21.082" width="0.1524" layer="16"/>
 <wire x1="18.3134" y1="45.9486" x2="19.968325" y2="45.9486" width="0.1524" layer="16"/>
 <wire x1="20.5486" y1="45.368325" x2="20.5486" y2="43.9674" width="0.1524" layer="16"/>
@@ -3756,11 +3790,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.1666" y1="39.36321875" x2="26.1666" y2="38.3494" width="0.1524" layer="16"/>
 <via x="43.942" y="21.082" extent="1-16" drill="0.35"/>
 <wire x1="43.942" y1="21.082" x2="45.676" y2="21.082" width="0.1524" layer="1"/>
-<contactref element="IC3" pad="5"/>
+<contactref element="IC4" pad="5"/>
 <wire x1="40.192" y1="28.321" x2="40.192" y2="24.444" width="0.1524" layer="1"/>
 <wire x1="40.192" y1="24.444" x2="39.624" y2="23.876" width="0.1524" layer="1"/>
 <via x="39.624" y="23.876" extent="1-16" drill="0.35"/>
 <wire x1="39.624" y1="23.876" x2="40.132" y2="24.384" width="0.1524" layer="16"/>
+<contactref element="IC5" pad="1"/>
+<wire x1="34.992" y1="39.751" x2="34.2506" y2="39.0096" width="0.1524" layer="1"/>
+<wire x1="34.2506" y1="39.0096" x2="32.22854375" y2="39.0096" width="0.1524" layer="1"/>
+<wire x1="32.22854375" y1="39.0096" x2="30.30294375" y2="37.084" width="0.1524" layer="1"/>
+<wire x1="29.464" y1="37.084" x2="27.94" y2="35.56" width="0.1524" layer="1"/>
+<via x="27.94" y="35.56" extent="1-16" drill="0.35"/>
+<wire x1="27.94" y1="35.56" x2="28.448" y2="36.068" width="0.1524" layer="16"/>
+<wire x1="30.30294375" y1="37.084" x2="29.464" y2="37.084" width="0.1524" layer="1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="U1" pad="J2-10"/>
@@ -3811,9 +3853,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.3134" y1="30.0446" x2="17.018" y2="31.34" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="R5" pad="2"/>
+<contactref element="R9" pad="2"/>
 <contactref element="C10" pad="2"/>
-<contactref element="R11" pad="2"/>
+<contactref element="R15" pad="2"/>
 <wire x1="64.516" y1="8.824" x2="64.77" y2="9.332" width="0.1524" layer="16"/>
 <wire x1="63.754" y1="11.242" x2="64.77" y2="11.242" width="0.1524" layer="16"/>
 <wire x1="64.77" y1="11.242" x2="65.786" y2="11.242" width="0.1524" layer="16"/>
@@ -3821,8 +3863,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="64.77" y1="9.078" x2="64.77" y2="11.242" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$3">
-<contactref element="R1" pad="2"/>
-<contactref element="R4" pad="2"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R8" pad="2"/>
 <contactref element="C8" pad="2"/>
 <wire x1="68.072" y1="11.242" x2="69.088" y2="11.242" width="0.1524" layer="16"/>
 <wire x1="69.088" y1="11.242" x2="70.104" y2="11.242" width="0.1524" layer="16"/>
@@ -3832,25 +3874,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J1" pad="3"/>
 <contactref element="J1" pad="6"/>
 <contactref element="C11" pad="2"/>
-<wire x1="64.897" y1="15.413" x2="64.92" y2="15.39" width="0.1524" layer="16"/>
 <wire x1="66.802" y1="10.2307125" x2="66.8146" y2="10.2433125" width="0.1524" layer="16"/>
 <wire x1="66.802" y1="10.2307125" x2="66.802" y2="8.824" width="0.1524" layer="16"/>
-<wire x1="66.144" y1="15.39" x2="66.04" y2="15.39" width="0.1524" layer="16"/>
-<wire x1="66.04" y1="15.39" x2="64.92" y2="15.39" width="0.1524" layer="16"/>
-<wire x1="68.707" y1="17.953" x2="67.3354" y2="16.5814" width="0.1524" layer="16"/>
-<wire x1="67.3354" y1="16.5814" x2="66.95303125" y2="16.5814" width="0.1524" layer="16"/>
-<wire x1="66.95303125" y1="16.5814" x2="66.2686" y2="15.89696875" width="0.1524" layer="16"/>
-<wire x1="66.2686" y1="15.89696875" x2="66.2686" y2="15.5146" width="0.1524" layer="16"/>
-<wire x1="66.2686" y1="15.5146" x2="66.144" y2="15.39" width="0.1524" layer="16"/>
-<wire x1="66.04" y1="14.4072875" x2="66.04" y2="15.39" width="0.1524" layer="16"/>
 <wire x1="66.8146" y1="13.8866875" x2="66.6806875" y2="14.0206" width="0.1524" layer="16"/>
 <wire x1="66.6806875" y1="14.0206" x2="66.4266875" y2="14.0206" width="0.1524" layer="16"/>
-<wire x1="66.4266875" y1="14.0206" x2="66.04" y2="14.4072875" width="0.1524" layer="16"/>
 <wire x1="66.8146" y1="10.2433125" x2="66.8146" y2="13.8866875" width="0.1524" layer="16"/>
+<wire x1="65.0342875" y1="15.413" x2="64.897" y2="15.413" width="0.1524" layer="16"/>
+<wire x1="66.4266875" y1="14.0206" x2="65.0342875" y2="15.413" width="0.1524" layer="16"/>
+<wire x1="68.707" y1="17.953" x2="67.518" y2="16.764" width="0.1524" layer="16"/>
+<wire x1="66.3852875" y1="16.764" x2="65.0342875" y2="15.413" width="0.1524" layer="16"/>
+<wire x1="67.518" y1="16.764" x2="66.3852875" y2="16.764" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="J1" pad="9"/>
-<contactref element="R12" pad="1"/>
+<contactref element="R22" pad="1"/>
 <wire x1="58.7246" y1="6.5254" x2="60.182" y2="5.068" width="0.1524" layer="16"/>
 <wire x1="58.7246" y1="8.5146875" x2="58.7246" y2="6.5254" width="0.1524" layer="16"/>
 <wire x1="56.068" y1="15.748" x2="56.068" y2="11.1712875" width="0.1524" layer="16"/>
@@ -3858,7 +3895,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$5">
 <contactref element="J1" pad="11"/>
-<contactref element="R13" pad="1"/>
+<contactref element="R23" pad="1"/>
 <wire x1="56.388" y1="14.2947125" x2="56.388" y2="11.938" width="0.1524" layer="16"/>
 <wire x1="56.9466" y1="14.8533125" x2="56.388" y2="14.2947125" width="0.1524" layer="16"/>
 <wire x1="56.9466" y1="16.9014" x2="56.9466" y2="14.8533125" width="0.1524" layer="16"/>
@@ -3872,7 +3909,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="69.44205" y1="3.62805" x2="70.882" y2="5.068" width="0.1524" layer="16"/>
 </signal>
 <signal name="ETH_LED_ACT">
-<contactref element="R12" pad="2"/>
+<contactref element="R22" pad="2"/>
 <contactref element="U1" pad="J2-15"/>
 <wire x1="54.168" y1="15.748" x2="31.75" y2="15.748" width="0.1524" layer="16"/>
 <wire x1="31.75" y1="15.748" x2="28.448" y2="19.05" width="0.1524" layer="16"/>
@@ -3880,7 +3917,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.368" y1="19.05" x2="25.338" y2="19.02" width="0.1524" layer="16"/>
 </signal>
 <signal name="ETH_LED_LINK">
-<contactref element="R13" pad="2"/>
+<contactref element="R23" pad="2"/>
 <contactref element="U1" pad="J2-14"/>
 <wire x1="25.338" y1="21.02" x2="27.0032" y2="19.3548" width="0.1524" layer="16"/>
 <wire x1="28.57425625" y1="19.3548" x2="31.87625625" y2="16.0528" width="0.1524" layer="16"/>
@@ -3921,8 +3958,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="40.386" y1="5.588" x2="42.672" y2="5.588" width="0.4064" layer="1"/>
 <wire x1="42.774" y1="9.906" x2="42.672" y2="9.804" width="0.4064" layer="16"/>
 <wire x1="42.672" y1="9.804" x2="42.672" y2="5.588" width="0.4064" layer="16"/>
-<contactref element="IC4" pad="14"/>
-<contactref element="C15" pad="2"/>
+<contactref element="IC3" pad="14"/>
+<contactref element="C14" pad="2"/>
 <wire x1="61.274" y1="36.576" x2="61.274" y2="39.496" width="0.1524" layer="1"/>
 <wire x1="61.274" y1="39.496" x2="61.402" y2="39.624" width="0.1524" layer="1"/>
 <wire x1="61.274" y1="36.576" x2="63.754" y2="36.576" width="0.1524" layer="1"/>
@@ -3961,7 +3998,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.217" y1="14.713" x2="43.453" y2="14.713" width="0.1524" layer="1"/>
 <wire x1="45.212" y1="12.954" x2="45.212" y2="5.588" width="0.1524" layer="1"/>
 <wire x1="43.453" y1="14.713" x2="45.212" y2="12.954" width="0.1524" layer="1"/>
-<contactref element="R18" pad="1"/>
+<contactref element="R16" pad="1"/>
 <wire x1="41.6814" y1="5.177675" x2="42.261675" y2="4.5974" width="0.1524" layer="16"/>
 <wire x1="42.261675" y1="4.5974" x2="43.082325" y2="4.5974" width="0.1524" layer="16"/>
 <wire x1="41.6814" y1="5.4966" x2="41.6814" y2="5.177675" width="0.1524" layer="16"/>
@@ -3976,7 +4013,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.228" y1="16.002" x2="43.15683125" y2="16.002" width="0.1524" layer="1"/>
 <wire x1="47.752" y1="11.40683125" x2="47.752" y2="5.588" width="0.1524" layer="1"/>
 <wire x1="43.15683125" y1="16.002" x2="47.752" y2="11.40683125" width="0.1524" layer="1"/>
-<contactref element="R19" pad="1"/>
+<contactref element="R17" pad="1"/>
 <wire x1="46.612925" y1="5.588" x2="47.752" y2="5.588" width="0.1524" layer="16"/>
 <wire x1="39.558" y1="5.588" x2="40.84001875" y2="5.588" width="0.1524" layer="16"/>
 <wire x1="40.84001875" y1="5.588" x2="42.13541875" y2="4.2926" width="0.1524" layer="16"/>
@@ -3990,7 +4027,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="42.70794375" y1="17.313" x2="50.203471875" y2="9.817471875" width="0.1524" layer="1"/>
 <wire x1="50.203471875" y1="9.817471875" x2="50.203471875" y2="5.676528125" width="0.1524" layer="1"/>
 <wire x1="50.203471875" y1="5.676528125" x2="50.292" y2="5.588" width="0.1524" layer="1"/>
-<contactref element="R24" pad="1"/>
+<contactref element="R20" pad="1"/>
 <wire x1="53.242325" y1="4.5974" x2="52.421675" y2="4.5974" width="0.1524" layer="16"/>
 <wire x1="55.946" y1="5.588" x2="54.232925" y2="5.588" width="0.1524" layer="16"/>
 <wire x1="51.431075" y1="5.588" x2="50.292" y2="5.588" width="0.1524" layer="16"/>
@@ -3999,7 +4036,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="INPUT3">
 <contactref element="SV3" pad="10"/>
-<contactref element="R25" pad="1"/>
+<contactref element="R21" pad="1"/>
 <wire x1="55.946" y1="7.62" x2="54.2188" y2="5.8928" width="0.1524" layer="16"/>
 <wire x1="54.2188" y1="5.8928" x2="54.10666875" y2="5.8928" width="0.1524" layer="16"/>
 <wire x1="53.80186875" y1="5.588" x2="52.832" y2="5.588" width="0.1524" layer="16"/>
@@ -4020,7 +4057,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.2214" y1="13.51354375" x2="44.2214" y2="4.0386" width="0.1524" layer="1"/>
 <wire x1="43.67194375" y1="14.063" x2="44.2214" y2="13.51354375" width="0.1524" layer="1"/>
 <wire x1="45.212" y1="3.048" x2="44.2214" y2="4.0386" width="0.1524" layer="1"/>
-<contactref element="R20" pad="1"/>
+<contactref element="R18" pad="1"/>
 <wire x1="39.558" y1="3.556" x2="41.336" y2="1.778" width="0.1524" layer="16"/>
 <wire x1="43.942" y1="1.778" x2="45.212" y2="3.048" width="0.1524" layer="16"/>
 <wire x1="41.336" y1="1.778" x2="43.942" y2="1.778" width="0.1524" layer="16"/>
@@ -4032,7 +4069,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43.311" y1="15.363" x2="46.7614" y2="11.9126" width="0.1524" layer="1"/>
 <wire x1="46.7614" y1="4.0386" x2="47.752" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="46.7614" y1="11.9126" x2="46.7614" y2="4.0386" width="0.1524" layer="1"/>
-<contactref element="R21" pad="1"/>
+<contactref element="R19" pad="1"/>
 <wire x1="39.558" y1="1.524" x2="41.15894375" y2="1.524" width="0.1524" layer="16"/>
 <wire x1="41.15894375" y1="1.524" x2="41.20974375" y2="1.4732" width="0.1524" layer="16"/>
 <wire x1="41.20974375" y1="1.4732" x2="46.1772" y2="1.4732" width="0.1524" layer="16"/>
@@ -4054,7 +4091,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="2.794" y="21.59" extent="1-16" drill="0.35"/>
 <wire x1="2.794" y1="21.59" x2="3.03" y2="21.826" width="0.1524" layer="1"/>
 <wire x1="3.03" y1="21.826" x2="4.318" y2="21.826" width="0.1524" layer="1"/>
-<contactref element="R14" pad="2"/>
+<contactref element="R4" pad="2"/>
 <wire x1="2.794" y1="21.59" x2="3.81" y2="20.574" width="0.1524" layer="16"/>
 <wire x1="3.81" y1="20.574" x2="3.81" y2="19.238" width="0.1524" layer="16"/>
 </signal>
@@ -4074,7 +4111,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.3810125" y1="14.7450125" x2="22.657425" y2="15.4686" width="0.1524" layer="1"/>
 <wire x1="5.588" y1="21.59" x2="5.824" y2="21.826" width="0.1524" layer="1"/>
 <wire x1="5.824" y1="21.826" x2="6.858" y2="21.826" width="0.1524" layer="1"/>
-<contactref element="R15" pad="2"/>
+<contactref element="R3" pad="2"/>
 <wire x1="5.588" y1="19.746" x2="6.096" y2="19.238" width="0.1524" layer="16"/>
 <wire x1="5.588" y1="21.59" x2="5.588" y2="19.746" width="0.1524" layer="16"/>
 </signal>
@@ -4094,7 +4131,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.128" y1="21.59" x2="8.128" y2="19.492" width="0.1524" layer="16"/>
 <via x="8.128" y="21.59" extent="1-16" drill="0.35"/>
 <wire x1="8.128" y1="21.59" x2="9.398" y2="21.59" width="0.1524" layer="1"/>
-<contactref element="R16" pad="2"/>
+<contactref element="R2" pad="2"/>
 <wire x1="8.128" y1="19.492" x2="8.382" y2="19.238" width="0.1524" layer="16"/>
 </signal>
 <signal name="TEST0">
@@ -4112,31 +4149,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="10.668" y="21.59" extent="1-16" drill="0.35"/>
 <wire x1="10.668" y1="21.59" x2="10.904" y2="21.826" width="0.1524" layer="1"/>
 <wire x1="10.904" y1="21.826" x2="11.938" y2="21.826" width="0.1524" layer="1"/>
-<contactref element="R17" pad="2"/>
+<contactref element="R1" pad="2"/>
 <wire x1="10.668" y1="21.59" x2="10.668" y2="19.238" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED1" pad="A"/>
-<contactref element="R6" pad="2"/>
+<contactref element="R10" pad="2"/>
 <wire x1="4.318" y1="32.286" x2="4.318" y2="29.398" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="LED2" pad="A"/>
-<contactref element="R7" pad="2"/>
+<contactref element="R11" pad="2"/>
 <wire x1="6.858" y1="32.286" x2="6.858" y2="29.398" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LED3" pad="A"/>
-<contactref element="R8" pad="2"/>
+<contactref element="R12" pad="2"/>
 <wire x1="9.398" y1="32.286" x2="9.398" y2="29.398" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="LED4" pad="A"/>
-<contactref element="R9" pad="2"/>
+<contactref element="R13" pad="2"/>
 <wire x1="11.938" y1="32.286" x2="11.938" y2="29.398" width="0.1524" layer="1"/>
 </signal>
 <signal name="STATUS0">
-<contactref element="R6" pad="1"/>
+<contactref element="R10" pad="1"/>
 <contactref element="IC2" pad="24"/>
 <wire x1="32.9884" y1="16.3076875" x2="32.9884" y2="16.2666" width="0.1524" layer="1"/>
 <wire x1="32.9884" y1="16.2666" x2="32.004" y2="15.2822" width="0.1524" layer="1"/>
@@ -4154,7 +4191,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.716" y1="16.51" x2="13.716" y2="23.4262875" width="0.1524" layer="1"/>
 </signal>
 <signal name="STATUS1">
-<contactref element="R7" pad="1"/>
+<contactref element="R11" pad="1"/>
 <contactref element="IC2" pad="23"/>
 <wire x1="6.858" y1="27.498" x2="8.9986" y2="25.3574" width="0.1524" layer="1"/>
 <wire x1="8.9986" y1="25.3574" x2="12.192" y2="25.3574" width="0.1524" layer="1"/>
@@ -4170,7 +4207,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.0208" y1="16.764" x2="14.0208" y2="23.55254375" width="0.1524" layer="1"/>
 </signal>
 <signal name="STATUS2">
-<contactref element="R8" pad="1"/>
+<contactref element="R12" pad="1"/>
 <contactref element="IC2" pad="22"/>
 <wire x1="32.9884" y1="17.6076875" x2="32.9884" y2="17.38874375" width="0.1524" layer="1"/>
 <wire x1="32.9884" y1="17.38874375" x2="31.49145625" y2="15.8918" width="0.1524" layer="1"/>
@@ -4187,7 +4224,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.3256" y1="17.1704" x2="14.3256" y2="23.6788" width="0.1524" layer="1"/>
 </signal>
 <signal name="STATUS3">
-<contactref element="R9" pad="1"/>
+<contactref element="R13" pad="1"/>
 <contactref element="IC2" pad="21"/>
 <wire x1="33.967" y1="18.613" x2="26.10281875" y2="18.613" width="0.1524" layer="1"/>
 <wire x1="26.10281875" y1="18.613" x2="25.68121875" y2="18.1914" width="0.1524" layer="1"/>
@@ -4229,38 +4266,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.782" y1="41.02" x2="25.338" y2="41.02" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="R10" pad="2"/>
+<contactref element="R14" pad="2"/>
 <contactref element="LED5" pad="A"/>
 <wire x1="7.338" y1="43.688" x2="9.972" y2="43.688" width="0.1524" layer="1"/>
 </signal>
 <signal name="VDD25">
 <contactref element="U1" pad="J2-2"/>
 <contactref element="S2" pad="1"/>
-<wire x1="25.338" y1="45.02" x2="28.448" y2="41.91" width="0.1524" layer="16"/>
-<wire x1="28.448" y1="41.91" x2="54.4322" y2="41.91" width="0.1524" layer="16"/>
-<wire x1="54.4322" y1="41.91" x2="56.9468" y2="44.4246" width="0.1524" layer="16"/>
-<wire x1="56.9468" y1="44.4246" x2="56.9468" y2="46.9646" width="0.1524" layer="16"/>
+<wire x1="25.338" y1="45.02" x2="29.086" y2="48.768" width="0.1524" layer="16"/>
+<wire x1="55.1434" y1="48.768" x2="56.9468" y2="46.9646" width="0.1524" layer="16"/>
+<wire x1="29.086" y1="48.768" x2="55.1434" y2="48.768" width="0.1524" layer="16"/>
 </signal>
 <signal name="PWM0">
 <contactref element="U1" pad="J1-13"/>
-<contactref element="IC4" pad="2"/>
-<wire x1="56.074" y1="35.306" x2="55.3326" y2="34.5646" width="0.1524" layer="1"/>
-<wire x1="55.3326" y1="34.5646" x2="54.8793125" y2="34.5646" width="0.1524" layer="1"/>
-<wire x1="54.8793125" y1="34.5646" x2="53.0352" y2="32.7204875" width="0.1524" layer="1"/>
-<wire x1="53.0352" y1="32.7204875" x2="53.0352" y2="24.74825625" width="0.1524" layer="1"/>
-<wire x1="51.30694375" y1="23.02" x2="49.738" y2="23.02" width="0.1524" layer="1"/>
-<wire x1="53.0352" y1="24.74825625" x2="51.30694375" y2="23.02" width="0.1524" layer="1"/>
+<contactref element="IC3" pad="2"/>
+<wire x1="53.086" y1="35.306" x2="56.074" y2="35.306" width="0.1524" layer="1"/>
+<wire x1="49.738" y1="23.02" x2="52.3466" y2="25.6286" width="0.1524" layer="1"/>
+<wire x1="52.3466" y1="34.5666" x2="53.086" y2="35.306" width="0.1524" layer="1"/>
+<wire x1="52.3466" y1="25.6286" x2="52.3466" y2="34.5666" width="0.1524" layer="1"/>
 </signal>
 <signal name="PWM1">
 <contactref element="U1" pad="J1-14"/>
-<contactref element="IC4" pad="5"/>
+<contactref element="IC3" pad="5"/>
 <wire x1="49.738" y1="21.02" x2="53.34" y2="24.622" width="0.1524" layer="1"/>
 <wire x1="53.34" y1="24.622" x2="53.34" y2="31.242" width="0.1524" layer="1"/>
 <wire x1="53.34" y1="31.242" x2="53.594" y2="31.496" width="0.1524" layer="1"/>
 <wire x1="53.594" y1="31.496" x2="56.074" y2="31.496" width="0.1524" layer="1"/>
 </signal>
 <signal name="!PWM0_OE">
-<contactref element="IC4" pad="1"/>
+<contactref element="IC3" pad="1"/>
 <contactref element="IC2" pad="8"/>
 <wire x1="41.217" y1="18.613" x2="42.235" y2="18.613" width="0.1524" layer="1"/>
 <via x="43.688" y="20.066" extent="1-16" drill="0.35"/>
@@ -4275,7 +4309,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="48.768" y1="36.068" x2="54.102" y2="36.068" width="0.1524" layer="1"/>
 </signal>
 <signal name="!PWM1_OE">
-<contactref element="IC4" pad="4"/>
+<contactref element="IC3" pad="4"/>
 <via x="44.45" y="19.304" extent="1-16" drill="0.35"/>
 <wire x1="44.45" y1="19.304" x2="44.958" y2="19.812" width="0.1524" layer="16"/>
 <wire x1="44.958" y1="19.812" x2="44.958" y2="29.972" width="0.1524" layer="16"/>
@@ -4290,22 +4324,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.45" y1="19.304" x2="43.109" y2="17.963" width="0.1524" layer="1"/>
 </signal>
 <signal name="PWMOUT0">
-<contactref element="SV5" pad="1"/>
-<contactref element="IC4" pad="6"/>
+<contactref element="SV4" pad="1"/>
+<contactref element="IC3" pad="6"/>
 <wire x1="56.074" y1="30.226" x2="59.5507125" y2="30.226" width="0.1524" layer="1"/>
 <wire x1="59.5507125" y1="30.226" x2="60.0793125" y2="30.7546" width="0.1524" layer="1"/>
 <wire x1="60.0793125" y1="30.7546" x2="65.8654" y2="30.7546" width="0.1524" layer="1"/>
 <wire x1="65.8654" y1="30.7546" x2="70.458" y2="26.162" width="0.1524" layer="1"/>
 </signal>
 <signal name="PWMOUT1">
-<contactref element="SV5" pad="3"/>
-<contactref element="IC4" pad="3"/>
+<contactref element="SV4" pad="3"/>
+<contactref element="IC3" pad="3"/>
 <wire x1="56.074" y1="34.036" x2="56.8154" y2="34.7774" width="0.1524" layer="1"/>
 <wire x1="56.8154" y1="34.7774" x2="57.2686875" y2="34.7774" width="0.1524" layer="1"/>
 <wire x1="62.4686875" y1="36.0474" x2="62.5832875" y2="36.162" width="0.1524" layer="1"/>
 <wire x1="62.5832875" y1="36.162" x2="70.458" y2="36.162" width="0.1524" layer="1"/>
 <wire x1="57.2686875" y1="34.7774" x2="58.5386875" y2="36.0474" width="0.1524" layer="1"/>
 <wire x1="58.5386875" y1="36.0474" x2="62.4686875" y2="36.0474" width="0.1524" layer="1"/>
+</signal>
+<signal name="!SPI_CS_1">
+<contactref element="U1" pad="J2-6"/>
 </signal>
 </signals>
 </board>

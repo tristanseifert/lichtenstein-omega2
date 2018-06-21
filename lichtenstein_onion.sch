@@ -23199,6 +23199,14 @@ Connector</text>
 <junction x="81.28" y="119.38"/>
 </segment>
 </net>
+<net name="!SPI_CS_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="G16/U_TX2"/>
+<wire x1="35.56" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+<label x="30.48" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="35.56" y="160.02"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
