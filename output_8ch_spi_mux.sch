@@ -22133,6 +22133,11 @@ for Raspberry Pi</text>
 <label x="175.26" y="104.14" size="1.27" layer="95" xref="yes"/>
 <junction x="170.18" y="104.14"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IO29"/>
+<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="OUT45_EN" class="0">
 <segment>
@@ -22140,6 +22145,11 @@ for Raspberry Pi</text>
 <wire x1="170.18" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <label x="175.26" y="101.6" size="1.27" layer="95" xref="yes"/>
 <junction x="170.18" y="101.6"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IO30"/>
+<wire x1="68.58" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="68.58" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT23_EN" class="0">
@@ -22149,6 +22159,11 @@ for Raspberry Pi</text>
 <label x="175.26" y="66.04" size="1.27" layer="95" xref="yes"/>
 <junction x="170.18" y="66.04"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IO31"/>
+<wire x1="73.66" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<label x="68.58" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="OUT01_EN" class="0">
 <segment>
@@ -22156,6 +22171,11 @@ for Raspberry Pi</text>
 <wire x1="170.18" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <label x="175.26" y="63.5" size="1.27" layer="95" xref="yes"/>
 <junction x="170.18" y="63.5"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="IO32"/>
+<wire x1="73.66" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="68.58" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22199,34 +22219,6 @@ for Raspberry Pi</text>
 <pinref part="IC2" gate="G$1" pin="IO4"/>
 <wire x1="73.66" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 <label x="68.58" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="OUT01_OE" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IO32"/>
-<wire x1="73.66" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<label x="68.58" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="OUT23_OE" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IO31"/>
-<wire x1="73.66" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
-<label x="68.58" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="OUT45_OE" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IO30"/>
-<wire x1="68.58" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="OUT67_OE" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IO29"/>
-<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="68.58" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
