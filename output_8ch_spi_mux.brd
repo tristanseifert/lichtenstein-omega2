@@ -198,9 +198,10 @@
 <wire x1="45" y1="20" x2="44" y2="19" width="0" layer="20" curve="90"/>
 <wire x1="44" y1="1" x2="43" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="46" y1="1" x2="47" y2="0" width="0" layer="20" curve="90"/>
-<text x="42.8" y="1.2" size="1.27" layer="25" font="vector" ratio="10" align="bottom-right">Lichtenstein 8 Channel
+<text x="43.2" y="1.2" size="1.27" layer="51" font="vector" ratio="10" align="bottom-right">Lichtenstein 8 Channel
 Differential Multiplexer</text>
 <text x="22.8" y="35.2" size="0.8128" layer="51" font="vector" ratio="10" align="top-center">VCORE Good</text>
+<text x="6.6" y="1.2" size="1.016" layer="51">(c) 2018 Tristan Seifert</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3237,7 +3238,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_NEWARK" value="unknown" x="11" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.191" y="39.2" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="WEED1" library="lichtenstein_onion" package="DOINK" value="WEED" x="47.23" y="0.59" smashed="yes"/>
+<element name="WEED1" library="lichtenstein_onion" package="DOINK" value="WEED" x="47.63" y="0.59" smashed="yes"/>
 <element name="SV3" library="FLYFISH" package="PIN_20X2" value="PIN20X2" x="32.5" y="52.5" smashed="yes">
 <attribute name="MOUSER" value="517-929975-01-20" x="32.5" y="52.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29" y="48.709" size="0.8128" layer="25" font="vector" ratio="10"/>
