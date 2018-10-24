@@ -7,3 +7,9 @@
 *.s#*
 *.b#*
 *.l#*
+
+# exported gerbers and such
+outputs/
+
+# Exported HTML BOMs
+*.html
