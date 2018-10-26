@@ -3535,13 +3535,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC6" pad="16"/>
 <wire x1="49.625" y1="20.175" x2="49.65" y2="20.2" width="0.1524" layer="1"/>
 <contactref element="C21" pad="1"/>
-<wire x1="51.4822" y1="15.075" x2="57.3178" y2="15.075" width="0.1524" layer="1"/>
+<wire x1="51.4822" y1="15.075" x2="57.3178" y2="15.075" width="0.3048" layer="1"/>
 <contactref element="SV5" pad="1"/>
-<wire x1="57.3178" y1="15.075" x2="58.275" y2="15.075" width="0.1524" layer="1"/>
-<wire x1="58.6" y1="15.4" x2="58.6" y2="16" width="0.1524" layer="1"/>
-<wire x1="58.6" y1="16" x2="58.8" y2="16.2" width="0.1524" layer="1"/>
-<wire x1="58.8" y1="16.2" x2="61.05" y2="16.2" width="0.1524" layer="1"/>
-<wire x1="58.275" y1="15.075" x2="58.6" y2="15.4" width="0.1524" layer="1"/>
+<wire x1="57.3178" y1="15.075" x2="58.275" y2="15.075" width="0.3048" layer="1"/>
+<wire x1="58.6" y1="15.4" x2="58.6" y2="16" width="0.3048" layer="1"/>
+<wire x1="58.6" y1="16" x2="58.8" y2="16.2" width="0.3048" layer="1"/>
+<wire x1="58.8" y1="16.2" x2="61.05" y2="16.2" width="0.3048" layer="1"/>
+<wire x1="58.275" y1="15.075" x2="58.6" y2="15.4" width="0.3048" layer="1"/>
 <wire x1="61.05" y1="16.2" x2="61.2" y2="16.05" width="0.1524" layer="1"/>
 <wire x1="61.2" y1="16.05" x2="61.2" y2="14.8" width="0.1524" layer="1"/>
 <wire x1="61.2" y1="14.8" x2="61.4" y2="14.6" width="0.1524" layer="1"/>
