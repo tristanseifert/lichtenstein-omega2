@@ -23821,6 +23821,14 @@ for Raspberry Pi</text>
 <junction x="48.26" y="83.82"/>
 </segment>
 </net>
+<net name="OSC_CAL_CLK" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="IO49"/>
+<wire x1="109.22" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
+<label x="114.3" y="121.92" size="1.27" layer="95" xref="yes"/>
+<junction x="109.22" y="121.92"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -24456,10 +24464,10 @@ for Raspberry Pi</text>
 <junction x="127" y="76.2"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="PA5"/>
-<wire x1="154.94" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
-<label x="160.02" y="119.38" size="1.27" layer="95" xref="yes"/>
-<junction x="154.94" y="119.38"/>
+<pinref part="IC6" gate="G$1" pin="PA6"/>
+<wire x1="154.94" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
+<label x="160.02" y="116.84" size="1.27" layer="95" xref="yes"/>
+<junction x="154.94" y="116.84"/>
 </segment>
 </net>
 <net name="CORTEX_STATUS0" class="0">
@@ -24470,10 +24478,10 @@ for Raspberry Pi</text>
 <junction x="127" y="83.82"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="PA6"/>
-<wire x1="154.94" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<label x="160.02" y="116.84" size="1.27" layer="95" xref="yes"/>
-<junction x="154.94" y="116.84"/>
+<pinref part="IC6" gate="G$1" pin="PA7"/>
+<wire x1="154.94" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<label x="160.02" y="114.3" size="1.27" layer="95" xref="yes"/>
+<junction x="154.94" y="114.3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -24481,6 +24489,14 @@ for Raspberry Pi</text>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <junction x="137.16" y="76.2"/>
+</segment>
+</net>
+<net name="OSC_CAL_CLK" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="PA5"/>
+<wire x1="154.94" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+<label x="160.02" y="119.38" size="1.27" layer="95" xref="yes"/>
+<junction x="154.94" y="119.38"/>
 </segment>
 </net>
 </nets>
