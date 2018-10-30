@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -17596,11 +17596,9 @@ LETTER landscape</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATA6563" prefix="IC">
-<description>&lt;h1&gt;ATA6563 – High-speed CAN FD Transceiver with Standby Mode and VIO Pin and WUP&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.microchip.com/wwwproducts/en/ATA6563"&gt;Information&lt;/a&gt; &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005790B.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Doesn't seem to be available from Mouser: buy direct from Microchip (~$0.50/1)&lt;/em&gt;&lt;/p&gt;</description>
+<deviceset name="TJA1057" prefix="IC">
+<description>&lt;h1&gt;TJA1057 – High-speed CAN transceiver&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATA6563" x="0" y="0"/>
 </gates>
@@ -17617,7 +17615,9 @@ LETTER landscape</description>
 <connect gate="G$1" pin="VIO" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="771-TJA1057GT/3J" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -19949,7 +19949,7 @@ Source: www.kingbright.com</description>
 <attribute name="MOUSER" value="581-TAJB106K020RNJV"/>
 </part>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC1" library="lichtenstein_onion" deviceset="ATA6563" device=""/>
+<part name="IC1" library="lichtenstein_onion" deviceset="TJA1057" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -20034,22 +20034,30 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="149.86" y="33.02" size="2.54" layer="97" align="top-left">Differential Output Board with CAN Transceiver</text>
+<text x="236.22" y="7.62" size="2.54" layer="97">01</text>
 </plain>
 <instances>
-<instance part="C1" gate="G$1" x="63.5" y="33.02">
+<instance part="C1" gate="G$1" x="63.5" y="33.02" smashed="yes">
 <attribute name="MOUSER" x="63.5" y="33.02" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="65.024" y="33.401" size="1.778" layer="95"/>
+<attribute name="VALUE" x="65.024" y="28.321" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="63.5" y="25.4" smashed="yes">
 <attribute name="VALUE" x="60.96" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="73.66" y="33.02">
+<instance part="C3" gate="G$1" x="73.66" y="33.02" smashed="yes">
 <attribute name="MOUSER" x="73.66" y="33.02" size="1.27" layer="96" display="off"/>
+<attribute name="NAME" x="74.803" y="33.5026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.803" y="28.4226" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="1" x="60.96" y="35.56" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.42" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SV3" gate="1" x="25.4" y="17.78">
+<instance part="SV3" gate="1" x="25.4" y="17.78" smashed="yes">
 <attribute name="MOUSER" x="25.4" y="17.78" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="VALUE" x="21.59" y="0" size="1.778" layer="96"/>
+<attribute name="NAME" x="21.59" y="36.322" size="1.778" layer="95"/>
 </instance>
 <instance part="GND3" gate="1" x="35.56" y="5.08" smashed="yes" rot="R90">
 <attribute name="VALUE" x="38.1" y="2.54" size="1.778" layer="96" rot="R90"/>
@@ -20066,21 +20074,32 @@ Source: www.kingbright.com</description>
 <instance part="+3V31" gate="G$1" x="15.24" y="5.08" smashed="yes" rot="R90">
 <attribute name="VALUE" x="12.7" y="5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="C2" gate="G$1" x="63.5" y="12.7">
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="165.1" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="C2" gate="G$1" x="63.5" y="12.7" smashed="yes">
 <attribute name="MOUSER" x="63.5" y="12.7" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="65.024" y="13.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="65.024" y="8.001" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="63.5" y="5.08" smashed="yes">
 <attribute name="VALUE" x="60.96" y="2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="73.66" y="12.7">
+<instance part="C4" gate="G$1" x="73.66" y="12.7" smashed="yes">
 <attribute name="MOUSER" x="73.66" y="12.7" size="1.27" layer="96" display="off"/>
+<attribute name="NAME" x="74.803" y="13.1826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.803" y="8.1026" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V33" gate="G$1" x="60.96" y="15.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.42" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC1" gate="G$1" x="185.42" y="60.96"/>
+<instance part="IC1" gate="G$1" x="185.42" y="60.96" smashed="yes">
+<attribute name="NAME" x="185.42" y="60.96" size="1.27" layer="95"/>
+<attribute name="VALUE" x="185.42" y="40.64" size="1.27" layer="95" align="top-left"/>
+</instance>
 <instance part="GND10" gate="1" x="180.34" y="40.64" smashed="yes">
 <attribute name="VALUE" x="177.8" y="38.1" size="1.778" layer="96"/>
 </instance>
@@ -20093,11 +20112,15 @@ Source: www.kingbright.com</description>
 <instance part="GND9" gate="1" x="177.8" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="175.26" y="53.34" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C7" gate="G$1" x="187.96" y="76.2">
+<instance part="C7" gate="G$1" x="187.96" y="76.2" smashed="yes">
 <attribute name="MOUSER" x="187.96" y="76.2" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="189.484" y="76.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="189.484" y="71.501" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="198.12" y="76.2">
+<instance part="C8" gate="G$1" x="198.12" y="76.2" smashed="yes">
 <attribute name="MOUSER" x="198.12" y="76.2" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="199.644" y="76.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.644" y="71.501" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="1" x="198.12" y="81.28" smashed="yes">
 <attribute name="VALUE" x="198.12" y="83.82" size="1.778" layer="96" rot="R90"/>
@@ -20108,41 +20131,73 @@ Source: www.kingbright.com</description>
 <instance part="GND11" gate="1" x="187.96" y="68.58" smashed="yes">
 <attribute name="VALUE" x="185.42" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="86.36" y="25.4" rot="R90">
+<instance part="R3" gate="G$1" x="86.36" y="25.4" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="86.36" y="25.4" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="84.8614" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.662" y="21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="86.36" y="15.24" rot="R90">
+<instance part="R4" gate="G$1" x="86.36" y="15.24" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="86.36" y="15.24" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="84.8614" y="11.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.662" y="11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C5" gate="G$1" x="93.98" y="20.32" rot="R90">
+<instance part="C5" gate="G$1" x="93.98" y="20.32" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="93.98" y="20.32" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="93.599" y="21.844" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="98.679" y="21.844" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND7" gate="1" x="101.6" y="20.32" rot="R90"/>
-<instance part="R6" gate="G$1" x="134.62" y="15.24" rot="R270">
+<instance part="GND7" gate="1" x="101.6" y="20.32" smashed="yes" rot="R90">
+<attribute name="VALUE" x="104.14" y="17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="134.62" y="15.24" smashed="yes" rot="R270">
 <attribute name="MOUSER" x="134.62" y="15.24" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="136.1186" y="19.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="131.318" y="19.05" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R5" gate="G$1" x="134.62" y="25.4" rot="R270">
+<instance part="R5" gate="G$1" x="134.62" y="25.4" smashed="yes" rot="R270">
 <attribute name="MOUSER" x="134.62" y="25.4" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="136.1186" y="29.21" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="131.318" y="29.21" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C6" gate="G$1" x="127" y="20.32" rot="R270">
+<instance part="C6" gate="G$1" x="127" y="20.32" smashed="yes" rot="R270">
 <attribute name="MOUSER" x="127" y="20.32" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="127.381" y="18.796" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="122.301" y="18.796" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND8" gate="1" x="119.38" y="20.32" rot="R270"/>
-<instance part="SV1" gate="G$1" x="5.08" y="180.34"/>
-<instance part="SV2" gate="G$1" x="5.08" y="152.4"/>
-<instance part="SV4" gate="G$1" x="40.64" y="180.34"/>
-<instance part="SV5" gate="G$1" x="40.64" y="152.4"/>
-<instance part="LED1" gate="G$1" x="35.56" y="63.5" rot="R90">
+<instance part="GND8" gate="1" x="119.38" y="20.32" smashed="yes" rot="R270">
+<attribute name="VALUE" x="116.84" y="22.86" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SV1" gate="G$1" x="5.08" y="180.34" smashed="yes">
+<attribute name="NAME" x="5.08" y="180.34" size="1.27" layer="95"/>
+</instance>
+<instance part="SV2" gate="G$1" x="5.08" y="152.4" smashed="yes">
+<attribute name="NAME" x="5.08" y="152.4" size="1.27" layer="95"/>
+</instance>
+<instance part="SV4" gate="G$1" x="40.64" y="180.34" smashed="yes">
+<attribute name="NAME" x="40.64" y="180.34" size="1.27" layer="95"/>
+</instance>
+<instance part="SV5" gate="G$1" x="40.64" y="152.4" smashed="yes">
+<attribute name="NAME" x="40.64" y="152.4" size="1.27" layer="95"/>
+</instance>
+<instance part="LED1" gate="G$1" x="35.56" y="63.5" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="35.56" y="63.5" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+<attribute name="NAME" x="40.132" y="67.056" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="40.132" y="69.215" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED2" gate="G$1" x="35.56" y="55.88" rot="R90">
+<instance part="LED2" gate="G$1" x="35.56" y="55.88" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="35.56" y="55.88" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+<attribute name="NAME" x="40.132" y="59.436" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="40.132" y="61.595" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="27.94" y="63.5">
+<instance part="R1" gate="G$1" x="27.94" y="63.5" smashed="yes">
 <attribute name="MOUSER" x="27.94" y="63.5" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="24.13" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="60.198" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="27.94" y="55.88">
+<instance part="R2" gate="G$1" x="27.94" y="55.88" smashed="yes">
 <attribute name="MOUSER" x="27.94" y="55.88" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="24.13" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="52.578" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="43.18" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="45.72" y="63.5" size="1.778" layer="96"/>
@@ -20153,10 +20208,21 @@ Source: www.kingbright.com</description>
 <instance part="+3V32" gate="G$1" x="20.32" y="55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="17.78" y="55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="WEED1" gate="G$1" x="147.32" y="38.1"/>
-<instance part="H1" gate="G$1" x="223.52" y="180.34"/>
-<instance part="H2" gate="G$1" x="223.52" y="172.72"/>
-<instance part="H3" gate="G$1" x="223.52" y="165.1"/>
+<instance part="WEED1" gate="G$1" x="147.32" y="38.1" smashed="yes">
+<attribute name="NAME" x="147.32" y="40.64" size="2.54" layer="95" font="vector"/>
+</instance>
+<instance part="H1" gate="G$1" x="223.52" y="180.34" smashed="yes">
+<attribute name="NAME" x="225.552" y="180.9242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="225.552" y="177.8762" size="1.778" layer="96"/>
+</instance>
+<instance part="H2" gate="G$1" x="223.52" y="172.72" smashed="yes">
+<attribute name="NAME" x="225.552" y="173.3042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="225.552" y="170.2562" size="1.778" layer="96"/>
+</instance>
+<instance part="H3" gate="G$1" x="223.52" y="165.1" smashed="yes">
+<attribute name="NAME" x="225.552" y="165.6842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="225.552" y="162.6362" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
