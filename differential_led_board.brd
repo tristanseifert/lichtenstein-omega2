@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -189,6 +189,7 @@
 <text x="7.112" y="95.504" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">+5V Good</text>
 <text x="7.112" y="80.645" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">+3V3 Good</text>
 <text x="32.4358" y="3.5306" size="1.778" layer="25">Rev 01</text>
+<dimension x1="3.88738125" y1="40.132" x2="3.88738125" y2="100.15338125" x3="-6.096" y3="70.142690625" textsize="1.778" layer="47" dtype="vertical" unit="mil"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2563,6 +2564,32 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="10.06" y1="5" x2="10.06" y2="-5.5" width="0.127" layer="21"/>
 <text x="-10.62" y="5" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT26" urn="urn:adsk.eagle:package:38460/1" locally_modified="yes" type="box">
@@ -2577,6 +2604,12 @@ SOT457 (SC-74) FOOTPRINT (REFLOW SOLDERING)
 Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <packageinstances>
 <packageinstance name="SOT457R_PHILIPS"/>
+</packageinstances>
+</package3d>
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" type="box">
+<description>Micro Small Outline Package</description>
+<packageinstances>
+<packageinstance name="MSOP8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2898,10 +2931,10 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="MOUSER" value="771-TJA1057GT/3J" x="54.61" y="95.758" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.705" y="98.425" size="1.27" layer="25"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="56.134" y="101.854" smashed="yes" rot="R90">
-<attribute name="MOUSER" value="710-885012207072" x="55.372" y="101.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.626" y="104.14" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="55.372" y="101.854" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="55.88" y="91.44" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="710-885012207072" x="55.88" y="90.678" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="53.594" y="90.932" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="C" x="55.88" y="90.678" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="54.102" y="101.854" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="710-885012207072" x="59.69" y="95.504" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2929,7 +2962,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="39.37" y="76.708" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="57.912" y="85.852" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41.148" y="75.438" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="41.402" y="77.724" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="57.912" y="85.852" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF" x="36.576" y="96.012" smashed="yes" rot="R180">
@@ -2939,7 +2972,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="680R" x="39.37" y="78.994" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="652-CR0805-FX6800GLF" x="45.72" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41.402" y="81.534" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="41.402" y="80.01" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="45.72" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="" x="34.544" y="78.994" smashed="yes" rot="R90">
@@ -2947,13 +2980,13 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="31.75" y="80.264" size="1.27" layer="25"/>
 <attribute name="VALUE" x="45.212" y="68.834" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="32.512" y="85.344" smashed="yes">
-<attribute name="MF" value="" x="15.748" y="69.85" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="15.748" y="69.85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.956" y="82.423" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="15.748" y="69.85" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="15.748" y="69.85" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.938" y="66.929" size="1.27" layer="27" ratio="10"/>
+<element name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="32.258" y="85.344" smashed="yes">
+<attribute name="MF" value="" x="15.494" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="15.494" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="28.702" y="82.423" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="15.494" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="15.494" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.684" y="66.929" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="SV5" library="lichtenstein_onion" package="2X5-PTH-1.27MM" value="CORTEX_DEBUG_PTH" x="41.91" y="85.598" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="649-221111-00010T4LF" x="60.198" y="112.522" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2976,9 +3009,9 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="27.178" y="84.328" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="26.162" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC4" library="lichtenstein_onion" package="SC70-5L" value="LMS33460" x="37.846" y="82.042" smashed="yes">
-<attribute name="MOUSER" value="926-LMS33460MG/NOPB" x="37.846" y="82.042" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.646" y="83.392" size="1.016" layer="25"/>
+<element name="IC4" library="lichtenstein_onion" package="SC70-5L" value="LMS33460" x="38.354" y="81.788" smashed="yes">
+<attribute name="MOUSER" value="926-LMS33460MG/NOPB" x="38.354" y="81.788" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.814" y="80.842" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33pF" x="40.894" y="109.982" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="710-885012007013" x="40.894" y="109.982" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2990,14 +3023,14 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="46.482" y="111.252" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="48.514" y="109.982" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC5" library="lichtenstein_onion" package="SOP-16" value="SN75175SOP-16" x="52.324" y="76.962" smashed="yes" rot="R180">
-<attribute name="MOUSER" value="595-SN75175DR" x="52.324" y="76.962" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="58.039" y="79.502" size="1.27" layer="25" ratio="10" rot="R270"/>
+<element name="IC5" library="lichtenstein_onion" package="SOP-16" value="SN75175SOP-16" x="47.244" y="66.548" smashed="yes" rot="R135">
+<attribute name="MOUSER" value="595-SN75175DR" x="47.244" y="66.548" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="41.660834375" y="68.793065625" size="1.27" layer="25" ratio="10" rot="R45"/>
 </element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="76.962" y="66.802" smashed="yes">
-<attribute name="MOUSER" value="710-885012207072" x="76.962" y="66.802" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.692" y="68.072" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="76.962" y="66.802" size="1.778" layer="27" display="off"/>
+<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="50.038" y="59.944" smashed="yes" rot="R45">
+<attribute name="MOUSER" value="710-885012207072" x="50.038" y="59.944" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="NAME" x="49.276" y="57.893946875" size="1.27" layer="25" rot="R135"/>
+<attribute name="SPICEPREFIX" value="C" x="50.038" y="59.944" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R" x="60.452" y="73.152" smashed="yes" rot="MR90">
 <attribute name="MOUSER" value="652-CR1206FX-1000ELF" x="60.452" y="73.152" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3009,20 +3042,20 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="58.928" y="80.01" size="1.27" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="60.452" y="82.804" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="80.01" y="81.788" smashed="yes">
-<attribute name="MOUSER" value="755-ESR10EZPJ103" x="80.01" y="81.788" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="78.74" y="83.058" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="80.01" y="81.788" size="1.778" layer="27" display="off"/>
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="49.276" y="48.768" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="755-ESR10EZPJ103" x="49.276" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="50.546" y="50.038" size="1.27" layer="25" rot="R270"/>
+<attribute name="SPICEPREFIX" value="R" x="49.276" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="80.01" y="75.438" smashed="yes">
-<attribute name="MOUSER" value="755-ESR10EZPJ103" x="80.01" y="75.438" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="78.74" y="76.708" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="80.01" y="75.438" size="1.778" layer="27" display="off"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k" x="17.526" y="48.768" smashed="yes" rot="R270">
+<attribute name="MOUSER" value="755-ESR10EZPJ103" x="17.526" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.796" y="50.038" size="1.27" layer="25" rot="R270"/>
+<attribute name="SPICEPREFIX" value="R" x="17.526" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC7" library="lichtenstein_onion" package="SOT26" package3d_urn="urn:adsk.eagle:package:38460/1" value="" x="27.178" y="63.246" smashed="yes" rot="R180">
-<attribute name="MOUSER" value="621-74LVC1T45W6-7" x="27.178" y="63.246" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.178" y="61.468" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="27.178" y="65.024" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="IC7" library="lichtenstein_onion" package="SOT26" package3d_urn="urn:adsk.eagle:package:38460/1" value="" x="27.178" y="63.5" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="621-74LVC1T45W6-7" x="27.178" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.178" y="61.722" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="27.178" y="65.278" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="IC8" library="lichtenstein_onion" package="SOT457R_PHILIPS" package3d_urn="urn:adsk.eagle:package:4489240/1" value="" x="13.716" y="49.022" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.916" y="47.222" size="1.27" layer="25" rot="R180"/>
@@ -3032,25 +3065,25 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="46.666" y="47.222" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="46.666" y="52.122" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="76.454" y="58.42" smashed="yes">
-<attribute name="MOUSER" value="710-885012207072" x="76.454" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.184" y="59.69" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="76.454" y="58.42" size="1.778" layer="27" display="off"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="50.292" y="44.704" smashed="yes">
+<attribute name="MOUSER" value="710-885012207072" x="50.292" y="44.704" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="52.324" y="43.434" size="1.27" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="C" x="50.292" y="44.704" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="76.454" y="52.07" smashed="yes">
-<attribute name="MOUSER" value="710-885012207072" x="76.454" y="52.07" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.184" y="53.34" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="76.454" y="52.07" size="1.778" layer="27" display="off"/>
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="18.542" y="44.704" smashed="yes">
+<attribute name="MOUSER" value="710-885012207072" x="18.542" y="44.704" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.574" y="43.434" size="1.27" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="C" x="18.542" y="44.704" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="76.454" y="45.72" smashed="yes">
-<attribute name="MOUSER" value="710-885012207072" x="76.454" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.184" y="46.99" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="76.454" y="45.72" size="1.778" layer="27" display="off"/>
+<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="31.242" y="62.23" smashed="yes">
+<attribute name="MOUSER" value="710-885012207072" x="31.242" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.48" y="63.5" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="C" x="31.242" y="62.23" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="76.454" y="39.37" smashed="yes">
-<attribute name="MOUSER" value="710-885012207072" x="76.454" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.184" y="40.64" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="76.454" y="39.37" size="1.778" layer="27" display="off"/>
+<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="31.242" y="59.944" smashed="yes">
+<attribute name="MOUSER" value="710-885012207072" x="31.242" y="59.944" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.274" y="58.674" size="1.27" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="C" x="31.242" y="59.944" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SV2" library="lichtenstein_onion" package="1792889" value="1792889" x="20.32" y="24.13" smashed="yes">
 <attribute name="MOUSER" value="651-1792889" x="20.32" y="24.13" size="1.778" layer="27" display="off"/>
@@ -3080,6 +3113,26 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <attribute name="NAME" x="36.322" y="104.394" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="35.052" y="103.124" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="IC10" library="lichtenstein_onion" package="MSOP8" package3d_urn="urn:adsk.eagle:package:30988/1" value="" x="14.224" y="68.834" smashed="yes">
+<attribute name="MOUSER" value="584-LT6100CMS8#PBF" x="14.224" y="68.834" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.55" y="67.43" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="13.574" y="67.784" size="1.016" layer="27"/>
+</element>
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="14.732" y="61.468" smashed="yes">
+<attribute name="MOUSER" value="710-885012207072" x="14.732" y="61.468" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.288" y="60.452" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="C" x="14.732" y="61.468" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF" x="14.732" y="59.436" smashed="yes">
+<attribute name="MOUSER" value="81-GRM21BR71A475ME1L" x="14.732" y="59.436" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18.288" y="58.42" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="C" x="14.732" y="59.436" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="16.256" y="63.5" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="710-885012007059" x="16.256" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.288" y="62.484" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="C" x="16.256" y="63.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -3088,8 +3141,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R2" pad="1"/>
 <contactref element="C6" pad="+"/>
 <contactref element="C3" pad="1"/>
-<wire x1="9.652" y1="86.548" x2="15.9154" y2="86.548" width="0.254" layer="1"/>
-<wire x1="16.3322" y1="92.329" x2="16.3322" y2="86.1312" width="0.254" layer="1"/>
+<wire x1="15.9154" y1="86.548" x2="9.652" y2="86.548" width="0.254" layer="1"/>
 <wire x1="16.3322" y1="86.1312" x2="22.0832" y2="86.1312" width="0.254" layer="1"/>
 <wire x1="22.0832" y1="86.1312" x2="22.352" y2="86.4" width="0.254" layer="1"/>
 <wire x1="16.3322" y1="86.1312" x2="16.256" y2="86.055" width="0.254" layer="1"/>
@@ -3132,28 +3184,49 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="44.191" y1="90.683" x2="43.251" y2="90.683" width="0.254" layer="1"/>
 <wire x1="44.45" y1="90.424" x2="44.191" y2="90.683" width="0.254" layer="1"/>
 <wire x1="56.448" y1="93.853" x2="56.322" y2="93.727" width="0.254" layer="1"/>
-<wire x1="56.448" y1="93.853" x2="55.245" y2="93.853" width="0.254" layer="1"/>
-<wire x1="55.245" y1="93.853" x2="54.864" y2="94.234" width="0.254" layer="1"/>
-<wire x1="54.864" y1="94.234" x2="54.864" y2="99.06" width="0.254" layer="1"/>
-<wire x1="54.864" y1="99.06" x2="55.372" y2="99.568" width="0.254" layer="1"/>
-<wire x1="55.372" y1="99.568" x2="55.88" y2="99.568" width="0.254" layer="1"/>
-<wire x1="55.88" y1="99.568" x2="56.134" y2="99.822" width="0.254" layer="1"/>
-<wire x1="56.134" y1="99.822" x2="56.134" y2="100.904" width="0.254" layer="1"/>
 <wire x1="43.251" y1="98.6758" x2="43.251" y2="99.385" width="0.254" layer="1"/>
 <wire x1="43.251" y1="99.385" x2="43.434" y2="99.568" width="0.254" layer="1"/>
 <via x="43.434" y="99.568" extent="1-16" drill="0.3048"/>
 <wire x1="43.434" y1="99.568" x2="43.434" y2="100.396" width="0.254" layer="16"/>
 <wire x1="43.434" y1="100.396" x2="43.18" y2="100.65" width="0.254" layer="16"/>
-<wire x1="37.196" y1="82.892" x2="37.196" y2="83.17" width="0.254" layer="1"/>
+<wire x1="37.704" y1="82.638" x2="37.704" y2="83.678" width="0.254" layer="1"/>
 <wire x1="38.354" y1="84.328" x2="38.354" y2="87.122" width="0.254" layer="1"/>
-<wire x1="37.196" y1="83.17" x2="38.354" y2="84.328" width="0.254" layer="1"/>
+<wire x1="37.704" y1="83.678" x2="38.354" y2="84.328" width="0.254" layer="1"/>
 <wire x1="41.844" y1="90.612" x2="43.18" y2="90.612" width="0.254" layer="1"/>
 <wire x1="38.354" y1="87.122" x2="41.844" y2="90.612" width="0.254" layer="1"/>
-<wire x1="44.45" y1="90.424" x2="54.864" y2="94.234" width="0" layer="19" extent="1-1"/>
-<wire x1="15.9154" y1="86.548" x2="16.3322" y2="86.1312" width="0" layer="19" extent="1-1"/>
-<wire x1="28.128" y1="64.446" x2="37.196" y2="82.892" width="0" layer="19" extent="1-1"/>
-<wire x1="27.178" y1="62.046" x2="28.128" y2="64.446" width="0" layer="19" extent="1-1"/>
-<wire x1="75.504" y1="39.37" x2="27.178" y2="62.046" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="62.3" x2="27.178" y2="61.468" width="0.254" layer="1"/>
+<wire x1="27.178" y1="61.468" x2="28.702" y2="59.944" width="0.254" layer="1"/>
+<wire x1="28.702" y1="59.944" x2="30.292" y2="59.944" width="0.254" layer="1"/>
+<wire x1="28.128" y1="64.7" x2="28.128" y2="64.196" width="0.254" layer="1"/>
+<wire x1="27.178" y1="63.246" x2="27.178" y2="62.3" width="0.254" layer="1"/>
+<wire x1="28.128" y1="64.196" x2="27.178" y2="63.246" width="0.254" layer="1"/>
+<contactref element="IC10" pad="2"/>
+<contactref element="C14" pad="1"/>
+<wire x1="13.899" y1="66.784" x2="13.899" y2="61.585" width="0.254" layer="1"/>
+<wire x1="13.899" y1="61.585" x2="13.782" y2="61.468" width="0.254" layer="1"/>
+<wire x1="16.256" y1="82.23" x2="18.1" y2="82.23" width="0.254" layer="1"/>
+<wire x1="27.178" y1="63.246" x2="25.654" y2="63.246" width="0.254" layer="1"/>
+<wire x1="43.18" y1="100.65" x2="44.77" y2="99.06" width="0.254" layer="16"/>
+<wire x1="56.448" y1="93.853" x2="56.448" y2="91.822" width="0.254" layer="1"/>
+<wire x1="56.448" y1="91.822" x2="56.83" y2="91.44" width="0.254" layer="1"/>
+<wire x1="44.77" y1="99.06" x2="53.34" y2="99.06" width="0.254" layer="16"/>
+<wire x1="53.34" y1="99.06" x2="54.61" y2="97.79" width="0.254" layer="16"/>
+<wire x1="54.61" y1="94.234" x2="54.864" y2="93.98" width="0.254" layer="16"/>
+<via x="54.864" y="93.98" extent="1-16" drill="0.3048"/>
+<wire x1="54.864" y1="93.98" x2="54.991" y2="93.853" width="0.254" layer="1"/>
+<wire x1="54.991" y1="93.853" x2="56.448" y2="93.853" width="0.254" layer="1"/>
+<wire x1="54.61" y1="97.79" x2="54.61" y2="94.234" width="0.254" layer="16"/>
+<wire x1="16.3322" y1="86.1312" x2="16.3322" y2="92.329" width="0.254" layer="1"/>
+<wire x1="16.3322" y1="86.1312" x2="15.9154" y2="86.548" width="0.254" layer="1"/>
+<contactref element="C15" pad="1"/>
+<wire x1="13.782" y1="61.468" x2="13.782" y2="59.436" width="0.254" layer="1"/>
+<wire x1="13.899" y1="66.784" x2="13.899" y2="67.747" width="0.254" layer="1"/>
+<wire x1="13.899" y1="67.747" x2="14.224" y2="68.072" width="0.254" layer="1"/>
+<wire x1="14.224" y1="68.072" x2="19.812" y2="68.072" width="0.254" layer="1"/>
+<wire x1="19.812" y1="68.072" x2="20.828" y2="68.072" width="0.254" layer="1"/>
+<wire x1="20.828" y1="68.072" x2="25.654" y2="63.246" width="0.254" layer="1"/>
+<wire x1="19.812" y1="80.518" x2="19.812" y2="68.072" width="0.254" layer="1"/>
+<wire x1="18.1" y1="82.23" x2="19.812" y2="80.518" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="1"/>
@@ -3280,7 +3353,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R12" pad="1"/>
 <via x="41.402" y="88.646" extent="1-16" drill="0.3048"/>
 <via x="53.086" y="96.266" extent="1-16" drill="0.3048"/>
-<via x="57.658" y="102.87" extent="1-16" drill="0.3048"/>
+<via x="58.42" y="97.79" extent="1-16" drill="0.3048"/>
 <via x="42.6466" y="93.853" extent="1-16" drill="0.3048"/>
 <via x="40.64" y="90.424" extent="1-16" drill="0.3048"/>
 <via x="38.862" y="88.646" extent="1-16" drill="0.3048"/>
@@ -3289,13 +3362,42 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <via x="42.6466" y="91.7448" extent="1-16" drill="0.3048"/>
 <via x="31.242" y="78.994" extent="1-16" drill="0.3048"/>
 <via x="31.242" y="76.708" extent="1-16" drill="0.3048"/>
-<wire x1="79.06" y1="75.438" x2="79.06" y2="81.788" width="0" layer="19" extent="1-1"/>
-<wire x1="77.912" y1="66.802" x2="79.06" y2="75.438" width="0" layer="19" extent="1-1"/>
-<wire x1="77.404" y1="58.42" x2="77.912" y2="66.802" width="0" layer="19" extent="1-1"/>
-<wire x1="77.404" y1="52.07" x2="77.404" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="77.404" y1="45.72" x2="77.404" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="77.404" y1="39.37" x2="77.404" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="62.992" y1="52.07" x2="77.404" y2="52.07" width="0" layer="19" extent="1-1"/>
+<via x="51.816" y="61.722" extent="1-16" drill="0.3048"/>
+<via x="48.26" y="73.66" extent="1-16" drill="0.3048"/>
+<via x="52.324" y="70.866" extent="1-16" drill="0.3048"/>
+<via x="45.466" y="65.786" extent="1-16" drill="0.3048"/>
+<via x="52.578" y="44.704" extent="1-16" drill="0.3048"/>
+<via x="49.276" y="51.308" extent="1-16" drill="0.3048"/>
+<via x="20.828" y="44.704" extent="1-16" drill="0.3048"/>
+<via x="17.526" y="51.054" extent="1-16" drill="0.3048"/>
+<via x="33.528" y="62.23" extent="1-16" drill="0.3048"/>
+<via x="33.528" y="59.944" extent="1-16" drill="0.3048"/>
+<via x="27.178" y="66.04" extent="1-16" drill="0.3048"/>
+<via x="45.466" y="51.308" extent="1-16" drill="0.3048"/>
+<contactref element="IC10" pad="4"/>
+<contactref element="C14" pad="2"/>
+<via x="54.864" y="92.964" extent="1-16" drill="0.3048"/>
+<via x="54.864" y="89.916" extent="1-16" drill="0.3048"/>
+<via x="55.626" y="102.87" extent="1-16" drill="0.3048"/>
+<via x="56.388" y="98.806" extent="1-16" drill="0.3048"/>
+<via x="35.814" y="93.726" extent="1-16" drill="0.3048"/>
+<via x="34.036" y="88.392" extent="1-16" drill="0.3048"/>
+<via x="36.576" y="81.788" extent="1-16" drill="0.3048"/>
+<via x="45.466" y="95.504" extent="1-16" drill="0.3048"/>
+<via x="44.958" y="97.536" extent="1-16" drill="0.3048"/>
+<via x="43.942" y="95.25" extent="1-16" drill="0.3048"/>
+<via x="45.974" y="83.312" extent="1-16" drill="0.3048"/>
+<via x="13.716" y="51.308" extent="1-16" drill="0.3048"/>
+<contactref element="IC10" pad="7"/>
+<contactref element="C15" pad="2"/>
+<via x="13.716" y="49.022" extent="1-16" drill="0.3048"/>
+<via x="45.466" y="49.022" extent="1-16" drill="0.3048"/>
+<contactref element="C16" pad="1"/>
+<via x="16.256" y="66.802" extent="1-16" drill="0.3048"/>
+<via x="17.272" y="65.024" extent="1-16" drill="0.3048"/>
+<via x="15.748" y="57.912" extent="1-16" drill="0.3048"/>
+<via x="17.018" y="59.436" extent="1-16" drill="0.3048"/>
+<via x="17.018" y="61.468" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="+5V">
 <contactref element="R3" pad="1"/>
@@ -3324,8 +3426,10 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="6.504" y1="102.77" x2="3.88738125" y2="100.15338125" width="6.985" layer="16"/>
 <wire x1="3.88738125" y1="100.15338125" x2="3.88738125" y2="40.132" width="6.985" layer="16"/>
 <wire x1="3.88738125" y1="40.132" x2="7.95138125" y2="36.068" width="6.985" layer="16"/>
-<wire x1="7.95138125" y1="36.068" x2="27.686" y2="36.068" width="6.985" layer="16"/>
-<wire x1="58.42" y1="36.068" x2="27.686" y2="36.068" width="5.08" layer="16"/>
+<wire x1="7.95138125" y1="36.068" x2="17.526" y2="36.068" width="6.985" layer="16"/>
+<wire x1="17.526" y1="36.068" x2="27.686" y2="36.068" width="6.985" layer="16"/>
+<wire x1="58.42" y1="36.068" x2="49.276" y2="36.068" width="5.08" layer="16"/>
+<wire x1="49.276" y1="36.068" x2="27.686" y2="36.068" width="5.08" layer="16"/>
 <wire x1="27.7" y1="24.23" x2="27.7" y2="36.054" width="5.08" layer="16"/>
 <wire x1="27.7" y1="36.054" x2="27.686" y2="36.068" width="6.985" layer="16"/>
 <wire x1="59.45" y1="24.23" x2="59.45" y2="35.038" width="5.08" layer="16"/>
@@ -3336,7 +3440,8 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="33.02" y1="104.074" x2="31.938" y2="104.074" width="0.254" layer="1"/>
 <wire x1="31.938" y1="104.074" x2="27.8122" y2="99.9482" width="0.254" layer="1"/>
 <wire x1="19.1022" y1="99.9482" x2="27.8122" y2="99.9482" width="0.254" layer="1"/>
-<wire x1="51.248" y1="95.123" x2="53.467" y2="95.123" width="0.254" layer="1"/>
+<wire x1="51.248" y1="95.123" x2="53.34" y2="95.123" width="0.254" layer="1"/>
+<wire x1="53.34" y1="95.123" x2="53.467" y2="95.123" width="0.254" layer="1"/>
 <wire x1="54.102" y1="95.758" x2="54.102" y2="100.904" width="0.254" layer="1"/>
 <wire x1="53.467" y1="95.123" x2="54.102" y2="95.758" width="0.254" layer="1"/>
 <wire x1="33.02" y1="104.074" x2="33.274" y2="104.328" width="0.254" layer="1"/>
@@ -3352,14 +3457,36 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="39.116" y1="111.252" x2="51.054" y2="111.252" width="0.254" layer="16"/>
 <wire x1="51.054" y1="111.252" x2="52.832" y2="109.474" width="0.254" layer="16"/>
 <wire x1="52.832" y1="109.474" x2="52.832" y2="101.6" width="0.254" layer="16"/>
-<wire x1="75.504" y1="58.42" x2="76.012" y2="66.802" width="0" layer="19" extent="1-1"/>
-<wire x1="75.504" y1="52.07" x2="75.504" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="75.504" y1="45.72" x2="75.504" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="59.45" y1="35.038" x2="75.504" y2="45.72" width="0" layer="19" extent="1-16"/>
-<wire x1="13.716" y1="47.822" x2="3.88738125" y2="40.132" width="0" layer="19" extent="1-16"/>
-<wire x1="45.466" y1="47.822" x2="58.42" y2="36.068" width="0" layer="19" extent="1-16"/>
-<wire x1="28.128" y1="62.046" x2="13.716" y2="47.822" width="0" layer="19" extent="1-1"/>
-<wire x1="56.769" y1="73.412" x2="76.012" y2="66.802" width="0" layer="19" extent="1-1"/>
+<wire x1="47.876859375" y1="60.89468125" x2="49.366246875" y2="59.40529375" width="0.254" layer="1"/>
+<wire x1="49.366246875" y1="59.40529375" x2="49.366246875" y2="59.272246875" width="0.254" layer="1"/>
+<wire x1="17.592" y1="44.704" x2="14.478" y2="44.704" width="0.254" layer="1"/>
+<wire x1="14.478" y1="44.704" x2="13.716" y2="45.466" width="0.254" layer="1"/>
+<wire x1="13.716" y1="45.466" x2="13.716" y2="47.822" width="0.254" layer="1"/>
+<wire x1="49.342" y1="44.704" x2="46.736" y2="44.704" width="0.254" layer="1"/>
+<wire x1="46.736" y1="44.704" x2="45.466" y2="45.974" width="0.254" layer="1"/>
+<wire x1="45.466" y1="45.974" x2="45.466" y2="47.822" width="0.254" layer="1"/>
+<wire x1="28.128" y1="62.3" x2="28.198" y2="62.23" width="0.254" layer="1"/>
+<wire x1="28.198" y1="62.23" x2="30.292" y2="62.23" width="0.254" layer="1"/>
+<wire x1="30.292" y1="62.23" x2="30.292" y2="63.312" width="0.254" layer="1"/>
+<wire x1="30.292" y1="63.312" x2="31.242" y2="64.262" width="0.254" layer="1"/>
+<wire x1="31.242" y1="64.262" x2="39.37" y2="64.262" width="0.254" layer="1"/>
+<wire x1="39.37" y1="64.262" x2="44.196" y2="59.436" width="0.254" layer="1"/>
+<wire x1="44.196" y1="59.436" x2="46.418178125" y2="59.436" width="0.254" layer="1"/>
+<wire x1="46.418178125" y1="59.436" x2="47.876859375" y2="60.89468125" width="0.254" layer="1"/>
+<wire x1="53.34" y1="95.123" x2="53.34" y2="81.026" width="0.254" layer="1"/>
+<wire x1="53.34" y1="81.026" x2="44.45" y2="72.136" width="0.254" layer="1"/>
+<wire x1="44.45" y1="67.818" x2="44.45" y2="72.136" width="0.254" layer="1"/>
+<wire x1="49.022" y1="62.039821875" x2="47.876859375" y2="60.89468125" width="0.254" layer="1"/>
+<wire x1="49.022" y1="62.039821875" x2="49.022" y2="63.246" width="0.254" layer="1"/>
+<wire x1="49.022" y1="63.246" x2="44.45" y2="67.818" width="0.254" layer="1"/>
+<wire x1="49.342" y1="44.704" x2="49.342" y2="40.96" width="0.254" layer="1"/>
+<wire x1="49.342" y1="40.96" x2="49.276" y2="40.894" width="0.254" layer="1"/>
+<via x="49.276" y="40.894" extent="1-16" drill="0.3048"/>
+<wire x1="49.276" y1="40.894" x2="49.276" y2="36.068" width="0.254" layer="16"/>
+<wire x1="17.592" y1="44.704" x2="17.592" y2="40.96" width="0.254" layer="1"/>
+<wire x1="17.592" y1="40.96" x2="17.526" y2="40.894" width="0.254" layer="1"/>
+<via x="17.526" y="40.894" extent="1-16" drill="0.3048"/>
+<wire x1="17.526" y1="40.894" x2="17.526" y2="36.068" width="0.254" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="A"/>
@@ -3377,7 +3504,11 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R4" pad="1"/>
 <wire x1="60.452" y1="81.404" x2="65.662" y2="81.404" width="0.254" layer="16"/>
 <wire x1="65.662" y1="81.404" x2="65.786" y2="81.28" width="0.254" layer="16"/>
-<wire x1="49.159" y1="80.512" x2="60.452" y2="81.404" width="0" layer="19" extent="1-16"/>
+<wire x1="47.516234375" y1="71.296221875" x2="57.5000125" y2="81.28" width="0.254" layer="1"/>
+<wire x1="57.5000125" y1="81.28" x2="58.166" y2="81.28" width="0.254" layer="1"/>
+<via x="58.166" y="81.28" extent="1-16" drill="0.3048"/>
+<wire x1="58.166" y1="81.28" x2="60.328" y2="81.28" width="0.254" layer="16"/>
+<wire x1="60.328" y1="81.28" x2="60.452" y2="81.404" width="0.254" layer="16"/>
 </signal>
 <signal name="OUT1_P">
 <contactref element="SV1" pad="4"/>
@@ -3385,7 +3516,12 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R4" pad="2"/>
 <wire x1="60.452" y1="84.204" x2="65.154" y2="84.204" width="0.254" layer="16"/>
 <wire x1="65.154" y1="84.204" x2="65.532" y2="84.582" width="0.254" layer="16"/>
-<wire x1="50.429" y1="80.512" x2="60.452" y2="84.204" width="0" layer="19" extent="1-16"/>
+<wire x1="48.414259375" y1="70.39819375" x2="57.15" y2="79.133934375" width="0.254" layer="1"/>
+<wire x1="57.15" y1="79.133934375" x2="57.15" y2="79.502" width="0.254" layer="1"/>
+<via x="57.15" y="79.502" extent="1-16" drill="0.3048"/>
+<wire x1="57.15" y1="79.502" x2="57.15" y2="82.55" width="0.254" layer="16"/>
+<wire x1="57.15" y1="82.55" x2="58.804" y2="84.204" width="0.254" layer="16"/>
+<wire x1="58.804" y1="84.204" x2="60.452" y2="84.204" width="0.254" layer="16"/>
 </signal>
 <signal name="OUT0_N">
 <contactref element="SV1" pad="1"/>
@@ -3393,7 +3529,13 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R1" pad="1"/>
 <wire x1="60.452" y1="71.752" x2="65.408" y2="71.752" width="0.254" layer="16"/>
 <wire x1="65.408" y1="71.752" x2="65.786" y2="71.374" width="0.254" layer="16"/>
-<wire x1="60.452" y1="71.752" x2="56.769" y2="80.512" width="0" layer="19" extent="1-16"/>
+<wire x1="52.897315625" y1="65.9151375" x2="57.15" y2="70.167821875" width="0.254" layer="1"/>
+<wire x1="57.15" y1="70.167821875" x2="57.15" y2="71.374" width="0.254" layer="1"/>
+<wire x1="57.15" y1="71.374" x2="57.404" y2="71.628" width="0.254" layer="1"/>
+<via x="57.912" y="71.628" extent="1-16" drill="0.3048"/>
+<wire x1="57.912" y1="71.628" x2="58.036" y2="71.752" width="0.254" layer="16"/>
+<wire x1="58.036" y1="71.752" x2="60.452" y2="71.752" width="0.254" layer="16"/>
+<wire x1="57.404" y1="71.628" x2="57.912" y2="71.628" width="0.254" layer="1"/>
 </signal>
 <signal name="OUT0_P">
 <contactref element="SV1" pad="2"/>
@@ -3401,7 +3543,13 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="R1" pad="2"/>
 <wire x1="60.452" y1="74.552" x2="65.408" y2="74.552" width="0.254" layer="16"/>
 <wire x1="65.408" y1="74.552" x2="65.532" y2="74.676" width="0.254" layer="16"/>
-<wire x1="60.452" y1="74.552" x2="55.509" y2="80.512" width="0" layer="19" extent="1-16"/>
+<wire x1="52.0063625" y1="66.80609375" x2="56.134" y2="70.93373125" width="0.254" layer="1"/>
+<wire x1="56.134" y1="70.93373125" x2="56.134" y2="73.406" width="0.254" layer="1"/>
+<wire x1="56.134" y1="73.406" x2="57.15" y2="74.422" width="0.254" layer="1"/>
+<wire x1="57.15" y1="74.422" x2="57.658" y2="74.422" width="0.254" layer="1"/>
+<via x="57.658" y="74.422" extent="1-16" drill="0.3048"/>
+<wire x1="57.658" y1="74.422" x2="57.788" y2="74.552" width="0.254" layer="16"/>
+<wire x1="57.788" y1="74.552" x2="60.452" y2="74.552" width="0.254" layer="16"/>
 </signal>
 <signal name="CANH">
 <contactref element="SV1" pad="6"/>
@@ -3463,8 +3611,8 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="43.901" y1="97.069" x2="43.942" y2="97.028" width="0.254" layer="1"/>
 <via x="43.942" y="97.028" extent="1-16" drill="0.3048"/>
 <wire x1="43.942" y1="97.028" x2="43.942" y2="96.774" width="0.254" layer="16"/>
-<wire x1="38.496" y1="82.892" x2="39.37" y2="83.766" width="0.254" layer="1"/>
-<wire x1="39.37" y1="83.766" x2="39.37" y2="84.963" width="0.254" layer="1"/>
+<wire x1="39.004" y1="82.638" x2="39.37" y2="83.004" width="0.254" layer="1"/>
+<wire x1="39.37" y1="83.004" x2="39.37" y2="84.963" width="0.254" layer="1"/>
 </signal>
 <signal name="CORTEX_SWDIO">
 <contactref element="IC6" pad="19"/>
@@ -3506,8 +3654,8 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <signal name="UART_TX">
 <contactref element="IC6" pad="8"/>
 <contactref element="SV4" pad="2"/>
-<wire x1="32.512" y1="85.344" x2="32.512" y2="86.36" width="0.254" layer="16"/>
-<wire x1="32.512" y1="86.36" x2="30.734" y2="88.138" width="0.254" layer="16"/>
+<wire x1="32.258" y1="85.344" x2="32.258" y2="86.614" width="0.254" layer="16"/>
+<wire x1="32.258" y1="86.614" x2="30.734" y2="88.138" width="0.254" layer="16"/>
 <wire x1="30.734" y1="88.138" x2="30.734" y2="99.822" width="0.254" layer="16"/>
 <wire x1="30.734" y1="99.822" x2="31.496" y2="100.584" width="0.254" layer="16"/>
 <wire x1="31.496" y1="100.584" x2="40.894" y2="100.584" width="0.254" layer="16"/>
@@ -3521,16 +3669,31 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="SV4" pad="3"/>
 <contactref element="R6" pad="2"/>
 <contactref element="IC8" pad="6"/>
-<wire x1="35.052" y1="85.344" x2="31.1404" y2="89.2556" width="0.254" layer="16"/>
-<wire x1="31.1404" y1="89.2556" x2="31.1404" y2="99.568" width="0.254" layer="16"/>
+<wire x1="34.798" y1="85.344" x2="31.1404" y2="89.0016" width="0.254" layer="16"/>
+<wire x1="31.1404" y1="89.0016" x2="31.1404" y2="99.568" width="0.254" layer="16"/>
 <wire x1="31.1404" y1="99.568" x2="31.75" y2="100.1776" width="0.254" layer="16"/>
 <wire x1="40.0304" y1="100.1776" x2="40.386" y2="99.822" width="0.254" layer="16"/>
 <via x="40.386" y="99.822" extent="1-16" drill="0.3048"/>
 <wire x1="40.386" y1="99.822" x2="40.651" y2="99.557" width="0.254" layer="1"/>
 <wire x1="40.651" y1="99.557" x2="40.651" y2="98.6758" width="0.254" layer="1"/>
 <wire x1="31.75" y1="100.1776" x2="40.0304" y2="100.1776" width="0.254" layer="16"/>
-<wire x1="40.651" y1="98.6758" x2="80.96" y2="75.438" width="0" layer="19" extent="1-1"/>
-<wire x1="14.666" y1="47.822" x2="35.052" y2="85.344" width="0" layer="19" extent="1-1"/>
+<wire x1="14.666" y1="47.822" x2="17.522" y2="47.822" width="0.254" layer="1"/>
+<wire x1="17.522" y1="47.822" x2="17.526" y2="47.818" width="0.254" layer="1"/>
+<wire x1="25.4" y1="79.0607375" x2="27.5176625" y2="81.1784" width="0.254" layer="1"/>
+<wire x1="25.4" y1="79.0607375" x2="25.4" y2="78.994" width="0.254" layer="1"/>
+<via x="25.4" y="78.994" extent="1-16" drill="0.3048"/>
+<wire x1="25.4" y1="78.994" x2="23.622" y2="77.216" width="0.254" layer="16"/>
+<wire x1="23.622" y1="77.216" x2="23.622" y2="48.768" width="0.254" layer="16"/>
+<wire x1="23.622" y1="48.768" x2="22.606" y2="47.752" width="0.254" layer="16"/>
+<wire x1="22.606" y1="47.752" x2="20.32" y2="47.752" width="0.254" layer="16"/>
+<via x="20.32" y="47.752" extent="1-16" drill="0.3048"/>
+<wire x1="20.32" y1="47.752" x2="17.592" y2="47.752" width="0.254" layer="1"/>
+<wire x1="17.592" y1="47.752" x2="17.526" y2="47.818" width="0.254" layer="1"/>
+<wire x1="33.782" y1="81.1784" x2="34.2138" y2="81.6102" width="0.254" layer="1"/>
+<wire x1="34.2138" y1="81.6102" x2="34.2138" y2="82.2839875" width="0.254" layer="1"/>
+<wire x1="34.2138" y1="82.2839875" x2="34.798" y2="82.8681875" width="0.254" layer="1"/>
+<wire x1="34.798" y1="82.8681875" x2="34.798" y2="85.344" width="0.254" layer="1"/>
+<wire x1="27.5176625" y1="81.1784" x2="33.782" y2="81.1784" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED5" pad="A"/>
@@ -3540,7 +3703,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <signal name="N$5">
 <contactref element="LED6" pad="A"/>
 <contactref element="R9" pad="2"/>
-<wire x1="36.294" y1="78.994" x2="38.42" y2="78.994" width="0" layer="19" extent="1-1"/>
+<wire x1="36.294" y1="78.994" x2="38.42" y2="78.994" width="0.254" layer="1"/>
 </signal>
 <signal name="CORTEX_OSC2">
 <contactref element="Q1" pad="1"/>
@@ -3598,11 +3761,22 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="41.301" y1="92.8402" x2="41.301" y2="92.1677375" width="0.254" layer="1"/>
 <wire x1="40.8272625" y1="91.694" x2="39.9447375" y2="91.694" width="0.254" layer="1"/>
 <wire x1="38.4207375" y1="90.17" x2="35.814" y2="90.17" width="0.254" layer="1"/>
-<wire x1="35.814" y1="90.17" x2="35.179" y2="89.535" width="0.254" layer="1"/>
+<wire x1="35.814" y1="90.17" x2="35.433" y2="89.789" width="0.254" layer="1"/>
+<wire x1="35.433" y1="89.789" x2="35.179" y2="89.535" width="0.254" layer="1"/>
 <wire x1="35.179" y1="89.535" x2="34.096" y2="89.535" width="0.254" layer="1"/>
 <wire x1="41.301" y1="92.1677375" x2="40.8272625" y2="91.694" width="0.254" layer="1"/>
 <wire x1="39.9447375" y1="91.694" x2="38.4207375" y2="90.17" width="0.254" layer="1"/>
-<wire x1="41.301" y1="92.1677375" x2="52.969" y2="80.512" width="0" layer="19" extent="1-1"/>
+<wire x1="35.433" y1="89.789" x2="36.322" y2="88.9" width="0.254" layer="1"/>
+<wire x1="36.322" y1="88.9" x2="36.322" y2="83.566" width="0.254" layer="1"/>
+<wire x1="36.322" y1="83.566" x2="34.798" y2="82.042" width="0.254" layer="1"/>
+<via x="34.798" y="82.042" extent="1-16" drill="0.3048"/>
+<wire x1="34.798" y1="82.042" x2="44.196" y2="72.644" width="0.254" layer="16"/>
+<wire x1="44.196" y1="72.644" x2="44.196" y2="71.12" width="0.254" layer="16"/>
+<wire x1="44.196" y1="71.12" x2="48.006" y2="67.31" width="0.254" layer="16"/>
+<wire x1="48.006" y1="67.31" x2="48.768" y2="67.31" width="0.254" layer="16"/>
+<via x="48.768" y="67.31" extent="1-16" drill="0.3048"/>
+<wire x1="48.768" y1="67.31" x2="48.91816875" y2="67.31" width="0.254" layer="1"/>
+<wire x1="48.91816875" y1="67.31" x2="50.2103125" y2="68.60214375" width="0.254" layer="1"/>
 </signal>
 <signal name="ADC_VIN">
 <contactref element="IC6" pad="6"/>
@@ -3617,16 +3791,48 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 </signal>
 <signal name="ADC_CURRENT">
 <contactref element="IC6" pad="7"/>
+<contactref element="IC10" pad="5"/>
+<wire x1="41.951" y1="98.6758" x2="41.91" y2="98.6348" width="0.254" layer="1"/>
+<wire x1="41.91" y1="97.282" x2="41.656" y2="97.028" width="0.254" layer="1"/>
+<via x="41.656" y="97.028" extent="1-16" drill="0.3048"/>
+<wire x1="41.656" y1="97.028" x2="41.656" y2="95.504" width="0.254" layer="16"/>
+<wire x1="38.6842" y1="92.5322" x2="37.6040125" y2="92.5322" width="0.254" layer="16"/>
+<wire x1="37.6040125" y1="92.5322" x2="36.576" y2="91.5041875" width="0.254" layer="16"/>
+<wire x1="41.656" y1="95.504" x2="38.6842" y2="92.5322" width="0.254" layer="16"/>
+<wire x1="36.576" y1="91.5041875" x2="36.576" y2="82.804" width="0.254" layer="16"/>
+<wire x1="36.576" y1="82.804" x2="27.178" y2="82.804" width="0.254" layer="16"/>
+<wire x1="27.178" y1="82.804" x2="22.606" y2="78.232" width="0.254" layer="16"/>
+<wire x1="22.606" y1="78.232" x2="22.606" y2="72.644" width="0.254" layer="16"/>
+<wire x1="22.606" y1="72.644" x2="20.828" y2="70.866" width="0.254" layer="16"/>
+<wire x1="20.828" y1="70.866" x2="16.51" y2="70.866" width="0.254" layer="16"/>
+<via x="16.51" y="70.866" extent="1-16" drill="0.3048"/>
+<wire x1="16.51" y1="70.866" x2="15.217" y2="70.866" width="0.254" layer="1"/>
+<wire x1="15.217" y1="70.866" x2="15.199" y2="70.884" width="0.254" layer="1"/>
+<wire x1="41.91" y1="98.6348" x2="41.91" y2="97.282" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDOUT0">
 <contactref element="IC5" pad="3"/>
 <contactref element="IC8" pad="3"/>
-<wire x1="12.766" y1="50.222" x2="54.239" y2="80.512" width="0" layer="19" extent="1-1"/>
+<wire x1="51.1083375" y1="67.70411875" x2="50.038" y2="66.63378125" width="0.254" layer="1"/>
+<wire x1="50.038" y1="66.63378125" x2="50.038" y2="64.77" width="0.254" layer="1"/>
+<wire x1="50.038" y1="64.77" x2="53.594" y2="61.214" width="0.254" layer="1"/>
+<wire x1="53.594" y1="61.214" x2="53.594" y2="58.42" width="0.254" layer="1"/>
+<wire x1="53.594" y1="58.42" x2="52.07" y2="56.896" width="0.254" layer="1"/>
+<wire x1="12.766" y1="53.66" x2="12.766" y2="50.222" width="0.254" layer="1"/>
+<wire x1="52.07" y1="56.896" x2="16.002" y2="56.896" width="0.254" layer="1"/>
+<wire x1="16.002" y1="56.896" x2="12.766" y2="53.66" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDOUT1">
 <contactref element="IC5" pad="5"/>
 <contactref element="IC9" pad="3"/>
-<wire x1="44.516" y1="50.222" x2="51.689" y2="80.512" width="0" layer="19" extent="1-1"/>
+<wire x1="44.516" y1="50.222" x2="44.516" y2="55.438" width="0.254" layer="1"/>
+<wire x1="44.516" y1="55.438" x2="44.704" y2="55.626" width="0.254" layer="1"/>
+<via x="44.704" y="55.626" extent="1-16" drill="0.3048"/>
+<wire x1="44.704" y1="55.626" x2="44.704" y2="67.31" width="0.254" layer="16"/>
+<wire x1="44.704" y1="67.31" x2="45.72" y2="68.326" width="0.254" layer="16"/>
+<via x="45.72" y="68.326" extent="1-16" drill="0.3048"/>
+<wire x1="48.123975" y1="68.326" x2="49.305215625" y2="69.507240625" width="0.254" layer="1"/>
+<wire x1="45.72" y1="68.326" x2="48.123975" y2="68.326" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDOUT_TEST">
 <contactref element="IC6" pad="14"/>
@@ -3634,25 +3840,52 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="41.951" y1="92.8402" x2="41.951" y2="92.243" width="0.254" layer="1"/>
 <wire x1="41.951" y1="92.243" x2="40.9956" y2="91.2876" width="0.254" layer="1"/>
 <wire x1="40.113075" y1="91.2876" x2="38.589075" y2="89.7636" width="0.254" layer="1"/>
-<wire x1="37.1856" y1="89.7636" x2="36.83" y2="89.408" width="0.254" layer="1"/>
+<wire x1="36.83" y1="89.408" x2="37.1856" y2="89.7636" width="0.254" layer="1"/>
 <wire x1="38.589075" y1="89.7636" x2="37.1856" y2="89.7636" width="0.254" layer="1"/>
 <wire x1="40.9956" y1="91.2876" x2="40.113075" y2="91.2876" width="0.254" layer="1"/>
-<wire x1="36.83" y1="89.408" x2="36.83" y2="84.074" width="0.254" layer="1"/>
-<wire x1="26.228" y1="64.446" x2="36.83" y2="84.074" width="0" layer="19" extent="1-1"/>
+<wire x1="26.228" y1="64.7" x2="26.228" y2="79.314" width="0.254" layer="1"/>
+<wire x1="36.83" y1="89.408" x2="36.83" y2="83.49613125" width="0.254" layer="1"/>
+<wire x1="27.686" y1="80.772" x2="26.228" y2="79.314" width="0.254" layer="1"/>
+<wire x1="36.83" y1="83.49613125" x2="35.3822" y2="82.04833125" width="0.254" layer="1"/>
+<wire x1="35.3822" y1="82.04833125" x2="35.3822" y2="81.8000125" width="0.254" layer="1"/>
+<wire x1="35.3822" y1="81.8000125" x2="34.3541875" y2="80.772" width="0.254" layer="1"/>
+<wire x1="34.3541875" y1="80.772" x2="27.686" y2="80.772" width="0.254" layer="1"/>
 </signal>
 <signal name="OUT1_MUX">
 <contactref element="IC6" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="IC9" pad="6"/>
-<wire x1="45.851" y1="98.6758" x2="80.96" y2="81.788" width="0" layer="19" extent="1-1"/>
-<wire x1="46.416" y1="47.822" x2="80.96" y2="81.788" width="0" layer="19" extent="1-1"/>
+<wire x1="46.416" y1="47.822" x2="47.752" y2="47.822" width="0.254" layer="1"/>
+<wire x1="47.752" y1="47.822" x2="49.272" y2="47.822" width="0.254" layer="1"/>
+<wire x1="49.272" y1="47.822" x2="49.276" y2="47.818" width="0.254" layer="1"/>
+<wire x1="45.851" y1="98.6758" x2="46.99" y2="97.5368" width="0.254" layer="1"/>
+<wire x1="46.99" y1="97.5368" x2="46.99" y2="92.456" width="0.254" layer="1"/>
+<via x="46.99" y="92.456" extent="1-16" drill="0.3048"/>
+<wire x1="46.99" y1="92.456" x2="46.99" y2="70.104" width="0.254" layer="16"/>
+<wire x1="46.99" y1="70.104" x2="49.784" y2="67.31" width="0.254" layer="16"/>
+<wire x1="49.784" y1="67.31" x2="49.784" y2="53.848" width="0.254" layer="16"/>
+<wire x1="49.784" y1="53.848" x2="47.752" y2="51.816" width="0.254" layer="16"/>
+<via x="47.752" y="51.816" extent="1-16" drill="0.3048"/>
+<wire x1="47.752" y1="51.816" x2="47.752" y2="47.822" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDOUT_TEST_5V">
 <contactref element="IC7" pad="4"/>
 <contactref element="IC8" pad="1"/>
 <contactref element="IC9" pad="1"/>
-<wire x1="26.228" y1="62.046" x2="46.416" y2="50.222" width="0" layer="19" extent="1-1"/>
-<wire x1="14.666" y1="50.222" x2="26.228" y2="62.046" width="0" layer="19" extent="1-1"/>
+<wire x1="26.228" y1="62.3" x2="26.228" y2="58.486" width="0.254" layer="1"/>
+<wire x1="26.228" y1="58.486" x2="26.162" y2="58.42" width="0.254" layer="1"/>
+<via x="26.162" y="58.42" extent="1-16" drill="0.3048"/>
+<wire x1="26.162" y1="58.42" x2="26.162" y2="55.626" width="0.254" layer="16"/>
+<via x="26.162" y="55.626" extent="1-16" drill="0.3048"/>
+<wire x1="26.162" y1="55.626" x2="16.002" y2="55.626" width="0.254" layer="1"/>
+<wire x1="16.002" y1="55.626" x2="14.666" y2="54.29" width="0.254" layer="1"/>
+<wire x1="26.162" y1="55.626" x2="28.194" y2="53.594" width="0.254" layer="16"/>
+<wire x1="45.72" y1="53.594" x2="46.482" y2="52.832" width="0.254" layer="16"/>
+<via x="46.482" y="52.832" extent="1-16" drill="0.3048"/>
+<wire x1="46.482" y1="52.832" x2="46.482" y2="50.288" width="0.254" layer="1"/>
+<wire x1="46.482" y1="50.288" x2="46.416" y2="50.222" width="0.254" layer="1"/>
+<wire x1="28.194" y1="53.594" x2="45.72" y2="53.594" width="0.254" layer="16"/>
+<wire x1="14.666" y1="54.29" x2="14.666" y2="50.222" width="0.254" layer="1"/>
 </signal>
 <signal name="OUT0">
 <contactref element="IC8" pad="4"/>
@@ -3675,6 +3908,19 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <contactref element="SV2" pad="1"/>
 <contactref element="R7" pad="1"/>
 <wire x1="12.7" y1="41.722" x2="12.7" y2="24.03" width="0.254" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="C16" pad="2"/>
+<contactref element="IC10" pad="3"/>
+<wire x1="14.549" y1="66.784" x2="14.549" y2="65.715" width="0.254" layer="1"/>
+<wire x1="15.306" y1="64.958" x2="15.306" y2="63.5" width="0.254" layer="1"/>
+<wire x1="14.549" y1="65.715" x2="15.306" y2="64.958" width="0.254" layer="1"/>
+</signal>
+<signal name="SHUNT+">
+<contactref element="IC10" pad="8"/>
+</signal>
+<signal name="SHUNT-">
+<contactref element="IC10" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -19909,6 +19909,32 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="10.06" y1="5" x2="10.06" y2="-5.5" width="0.127" layer="21"/>
 <text x="-10.62" y="5" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT26" urn="urn:adsk.eagle:package:38460/1" locally_modified="yes" type="box">
@@ -19923,6 +19949,12 @@ SOT457 (SC-74) FOOTPRINT (REFLOW SOLDERING)
 Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <packageinstances>
 <packageinstance name="SOT457R_PHILIPS"/>
+</packageinstances>
+</package3d>
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" type="box">
+<description>Micro Small Outline Package</description>
+<packageinstances>
+<packageinstance name="MSOP8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -20133,6 +20165,22 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="LT6100">
+<wire x1="0" y1="0" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-25.4" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="GND" x="-5.08" y="-22.86" length="middle" direction="pwr"/>
+<pin name="VDD" x="-5.08" y="-20.32" length="middle" direction="pwr"/>
+<pin name="VS+" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="VS-" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="VOUT" x="-5.08" y="-2.54" length="middle"/>
+<pin name="A2" x="-5.08" y="-7.62" length="middle"/>
+<pin name="A4" x="-5.08" y="-10.16" length="middle"/>
+<pin name="FIL" x="-5.08" y="-15.24" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20487,6 +20535,35 @@ TRANSCEIVER WITH 3 STATE OUTPUTS &lt;/h1&gt;
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="651-1792889" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT6100" prefix="IC" uservalue="yes">
+<description>&lt;h1&gt;Precision, Gain Selectable High Side Current Sense Amplifier&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/6100fd.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LT6100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MSOP-8" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="A2" pad="6"/>
+<connect gate="G$1" pin="A4" pad="7"/>
+<connect gate="G$1" pin="FIL" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="VS+" pad="8"/>
+<connect gate="G$1" pin="VS-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30988/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="584-LT6100CMS8#PBF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21891,7 +21968,6 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
@@ -22014,6 +22090,20 @@ Source: 008-0260-0_E.pdf</description>
 </part>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="IC10" library="lichtenstein_onion" deviceset="LT6100" device="MSOP-8" package3d_urn="urn:adsk.eagle:package:30988/1"/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
+<attribute name="MOUSER" value="710-885012207072"/>
+</part>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF">
+<attribute name="MOUSER" value="81-GRM21BR71A475ME1L"/>
+</part>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
+<attribute name="MOUSER" value="710-885012007059"/>
+</part>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22824,6 +22914,8 @@ RECEIVER_EN shared w/ SPI_MOSI
 <text x="101.6" y="149.86" size="2.54" layer="97">Boot Flash</text>
 <wire x1="147.32" y1="83.82" x2="147.32" y2="147.32" width="0.1524" layer="94" style="longdash"/>
 <text x="101.6" y="86.36" size="2.54" layer="97">VIn Measurement</text>
+<text x="149.86" y="86.36" size="2.54" layer="97">Output Current Measurement</text>
+<text x="149.86" y="91.44" size="1.778" layer="97">IC10 configured for 40V/V</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -22957,21 +23049,18 @@ RECEIVER_EN shared w/ SPI_MOSI
 <instance part="GND9" gate="1" x="195.58" y="53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="193.04" y="55.88" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C7" gate="G$1" x="55.88" y="15.24" smashed="yes">
-<attribute name="MOUSER" x="55.88" y="15.24" size="1.27" layer="96" align="top-center" display="off"/>
-<attribute name="NAME" x="57.404" y="15.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="57.404" y="10.541" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="76.2" y="15.24" smashed="yes">
+<attribute name="MOUSER" x="76.2" y="15.24" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="77.724" y="15.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.724" y="10.541" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="66.04" y="15.24" smashed="yes">
-<attribute name="MOUSER" x="66.04" y="15.24" size="1.27" layer="96" align="top-center" display="off"/>
-<attribute name="NAME" x="67.564" y="15.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="10.541" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="88.9" y="15.24" smashed="yes">
+<attribute name="MOUSER" x="88.9" y="15.24" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="90.424" y="15.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.424" y="10.541" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="1" x="66.04" y="20.32" smashed="yes">
-<attribute name="VALUE" x="66.04" y="22.86" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND11" gate="1" x="55.88" y="7.62" smashed="yes">
-<attribute name="VALUE" x="53.34" y="5.08" size="1.778" layer="96"/>
+<instance part="P+4" gate="1" x="88.9" y="20.32" smashed="yes">
+<attribute name="VALUE" x="88.9" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R11" gate="G$1" x="106.68" y="134.62" smashed="yes" rot="R90">
 <attribute name="MOUSER" x="106.68" y="134.62" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
@@ -22988,6 +23077,37 @@ RECEIVER_EN shared w/ SPI_MOSI
 </instance>
 <instance part="P+14" gate="1" x="106.68" y="142.24" smashed="yes">
 <attribute name="VALUE" x="104.14" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC10" gate="G$1" x="185.42" y="127" smashed="yes">
+<attribute name="NAME" x="185.42" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="185.42" y="101.6" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="+3V11" gate="G$1" x="177.8" y="106.68" smashed="yes" rot="R90">
+<attribute name="VALUE" x="175.26" y="106.68" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND20" gate="1" x="177.8" y="104.14" smashed="yes" rot="R270">
+<attribute name="VALUE" x="175.26" y="106.68" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C14" gate="G$1" x="53.34" y="15.24" smashed="yes">
+<attribute name="MOUSER" x="53.34" y="15.24" size="1.27" layer="96" align="top-center" display="off"/>
+<attribute name="NAME" x="54.864" y="15.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.864" y="10.541" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="177.8" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="175.26" y="119.38" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C15" gate="G$1" x="63.5" y="15.24" smashed="yes">
+<attribute name="MOUSER" x="63.5" y="15.24" size="1.27" layer="96" display="off"/>
+<attribute name="NAME" x="65.024" y="15.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="65.024" y="10.541" size="1.778" layer="96"/>
+</instance>
+<instance part="C16" gate="G$1" x="162.56" y="111.76" smashed="yes" rot="R90">
+<attribute name="MOUSER" x="162.56" y="111.76" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+<attribute name="NAME" x="162.179" y="113.284" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="167.259" y="113.284" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND21" gate="1" x="157.48" y="111.76" smashed="yes" rot="R270">
+<attribute name="VALUE" x="154.94" y="114.3" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -23007,9 +23127,15 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="17.78"/>
-<junction x="55.88" y="17.78"/>
+<junction x="76.2" y="17.78"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+<junction x="53.34" y="17.78"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
+<junction x="63.5" y="17.78"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="VDDA"/>
@@ -23042,6 +23168,11 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="+3V34" gate="G$1" pin="+3V3"/>
 <junction x="198.12" y="48.26"/>
 </segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="VDD"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<junction x="180.34" y="106.68"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -23058,12 +23189,19 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<junction x="55.88" y="10.16"/>
-<junction x="66.04" y="10.16"/>
-<wire x1="40.64" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="76.2" y="10.16"/>
+<junction x="88.9" y="10.16"/>
+<wire x1="40.64" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 <junction x="40.64" y="10.16"/>
+<wire x1="53.34" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="10.16" x2="76.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<junction x="53.34" y="10.16"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
+<junction x="63.5" y="10.16"/>
 </segment>
 <segment>
 <pinref part="LED5" gate="G$1" pin="C"/>
@@ -23123,6 +23261,21 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <junction x="106.68" y="119.38"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="GND"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<junction x="180.34" y="104.14"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="A4"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<junction x="180.34" y="116.84"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<junction x="160.02" y="111.76"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -23361,6 +23514,12 @@ RECEIVER_EN shared w/ SPI_MOSI
 <label x="73.66" y="147.32" size="1.27" layer="95" xref="yes"/>
 <junction x="68.58" y="147.32"/>
 </segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="VOUT"/>
+<wire x1="180.34" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91" style="longdash"/>
+<label x="175.26" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="180.34" y="124.46"/>
+</segment>
 </net>
 <net name="LEDOUT_TEST" class="0">
 <segment>
@@ -23387,7 +23546,6 @@ RECEIVER_EN shared w/ SPI_MOSI
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<junction x="66.04" y="17.78"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -23409,6 +23567,31 @@ RECEIVER_EN shared w/ SPI_MOSI
 <wire x1="226.06" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
 <label x="231.14" y="58.42" size="1.27" layer="95" xref="yes"/>
 <junction x="226.06" y="58.42"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="IC10" gate="G$1" pin="FIL"/>
+<wire x1="167.64" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+<junction x="167.64" y="111.76"/>
+<junction x="180.34" y="111.76"/>
+</segment>
+</net>
+<net name="SHUNT+" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="VS+"/>
+<wire x1="208.28" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<label x="213.36" y="124.46" size="1.27" layer="95" xref="yes"/>
+<junction x="208.28" y="124.46"/>
+</segment>
+</net>
+<net name="SHUNT-" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="VS-"/>
+<wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<label x="213.36" y="121.92" size="1.27" layer="95" xref="yes"/>
+<junction x="208.28" y="121.92"/>
 </segment>
 </net>
 </nets>
