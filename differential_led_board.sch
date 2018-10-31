@@ -22006,6 +22006,14 @@ Source: 008-0260-0_E.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="330R">
 <attribute name="MOUSER" value="71-CRCW0805330RFKEAC"/>
 </part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="1k">
+<attribute name="MOUSER" value="755-ESR10EZPJ102"/>
+</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="1k">
+<attribute name="MOUSER" value="755-ESR10EZPJ102"/>
+</part>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22814,6 +22822,8 @@ RECEIVER_EN shared w/ SPI_MOSI
 <text x="2.54" y="30.48" size="2.54" layer="97">Power Decoupling</text>
 <text x="149.86" y="38.1" size="2.54" layer="97">CAN Transceiver</text>
 <text x="101.6" y="149.86" size="2.54" layer="97">Boot Flash</text>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="147.32" width="0.1524" layer="94" style="longdash"/>
+<text x="101.6" y="86.36" size="2.54" layer="97">VIn Measurement</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -22963,6 +22973,22 @@ RECEIVER_EN shared w/ SPI_MOSI
 <instance part="GND11" gate="1" x="55.88" y="7.62" smashed="yes">
 <attribute name="VALUE" x="53.34" y="5.08" size="1.778" layer="96"/>
 </instance>
+<instance part="R11" gate="G$1" x="106.68" y="134.62" smashed="yes" rot="R90">
+<attribute name="MOUSER" x="106.68" y="134.62" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+<attribute name="NAME" x="105.1814" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="133.35" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R12" gate="G$1" x="106.68" y="124.46" smashed="yes" rot="R90">
+<attribute name="MOUSER" x="106.68" y="124.46" size="1.27" layer="96" rot="R90" align="top-center" display="off"/>
+<attribute name="NAME" x="105.1814" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="123.19" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND19" gate="1" x="106.68" y="116.84" smashed="yes">
+<attribute name="VALUE" x="104.14" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="106.68" y="142.24" smashed="yes">
+<attribute name="VALUE" x="104.14" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23092,6 +23118,11 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="IC2" gate="G$1" pin="STBY"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <junction x="198.12" y="53.34"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<junction x="106.68" y="119.38"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -23308,12 +23339,19 @@ RECEIVER_EN shared w/ SPI_MOSI
 <junction x="124.46" y="172.72"/>
 </segment>
 </net>
-<net name="ADC_VCC" class="0">
+<net name="ADC_VIN" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="PA0"/>
 <wire x1="68.58" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 <label x="73.66" y="149.86" size="1.27" layer="95" xref="yes"/>
 <junction x="68.58" y="149.86"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91" style="longdash"/>
+<junction x="106.68" y="129.54"/>
+<label x="111.76" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADC_CURRENT" class="0">
@@ -23350,6 +23388,11 @@ RECEIVER_EN shared w/ SPI_MOSI
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <junction x="66.04" y="17.78"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="P+14" gate="1" pin="+5V"/>
+<junction x="106.68" y="139.7"/>
 </segment>
 </net>
 <net name="CANH" class="0">

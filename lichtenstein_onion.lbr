@@ -4854,7 +4854,9 @@ TRANSCEIVER WITH 3 STATE OUTPUTS &lt;/h1&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4489240/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="771-74LVC1G157GV-G" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
