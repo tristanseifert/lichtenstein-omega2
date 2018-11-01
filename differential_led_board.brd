@@ -2282,23 +2282,26 @@ W = angled&lt;p&gt;
 <wire x1="35.1028" y1="-3.7338" x2="35.1028" y2="3.7338" width="0.127" layer="21"/>
 <text x="-2.032" y="4.318" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="SOIC8">
-<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<package name="SOIC8" urn="urn:adsk.eagle:footprint:16321/1">
+<description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF&lt;p&gt;
+&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;PLATIC SMALL-OUTLINE PACKAGE&lt;br&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="7" x="-0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="1" x="-1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="3" x="0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="4" x="1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="8" x="-1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="6" x="0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="5" x="1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
 <text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
@@ -2310,7 +2313,7 @@ W = angled&lt;p&gt;
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
-<package name="TSSOP20">
+<package name="TSSOP20" urn="urn:adsk.eagle:footprint:4239/1">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 20&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
 <wire x1="-3.1646" y1="-2.2828" x2="3.1646" y2="-2.2828" width="0.1524" layer="21"/>
@@ -2524,7 +2527,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="10.06" y1="5" x2="10.06" y2="-5.5" width="0.127" layer="21"/>
 <text x="-10.62" y="5" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1" locally_modified="yes">
 <description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
 <wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
@@ -2624,7 +2627,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <packageinstance name="SOT457R_PHILIPS"/>
 </packageinstances>
 </package3d>
-<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" type="box">
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" locally_modified="yes" type="box">
 <description>Micro Small Outline Package</description>
 <packageinstances>
 <packageinstance name="MSOP8"/>
@@ -2641,6 +2644,22 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="TSSOP20" urn="urn:adsk.eagle:package:4349/2" type="model">
+<description>Thin Shrink Small Outline Plastic 20
+MAX3223-MAX3243.pdf</description>
+<packageinstances>
+<packageinstance name="TSSOP20"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model">
+<description>SOIC-8 CASE 751-07
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF
+D (R-PDSO-G8)PLATIC SMALL-OUTLINE PACKAGE
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<packageinstances>
+<packageinstance name="SOIC8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2724,7 +2743,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <class number="1" name="hi_power" width="2.54" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1.1">
+<designrules name="dirt_cheap_dirty_boards.v1.1 *">
 <description language="de">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;Min width/Spacing: 6/6mil
@@ -2804,7 +2823,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
 <param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
+<param name="checkWireStubs" value="0"/>
 <param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
@@ -2956,7 +2975,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <attribute name="MOUSER" value="530-SS-51000-003" x="65.786" y="71.374" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="61.468" y="69.342" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="IC10" library="lichtenstein_onion" package="SOIC8" value="TJA1057" x="53.848" y="95.758" smashed="yes" rot="R270">
+<element name="IC10" library="lichtenstein_onion" package="SOIC8" package3d_urn="urn:adsk.eagle:package:16475/2" value="TJA1057" x="53.848" y="95.758" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="771-TJA1057GT/3J" x="54.61" y="95.758" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.943" y="98.679" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
@@ -2980,7 +2999,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <attribute name="NAME" x="44.45" y="90.932" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="SPICEPREFIX" value="C" x="47.244" y="89.662" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC7" library="lichtenstein_onion" package="TSSOP20" value="STM32F042F" x="42.926" y="95.758" smashed="yes" rot="R180">
+<element name="IC7" library="lichtenstein_onion" package="TSSOP20" package3d_urn="urn:adsk.eagle:package:4349/2" value="STM32F042F" x="42.926" y="95.758" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="511-STM32F042F6P6" x="42.926" y="104.902" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="46.4716" y="97.8408" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
@@ -3027,7 +3046,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <attribute name="OC_FARNELL" value="unknown" x="44.704" y="105.156" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="44.704" y="105.156" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC8" library="lichtenstein_onion" package="SOIC8" value="AT25SF041" x="31.496" y="91.44" smashed="yes" rot="R270">
+<element name="IC8" library="lichtenstein_onion" package="SOIC8" package3d_urn="urn:adsk.eagle:package:16475/2" value="AT25SF041" x="31.496" y="91.44" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="988-AT25SF041-SSHD-T" x="31.496" y="91.44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="29.591" y="94.107" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
@@ -3076,9 +3095,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <attribute name="SPICEPREFIX" value="R" x="26.67" y="62.23" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC4" library="lichtenstein_onion" package="SOT457R_PHILIPS" package3d_urn="urn:adsk.eagle:package:4489240/1" value="74LVC1G157" x="13.716" y="49.022" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="771-74LVC1G157GV-G" x="13.716" y="49.022" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.916" y="48.33" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="IC5" library="lichtenstein_onion" package="SOT457R_PHILIPS" package3d_urn="urn:adsk.eagle:package:4489240/1" value="74LVC1G157" x="45.466" y="49.022" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="771-74LVC1G157GV-G" x="45.466" y="49.022" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="43.666" y="48.33" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="50.292" y="44.704" smashed="yes">
@@ -3195,12 +3216,12 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <contactref element="C9" pad="1"/>
 <wire x1="22.352" y1="86.4" x2="25.507" y2="89.555" width="0.254" layer="1"/>
 <wire x1="25.507" y1="89.555" x2="26.757" y2="90.805" width="0.254" layer="1"/>
-<wire x1="26.757" y1="90.805" x2="28.896" y2="90.805" width="0.254" layer="1"/>
-<wire x1="34.096" y1="93.345" x2="34.096" y2="92.075" width="0.254" layer="1"/>
-<wire x1="28.896" y1="90.805" x2="30.607" y2="90.805" width="0.254" layer="1"/>
-<wire x1="31.877" y1="92.075" x2="34.096" y2="92.075" width="0.254" layer="1"/>
+<wire x1="26.757" y1="90.805" x2="28.746" y2="90.805" width="0.254" layer="1"/>
+<wire x1="34.246" y1="93.345" x2="34.246" y2="92.075" width="0.254" layer="1"/>
+<wire x1="28.746" y1="90.805" x2="30.607" y2="90.805" width="0.254" layer="1"/>
+<wire x1="31.877" y1="92.075" x2="34.246" y2="92.075" width="0.254" layer="1"/>
 <wire x1="30.607" y1="90.805" x2="31.877" y2="92.075" width="0.254" layer="1"/>
-<wire x1="34.096" y1="93.345" x2="35.239" y2="94.488" width="0.254" layer="1"/>
+<wire x1="34.246" y1="93.345" x2="35.239" y2="94.488" width="0.254" layer="1"/>
 <wire x1="43.251" y1="94.488" x2="43.251" y2="92.8402" width="0.254" layer="1"/>
 <wire x1="35.239" y1="94.488" x2="37.592" y2="94.488" width="0.254" layer="1"/>
 <wire x1="37.592" y1="94.488" x2="43.251" y2="94.488" width="0.254" layer="1"/>
@@ -3225,14 +3246,14 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="13.899" y1="61.585" x2="13.782" y2="61.468" width="0.254" layer="1"/>
 <wire x1="16.256" y1="82.23" x2="18.1" y2="82.23" width="0.254" layer="1"/>
 <wire x1="43.18" y1="100.65" x2="44.77" y2="99.06" width="0.254" layer="16"/>
-<wire x1="56.448" y1="93.853" x2="56.448" y2="91.822" width="0.254" layer="1"/>
+<wire x1="56.598" y1="93.853" x2="56.448" y2="91.822" width="0.254" layer="1"/>
 <wire x1="56.448" y1="91.822" x2="56.83" y2="91.44" width="0.254" layer="1"/>
 <wire x1="44.77" y1="99.06" x2="53.34" y2="99.06" width="0.254" layer="16"/>
 <wire x1="53.34" y1="99.06" x2="54.61" y2="97.79" width="0.254" layer="16"/>
 <wire x1="54.61" y1="94.234" x2="54.864" y2="93.98" width="0.254" layer="16"/>
 <via x="54.864" y="93.98" extent="1-16" drill="0.3048"/>
 <wire x1="54.864" y1="93.98" x2="54.991" y2="93.853" width="0.254" layer="1"/>
-<wire x1="54.991" y1="93.853" x2="56.448" y2="93.853" width="0.254" layer="1"/>
+<wire x1="54.991" y1="93.853" x2="56.598" y2="93.853" width="0.254" layer="1"/>
 <wire x1="54.61" y1="97.79" x2="54.61" y2="94.234" width="0.254" layer="16"/>
 <wire x1="16.3322" y1="86.1312" x2="16.3322" y2="92.329" width="0.254" layer="1"/>
 <wire x1="16.3322" y1="86.1312" x2="15.9154" y2="86.548" width="0.254" layer="1"/>
@@ -3502,7 +3523,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="33.02" y1="104.074" x2="31.938" y2="104.074" width="0.254" layer="1"/>
 <wire x1="31.938" y1="104.074" x2="27.8122" y2="99.9482" width="0.254" layer="1"/>
 <wire x1="19.1022" y1="99.9482" x2="27.8122" y2="99.9482" width="0.254" layer="1"/>
-<wire x1="51.248" y1="95.123" x2="53.34" y2="95.123" width="0.254" layer="1"/>
+<wire x1="51.098" y1="95.123" x2="53.34" y2="95.123" width="0.254" layer="1"/>
 <wire x1="53.34" y1="95.123" x2="53.467" y2="95.123" width="0.254" layer="1"/>
 <wire x1="54.102" y1="95.758" x2="54.102" y2="100.904" width="0.254" layer="1"/>
 <wire x1="53.467" y1="95.123" x2="54.102" y2="95.758" width="0.254" layer="1"/>
@@ -3627,7 +3648,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="65.532" y1="99.31135625" x2="65.532" y2="94.488" width="0.254" layer="16"/>
 <wire x1="65.532" y1="102.87264375" x2="64.1985" y2="101.53914375" width="0.254" layer="16"/>
 <wire x1="64.1985" y1="100.64485625" x2="65.532" y2="99.31135625" width="0.254" layer="16"/>
-<wire x1="56.448" y1="96.393" x2="63.627" y2="96.393" width="0.254" layer="1"/>
+<wire x1="56.598" y1="96.393" x2="63.627" y2="96.393" width="0.254" layer="1"/>
 <wire x1="63.627" y1="96.393" x2="65.532" y2="94.488" width="0.254" layer="1"/>
 </signal>
 <signal name="CANL">
@@ -3639,7 +3660,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="67.1195" y1="93.78685625" x2="65.786" y2="92.45335625" width="0.254" layer="16"/>
 <wire x1="65.786" y1="100.14009375" x2="67.1195" y2="98.80659375" width="0.254" layer="16"/>
 <wire x1="67.1195" y1="98.80659375" x2="67.1195" y2="93.78685625" width="0.254" layer="16"/>
-<wire x1="56.448" y1="95.123" x2="61.849" y2="95.123" width="0.254" layer="1"/>
+<wire x1="56.598" y1="95.123" x2="61.849" y2="95.123" width="0.254" layer="1"/>
 <wire x1="61.849" y1="95.123" x2="65.786" y2="91.186" width="0.254" layer="1"/>
 </signal>
 <signal name="CAN_TX">
@@ -3652,7 +3673,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="48.5902" y1="94.5642" x2="49.022" y2="94.996" width="0.254" layer="16"/>
 <via x="49.022" y="97.536" extent="1-16" drill="0.3048"/>
 <wire x1="49.022" y1="97.536" x2="49.149" y2="97.663" width="0.254" layer="1"/>
-<wire x1="49.149" y1="97.663" x2="51.248" y2="97.663" width="0.254" layer="1"/>
+<wire x1="49.149" y1="97.663" x2="51.098" y2="97.663" width="0.254" layer="1"/>
 <wire x1="49.022" y1="94.996" x2="49.022" y2="97.536" width="0.254" layer="16"/>
 </signal>
 <signal name="CAN_RX">
@@ -3664,7 +3685,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="43.942" y1="93.98" x2="49.276" y2="93.98" width="0.254" layer="16"/>
 <via x="49.276" y="93.98" extent="1-16" drill="0.3048"/>
 <wire x1="49.276" y1="93.98" x2="49.403" y2="93.853" width="0.254" layer="1"/>
-<wire x1="49.403" y1="93.853" x2="51.248" y2="93.853" width="0.254" layer="1"/>
+<wire x1="49.403" y1="93.853" x2="51.098" y2="93.853" width="0.254" layer="1"/>
 </signal>
 <signal name="!RST">
 <contactref element="IC7" pad="4"/>
@@ -3804,20 +3825,20 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <signal name="!SPI_CS">
 <contactref element="IC7" pad="10"/>
 <contactref element="IC8" pad="1"/>
-<wire x1="28.896" y1="93.345" x2="34.2268" y2="98.6758" width="0.254" layer="1"/>
-<wire x1="34.2268" y1="98.6758" x2="40.001" y2="98.6758" width="0.254" layer="1"/>
+<wire x1="28.746" y1="93.345" x2="34.0768" y2="98.6758" width="0.254" layer="1"/>
+<wire x1="34.0768" y1="98.6758" x2="40.001" y2="98.6758" width="0.254" layer="1"/>
 </signal>
 <signal name="SPI_SCK">
 <contactref element="IC7" pad="11"/>
 <contactref element="IC8" pad="6"/>
-<wire x1="34.096" y1="90.805" x2="38.481" y2="90.805" width="0.254" layer="1"/>
+<wire x1="34.246" y1="90.805" x2="38.481" y2="90.805" width="0.254" layer="1"/>
 <wire x1="40.001" y1="92.325" x2="40.001" y2="92.8402" width="0.254" layer="1"/>
 <wire x1="38.481" y1="90.805" x2="40.001" y2="92.325" width="0.254" layer="1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="IC7" pad="12"/>
 <contactref element="IC8" pad="2"/>
-<wire x1="28.896" y1="92.075" x2="29.845" y2="92.075" width="0.254" layer="1"/>
+<wire x1="28.746" y1="92.075" x2="29.845" y2="92.075" width="0.254" layer="1"/>
 <wire x1="30.734" y1="92.964" x2="32.258" y2="92.964" width="0.254" layer="1"/>
 <wire x1="30.734" y1="92.964" x2="29.845" y2="92.075" width="0.254" layer="1"/>
 <via x="32.258" y="92.964" extent="1-16" drill="0.3048"/>
@@ -3838,7 +3859,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="38.4207375" y1="90.17" x2="35.814" y2="90.17" width="0.254" layer="1"/>
 <wire x1="35.814" y1="90.17" x2="35.433" y2="89.789" width="0.254" layer="1"/>
 <wire x1="35.433" y1="89.789" x2="35.179" y2="89.535" width="0.254" layer="1"/>
-<wire x1="35.179" y1="89.535" x2="34.096" y2="89.535" width="0.254" layer="1"/>
+<wire x1="35.179" y1="89.535" x2="34.246" y2="89.535" width="0.254" layer="1"/>
 <wire x1="41.301" y1="92.1677375" x2="40.8272625" y2="91.694" width="0.254" layer="1"/>
 <wire x1="39.9447375" y1="91.694" x2="38.4207375" y2="90.17" width="0.254" layer="1"/>
 <wire x1="35.433" y1="89.789" x2="36.322" y2="88.9" width="0.254" layer="1"/>
@@ -3881,9 +3902,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="22.606" y1="72.644" x2="20.828" y2="70.866" width="0.254" layer="16"/>
 <wire x1="20.828" y1="70.866" x2="16.51" y2="70.866" width="0.254" layer="16"/>
 <via x="16.51" y="70.866" extent="1-16" drill="0.3048"/>
-<wire x1="16.51" y1="70.866" x2="15.217" y2="70.866" width="0.254" layer="1"/>
-<wire x1="15.217" y1="70.866" x2="15.199" y2="70.884" width="0.254" layer="1"/>
+<wire x1="15.217" y1="70.866" x2="16.51" y2="70.866" width="0.254" layer="1"/>
 <wire x1="41.91" y1="98.6348" x2="41.91" y2="97.282" width="0.254" layer="1"/>
+<wire x1="15.199" y1="70.884" x2="15.217" y2="70.866" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDOUT0">
 <contactref element="IC1" pad="3"/>
@@ -4049,12 +4070,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="23,16,1e0c0c720c2b1e55"/>
 <approved hash="19,16,6c243750f86761f0"/>
 <approved hash="19,16,f4067f80c778a826"/>
 <approved hash="19,16,ac49c0b8ff0c250b"/>
 <approved hash="19,16,a7b99a775c99d209"/>
-<approved hash="23,16,5e1cf658e929ab43"/>
 </errors>
 </board>
 </drawing>

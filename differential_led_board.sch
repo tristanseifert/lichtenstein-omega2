@@ -19577,23 +19577,26 @@ W = angled&lt;p&gt;
 <wire x1="35.1028" y1="-3.7338" x2="35.1028" y2="3.7338" width="0.127" layer="21"/>
 <text x="-2.032" y="4.318" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="SOIC8">
-<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<package name="SOIC8" urn="urn:adsk.eagle:footprint:16321/1">
+<description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF&lt;p&gt;
+&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;PLATIC SMALL-OUTLINE PACKAGE&lt;br&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="7" x="-0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="1" x="-1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="3" x="0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="4" x="1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="8" x="-1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="6" x="0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="5" x="1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
 <text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
@@ -19605,7 +19608,7 @@ W = angled&lt;p&gt;
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
-<package name="TSSOP20">
+<package name="TSSOP20" urn="urn:adsk.eagle:footprint:4239/1">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 20&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
 <wire x1="-3.1646" y1="-2.2828" x2="3.1646" y2="-2.2828" width="0.1524" layer="21"/>
@@ -19870,7 +19873,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <wire x1="10.06" y1="5" x2="10.06" y2="-5.5" width="0.127" layer="21"/>
 <text x="-10.62" y="5" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1" locally_modified="yes">
 <description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
 <wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
@@ -20017,7 +20020,7 @@ Philips Semiconductors,  sot457-(sc-74)-reflow-wave.pdf</description>
 <packageinstance name="SOT457R_PHILIPS"/>
 </packageinstances>
 </package3d>
-<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" type="box">
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/1" locally_modified="yes" type="box">
 <description>Micro Small Outline Package</description>
 <packageinstances>
 <packageinstance name="MSOP8"/>
@@ -20041,6 +20044,22 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="TSSOP20" urn="urn:adsk.eagle:package:4349/2" type="model">
+<description>Thin Shrink Small Outline Plastic 20
+MAX3223-MAX3243.pdf</description>
+<packageinstances>
+<packageinstance name="TSSOP20"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model">
+<description>SOIC-8 CASE 751-07
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF
+D (R-PDSO-G8)PLATIC SMALL-OUTLINE PACKAGE
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<packageinstances>
+<packageinstance name="SOIC8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -20359,6 +20378,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <connect gate="G$1" pin="VDD" pad="3"/>
 <connect gate="G$1" pin="VIO" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16475/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="771-TJA1057GT/3J" constant="no"/>
@@ -20404,6 +20426,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <connect gate="G$1" pin="VDD" pad="16"/>
 <connect gate="G$1" pin="VDDA" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4349/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="511-STM32F042F6P6" constant="no"/>
@@ -20477,6 +20502,9 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <connect gate="G$1" pin="SCK" pad="6"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16475/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="988-AT25SF041-SSHD-T" constant="no"/>
@@ -20561,7 +20589,9 @@ SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support&lt;/h1&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4489240/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MOUSER" value="771-74LVC1G157GV-G" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22091,7 +22121,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="WEED1" library="lichtenstein_onion" deviceset="WEED" device=""/>
 <part name="SV1" library="lichtenstein_onion" deviceset="SS-51000-003" device=""/>
-<part name="IC10" library="lichtenstein_onion" deviceset="TJA1057" device=""/>
+<part name="IC10" library="lichtenstein_onion" deviceset="TJA1057" device="" package3d_urn="urn:adsk.eagle:package:16475/2"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V315" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -22111,7 +22141,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
-<part name="IC7" library="lichtenstein_onion" deviceset="STM32F042F" device=""/>
+<part name="IC7" library="lichtenstein_onion" deviceset="STM32F042F" device="" package3d_urn="urn:adsk.eagle:package:4349/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="GRN">
 <attribute name="MOUSER" value="604-APTR3216SGC"/>
 </part>
@@ -22139,7 +22169,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49UP" package3d_urn="urn:adsk.eagle:package:12078/1" value="8MHz">
 <attribute name="MOUSER" value="449-LFXTAL030234REEL"/>
 </part>
-<part name="IC8" library="lichtenstein_onion" deviceset="AT25SF041" device="" value="AT25SF041"/>
+<part name="IC8" library="lichtenstein_onion" deviceset="AT25SF041" device="" package3d_urn="urn:adsk.eagle:package:16475/2" value="AT25SF041"/>
 <part name="+3V312" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
