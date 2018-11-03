@@ -23161,7 +23161,7 @@ Source: 008-0260-0_E.pdf</description>
 <description>CANnabus Controller</description>
 <plain>
 <text x="149.86" y="33.02" size="1.778" layer="97" align="top-left">UART_RX shared w/ OUT0_MUX
-STATUS[0] shared w/ CORTEX_SWDIO; STATUS[1] shared w/ CORTEX_SWCLK
+STATUS[0] shared w/ SPI_MISO; STATUS[1] shared w/ SPI_MOSI
 RECEIVER_EN shared w/ SPI_MOSI
 </text>
 <wire x1="147.32" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="94" style="longdash"/>
@@ -23600,12 +23600,6 @@ RECEIVER_EN shared w/ SPI_MOSI
 <label x="101.6" y="58.42" size="1.27" layer="95" xref="yes"/>
 <junction x="96.52" y="58.42"/>
 </segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
-<label x="66.04" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="71.12" y="76.2"/>
-</segment>
 </net>
 <net name="CORTEX_SWCLK" class="0">
 <segment>
@@ -23619,12 +23613,6 @@ RECEIVER_EN shared w/ SPI_MOSI
 <wire x1="96.52" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <label x="101.6" y="55.88" size="1.27" layer="95" xref="yes"/>
 <junction x="96.52" y="55.88"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<label x="66.04" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="71.12" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<junction x="71.12" y="68.58"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
@@ -23730,6 +23718,12 @@ RECEIVER_EN shared w/ SPI_MOSI
 <label x="119.38" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="124.46" y="175.26"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<label x="66.04" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="71.12" y="68.58"/>
+</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
@@ -23743,6 +23737,12 @@ RECEIVER_EN shared w/ SPI_MOSI
 <wire x1="124.46" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
 <label x="119.38" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="124.46" y="170.18"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="66.04" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="71.12" y="76.2"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
