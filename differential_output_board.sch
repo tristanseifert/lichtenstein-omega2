@@ -20030,6 +20030,30 @@ Source: www.kingbright.com</description>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100R">
+<attribute name="MOUSER" value="652-CR1206FX-1000ELF"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -20223,6 +20247,46 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="225.552" y="165.6842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="225.552" y="162.6362" size="1.778" layer="96"/>
 </instance>
+<instance part="R7" gate="G$1" x="104.14" y="177.8" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="104.14" y="177.8" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="107.95" y="176.3014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="181.102" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R8" gate="G$1" x="104.14" y="167.64" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="104.14" y="167.64" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="107.95" y="166.1414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="170.942" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R9" gate="G$1" x="104.14" y="157.48" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="104.14" y="157.48" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="107.95" y="155.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="160.782" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R10" gate="G$1" x="104.14" y="147.32" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="104.14" y="147.32" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="107.95" y="145.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="150.622" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R11" gate="G$1" x="157.48" y="177.8" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="157.48" y="177.8" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="161.29" y="176.3014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="161.29" y="181.102" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="157.48" y="167.64" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="157.48" y="167.64" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="161.29" y="166.1414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="161.29" y="170.942" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="157.48" y="157.48" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="157.48" y="157.48" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="161.29" y="155.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="161.29" y="160.782" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R14" gate="G$1" x="157.48" y="147.32" smashed="yes" rot="R180">
+<attribute name="MOUSER" x="157.48" y="147.32" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="161.29" y="145.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="161.29" y="150.622" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20344,6 +20408,12 @@ Source: www.kingbright.com</description>
 <pinref part="SV3" gate="1" pin="8"/>
 <junction x="17.78" y="12.7"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
+<label x="114.3" y="147.32" size="1.27" layer="95" xref="yes"/>
+<junction x="109.22" y="147.32"/>
+</segment>
 </net>
 <net name="OUT3_P" class="0">
 <segment>
@@ -20357,6 +20427,12 @@ Source: www.kingbright.com</description>
 <label x="12.7" y="10.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="SV3" gate="1" pin="6"/>
 <junction x="17.78" y="10.16"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+<label x="93.98" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="99.06" y="147.32"/>
 </segment>
 </net>
 <net name="OUT2_N" class="0">
@@ -20372,6 +20448,12 @@ Source: www.kingbright.com</description>
 <pinref part="SV3" gate="1" pin="12"/>
 <junction x="17.78" y="17.78"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
+<label x="114.3" y="157.48" size="1.27" layer="95" xref="yes"/>
+<junction x="109.22" y="157.48"/>
+</segment>
 </net>
 <net name="OUT2_P" class="0">
 <segment>
@@ -20385,6 +20467,12 @@ Source: www.kingbright.com</description>
 <label x="12.7" y="15.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="SV3" gate="1" pin="10"/>
 <junction x="17.78" y="15.24"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
+<label x="93.98" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="99.06" y="157.48"/>
 </segment>
 </net>
 <net name="OUT1_N" class="0">
@@ -20400,6 +20488,12 @@ Source: www.kingbright.com</description>
 <pinref part="SV3" gate="1" pin="16"/>
 <junction x="17.78" y="22.86"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<label x="114.3" y="167.64" size="1.27" layer="95" xref="yes"/>
+<junction x="109.22" y="167.64"/>
+</segment>
 </net>
 <net name="OUT1_P" class="0">
 <segment>
@@ -20413,6 +20507,12 @@ Source: www.kingbright.com</description>
 <label x="12.7" y="20.32" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="SV3" gate="1" pin="14"/>
 <junction x="17.78" y="20.32"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<label x="93.98" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="99.06" y="167.64"/>
 </segment>
 </net>
 <net name="OUT0_N" class="0">
@@ -20428,6 +20528,12 @@ Source: www.kingbright.com</description>
 <pinref part="SV3" gate="1" pin="20"/>
 <junction x="17.78" y="27.94"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
+<label x="114.3" y="177.8" size="1.27" layer="95" xref="yes"/>
+<junction x="109.22" y="177.8"/>
+</segment>
 </net>
 <net name="OUT0_P" class="0">
 <segment>
@@ -20441,6 +20547,12 @@ Source: www.kingbright.com</description>
 <label x="12.7" y="25.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="SV3" gate="1" pin="18"/>
 <junction x="17.78" y="25.4"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="177.8" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<label x="93.98" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="99.06" y="177.8"/>
 </segment>
 </net>
 <net name="OUT4_P" class="0">
@@ -20456,6 +20568,12 @@ Source: www.kingbright.com</description>
 <junction x="50.8" y="170.18"/>
 <label x="55.88" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<label x="147.32" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="152.4" y="177.8"/>
+</segment>
 </net>
 <net name="OUT4_N" class="0">
 <segment>
@@ -20469,6 +20587,12 @@ Source: www.kingbright.com</description>
 <wire x1="50.8" y1="172.72" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="172.72"/>
 <label x="55.88" y="172.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="177.8" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
+<label x="167.64" y="177.8" size="1.27" layer="95" xref="yes"/>
+<junction x="162.56" y="177.8"/>
 </segment>
 </net>
 <net name="OUT5_N" class="0">
@@ -20484,6 +20608,12 @@ Source: www.kingbright.com</description>
 <junction x="50.8" y="177.8"/>
 <label x="55.88" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<label x="167.64" y="167.64" size="1.27" layer="95" xref="yes"/>
+<junction x="162.56" y="167.64"/>
+</segment>
 </net>
 <net name="OUT6_P" class="0">
 <segment>
@@ -20497,6 +20627,12 @@ Source: www.kingbright.com</description>
 <wire x1="55.88" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="142.24"/>
 <label x="55.88" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<label x="147.32" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="152.4" y="157.48"/>
 </segment>
 </net>
 <net name="OUT6_N" class="0">
@@ -20512,6 +20648,12 @@ Source: www.kingbright.com</description>
 <junction x="50.8" y="144.78"/>
 <label x="55.88" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
+<label x="167.64" y="157.48" size="1.27" layer="95" xref="yes"/>
+<junction x="162.56" y="157.48"/>
+</segment>
 </net>
 <net name="OUT7_P" class="0">
 <segment>
@@ -20525,6 +20667,12 @@ Source: www.kingbright.com</description>
 <wire x1="55.88" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <junction x="50.8" y="147.32"/>
 <label x="55.88" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<label x="147.32" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="152.4" y="147.32"/>
 </segment>
 </net>
 <net name="OUT7_N" class="0">
@@ -20540,6 +20688,12 @@ Source: www.kingbright.com</description>
 <junction x="50.8" y="149.86"/>
 <label x="55.88" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
+<label x="167.64" y="147.32" size="1.27" layer="95" xref="yes"/>
+<junction x="162.56" y="147.32"/>
+</segment>
 </net>
 <net name="OUT5_P" class="0">
 <segment>
@@ -20553,6 +20707,12 @@ Source: www.kingbright.com</description>
 <wire x1="55.88" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="175.26"/>
 <label x="55.88" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
+<label x="147.32" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="152.4" y="167.64"/>
 </segment>
 </net>
 <net name="+5V" class="0">
