@@ -22194,7 +22194,7 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="MOUSER" value="710-885012007013"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="lichtenstein_onion" deviceset="SN75175" device="SOP-16"/>
+<part name="IC1" library="lichtenstein_onion" deviceset="SN75175" device="SOP-16" value="SN75175"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
@@ -22279,7 +22279,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="IC6" library="lichtenstein_onion" deviceset="CD40109B" device="SO-16" package3d_urn="urn:adsk.eagle:package:29906/2" value="CD40109B"/>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC2" library="lichtenstein_onion" deviceset="TLV803" device="SOT-23" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="IC2" library="lichtenstein_onion" deviceset="TLV803" device="SOT-23" package3d_urn="urn:adsk.eagle:package:28738/2" value="TLV803"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <attribute name="MOUSER" value="710-885012207072"/>
 </part>
@@ -22289,6 +22289,7 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="MOUSER" value="755-ESR10EZPJ103"/>
 </part>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22884,6 +22885,9 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="GND13" gate="1" x="116.84" y="139.7" smashed="yes" rot="R270">
 <attribute name="VALUE" x="114.3" y="142.24" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="GND31" gate="1" x="116.84" y="152.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.3" y="154.94" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22969,6 +22973,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="IC6" gate="G$1" pin="EN_D"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <junction x="119.38" y="139.7"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="D"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<junction x="119.38" y="152.4"/>
 </segment>
 </net>
 <net name="+5V" class="0">
