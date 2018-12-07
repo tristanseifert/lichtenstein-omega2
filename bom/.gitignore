@@ -1,0 +1,2 @@
+# ignore excel temp files
+~$*.xlsx
