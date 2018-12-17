@@ -3095,6 +3095,100 @@ Source: http://allegromicro.com/datafile/3979.pdf</description>
 <rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
+<package name="UMAX8" urn="urn:adsk.eagle:footprint:17371/1" locally_modified="yes">
+<description>&lt;b&gt;micro MAX Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-0.7" y1="-1.1" x2="-0.7" y2="-0.4" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-0.7" y1="-0.4" x2="-0.7" y2="-1.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.975" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="2" x="-0.325" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="3" x="0.325" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="4" x="0.975" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="5" x="0.975" y="2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="6" x="0.325" y="2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="7" x="-0.325" y="2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="8" x="-0.975" y="2.175" dx="0.4" dy="1.2" layer="1"/>
+<text x="-1.636" y="-2.286" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.906" y="-2.286" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.1528" y1="-2.4036" x2="-0.7972" y2="-1.4384" layer="51"/>
+<rectangle x1="-0.5028" y1="-2.4036" x2="-0.1472" y2="-1.4384" layer="51"/>
+<rectangle x1="0.1472" y1="-2.4036" x2="0.5028" y2="-1.4384" layer="51"/>
+<rectangle x1="0.7972" y1="-2.4036" x2="1.1528" y2="-1.4384" layer="51"/>
+<rectangle x1="0.7972" y1="1.4384" x2="1.1528" y2="2.4036" layer="51"/>
+<rectangle x1="0.1472" y1="1.4384" x2="0.5028" y2="2.4036" layer="51"/>
+<rectangle x1="-0.5028" y1="1.4384" x2="-0.1472" y2="2.4036" layer="51"/>
+<rectangle x1="-1.1528" y1="1.4384" x2="-0.7972" y2="2.4036" layer="51"/>
+</package>
+<package name="SO28W" urn="urn:adsk.eagle:footprint:20598/1">
+<description>&lt;B&gt;28-Lead Plastic Small Outline (SO) &lt;/B&gt; Wide, 300 mil Body (SOIC)&lt;/B&gt;&lt;p&gt;
+Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
+<wire x1="-8.1788" y1="-3.7132" x2="9.4742" y2="-3.7132" width="0.1524" layer="21"/>
+<wire x1="9.4742" y1="-3.7132" x2="9.4742" y2="3.7132" width="0.1524" layer="21"/>
+<wire x1="9.4742" y1="3.7132" x2="-8.1788" y2="3.7132" width="0.1524" layer="21"/>
+<wire x1="-8.1788" y1="3.7132" x2="-8.1788" y2="-3.7132" width="0.1524" layer="21"/>
+<circle x="-7.239" y="-3.1496" radius="0.5334" width="0.1524" layer="21"/>
+<smd name="1" x="-7.62" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="2" x="-6.35" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="3" x="-5.08" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="4" x="-3.81" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="5" x="-2.54" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="6" x="-1.27" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="7" x="0" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="8" x="1.27" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="9" x="2.54" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="10" x="3.81" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="20" x="2.54" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="19" x="3.81" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="18" x="5.08" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="17" x="6.35" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="16" x="7.62" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="15" x="8.89" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="14" x="8.89" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="13" x="7.62" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="12" x="6.35" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="11" x="5.08" y="-4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="21" x="1.27" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="22" x="0" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="23" x="-1.27" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="24" x="-2.54" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="25" x="-3.81" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="26" x="-5.08" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="27" x="-6.35" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<smd name="28" x="-7.62" y="4.78" dx="0.65" dy="1.7" layer="1"/>
+<text x="-8.509" y="-4.064" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="11.557" y="-4.064" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-7.874" y1="-5.2626" x2="-7.366" y2="-3.7386" layer="51"/>
+<rectangle x1="-6.604" y1="-5.2626" x2="-6.096" y2="-3.7386" layer="51"/>
+<rectangle x1="-5.334" y1="-5.2626" x2="-4.826" y2="-3.7386" layer="51"/>
+<rectangle x1="-4.064" y1="-5.2626" x2="-3.556" y2="-3.7386" layer="51"/>
+<rectangle x1="-2.794" y1="-5.2626" x2="-2.286" y2="-3.7386" layer="51"/>
+<rectangle x1="-1.524" y1="-5.2626" x2="-1.016" y2="-3.7386" layer="51"/>
+<rectangle x1="-0.254" y1="-5.2626" x2="0.254" y2="-3.7386" layer="51"/>
+<rectangle x1="1.016" y1="-5.2626" x2="1.524" y2="-3.7386" layer="51"/>
+<rectangle x1="2.286" y1="-5.2626" x2="2.794" y2="-3.7386" layer="51"/>
+<rectangle x1="3.556" y1="-5.2626" x2="4.064" y2="-3.7386" layer="51"/>
+<rectangle x1="4.826" y1="-5.2626" x2="5.334" y2="-3.7386" layer="51"/>
+<rectangle x1="6.096" y1="-5.2626" x2="6.604" y2="-3.7386" layer="51"/>
+<rectangle x1="7.366" y1="-5.2626" x2="7.874" y2="-3.7386" layer="51"/>
+<rectangle x1="8.636" y1="-5.2626" x2="9.144" y2="-3.7386" layer="51"/>
+<rectangle x1="8.636" y1="3.7386" x2="9.144" y2="5.2626" layer="51"/>
+<rectangle x1="7.366" y1="3.7386" x2="7.874" y2="5.2626" layer="51"/>
+<rectangle x1="6.096" y1="3.7386" x2="6.604" y2="5.2626" layer="51"/>
+<rectangle x1="4.826" y1="3.7386" x2="5.334" y2="5.2626" layer="51"/>
+<rectangle x1="3.556" y1="3.7386" x2="4.064" y2="5.2626" layer="51"/>
+<rectangle x1="2.286" y1="3.7386" x2="2.794" y2="5.2626" layer="51"/>
+<rectangle x1="1.016" y1="3.7386" x2="1.524" y2="5.2626" layer="51"/>
+<rectangle x1="-0.254" y1="3.7386" x2="0.254" y2="5.2626" layer="51"/>
+<rectangle x1="-1.524" y1="3.7386" x2="-1.016" y2="5.2626" layer="51"/>
+<rectangle x1="-2.794" y1="3.7386" x2="-2.286" y2="5.2626" layer="51"/>
+<rectangle x1="-4.064" y1="3.7386" x2="-3.556" y2="5.2626" layer="51"/>
+<rectangle x1="-5.334" y1="3.7386" x2="-4.826" y2="5.2626" layer="51"/>
+<rectangle x1="-6.604" y1="3.7386" x2="-6.096" y2="5.2626" layer="51"/>
+<rectangle x1="-7.874" y1="3.7386" x2="-7.366" y2="5.2626" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MA08-1" urn="urn:adsk.eagle:package:8343/1" type="box">
@@ -3202,6 +3296,19 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <description>TO 200 vertical</description>
 <packageinstances>
 <packageinstance name="TO220V"/>
+</packageinstances>
+</package3d>
+<package3d name="UMAX8" urn="urn:adsk.eagle:package:17524/1" locally_modified="yes" type="box">
+<description>micro MAX Package</description>
+<packageinstances>
+<packageinstance name="UMAX8"/>
+</packageinstances>
+</package3d>
+<package3d name="SO28W" urn="urn:adsk.eagle:package:20803/2" type="model">
+<description>28-Lead Plastic Small Outline (SO)  Wide, 300 mil Body (SOIC)
+Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
+<packageinstances>
+<packageinstance name="SO28W"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4043,6 +4150,21 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="MAX11647">
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="SCL" x="-5.08" y="-2.54" length="middle"/>
+<pin name="SDA" x="-5.08" y="-5.08" length="middle"/>
+<pin name="VCC" x="-5.08" y="-10.16" length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-12.7" length="middle" direction="pwr"/>
+<pin name="AIN0" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="AIN1" x="20.32" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="REF" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ONION-OMEGA2" prefix="U">
@@ -4334,6 +4456,44 @@ Source: 5M160ZE64.bsd</description>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="579-MCP23017T-E/SS" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOIC28" package="SO28W">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="18"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="I2CA0" pad="15"/>
+<connect gate="G$1" pin="I2CA1" pad="16"/>
+<connect gate="G$1" pin="I2CA2" pad="17"/>
+<connect gate="G$1" pin="INTA" pad="20"/>
+<connect gate="G$1" pin="INTB" pad="19"/>
+<connect gate="G$1" pin="PA0" pad="21"/>
+<connect gate="G$1" pin="PA1" pad="22"/>
+<connect gate="G$1" pin="PA2" pad="23"/>
+<connect gate="G$1" pin="PA3" pad="24"/>
+<connect gate="G$1" pin="PA4" pad="25"/>
+<connect gate="G$1" pin="PA5" pad="26"/>
+<connect gate="G$1" pin="PA6" pad="27"/>
+<connect gate="G$1" pin="PA7" pad="28"/>
+<connect gate="G$1" pin="PB0" pad="1"/>
+<connect gate="G$1" pin="PB1" pad="2"/>
+<connect gate="G$1" pin="PB2" pad="3"/>
+<connect gate="G$1" pin="PB3" pad="4"/>
+<connect gate="G$1" pin="PB4" pad="5"/>
+<connect gate="G$1" pin="PB5" pad="6"/>
+<connect gate="G$1" pin="PB6" pad="7"/>
+<connect gate="G$1" pin="PB7" pad="8"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20803/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="579-MCP23017-E/SO" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5464,6 +5624,34 @@ TRANSCEIVER WITH 3 STATE OUTPUTS &lt;/h1&gt;
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX11647" prefix="IC">
+<description>&lt;h1&gt;Low-Power, 1-/2-Channel, I²C, 10-Bit ADC&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://datasheets.maximintegrated.com/en/ds/MAX11646-MAX11647.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX11647" x="0" y="0"/>
+</gates>
+<devices>
+<device name="UMAX-8" package="UMAX8">
+<connects>
+<connect gate="G$1" pin="AIN0" pad="1"/>
+<connect gate="G$1" pin="AIN1" pad="2"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="REF" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17524/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="700-MAX11647EUA" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
