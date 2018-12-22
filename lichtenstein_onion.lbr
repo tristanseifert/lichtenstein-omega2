@@ -3103,14 +3103,14 @@ Source: http://allegromicro.com/datafile/3979.pdf</description>
 <wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="-0.7" y1="-1.1" x2="-0.7" y2="-0.4" width="0.2032" layer="21" curve="-180"/>
 <wire x1="-0.7" y1="-0.4" x2="-0.7" y2="-1.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.975" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="2" x="-0.325" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="3" x="0.325" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="4" x="0.975" y="-2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="5" x="0.975" y="2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="6" x="0.325" y="2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="7" x="-0.325" y="2.175" dx="0.4" dy="1.2" layer="1"/>
-<smd name="8" x="-0.975" y="2.175" dx="0.4" dy="1.2" layer="1"/>
+<smd name="1" x="-0.975" y="-2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="2" x="-0.325" y="-2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="3" x="0.325" y="-2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="4" x="0.975" y="-2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="5" x="0.975" y="2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="6" x="0.325" y="2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="7" x="-0.325" y="2.175" dx="0.4" dy="1.5" layer="1"/>
+<smd name="8" x="-0.975" y="2.175" dx="0.4" dy="1.5" layer="1"/>
 <text x="-1.636" y="-2.286" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.906" y="-2.286" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.1528" y1="-2.4036" x2="-0.7972" y2="-1.4384" layer="51"/>
@@ -5647,7 +5647,7 @@ TRANSCEIVER WITH 3 STATE OUTPUTS &lt;/h1&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD1117">
+<deviceset name="LD1117" prefix="IC" uservalue="yes">
 <description>&lt;h1&gt;LD1117 Voltage Regulator&lt;/h1&gt;</description>
 <gates>
 <gate name="G$1" symbol="78XX" x="0" y="0"/>
